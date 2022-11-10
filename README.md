@@ -7,3 +7,5 @@
 
 
 hallo niklas du stinkst nach pipi und kaka (ich auch)
+
+niklas wird großgeschrieben
