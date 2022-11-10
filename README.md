@@ -1,1 +1,1 @@
-# FPraktikum und nebenbei Github, Python und LaTeX lernen
+# F-Praktikum und nebenbei Github, Python und LaTeX lernen
