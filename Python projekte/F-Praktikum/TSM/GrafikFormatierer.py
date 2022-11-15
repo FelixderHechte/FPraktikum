@@ -13,6 +13,6 @@ def speichern(name, pad=50, dpi = 400, path=""):
 
     bildFigur= Image.open(filename)
     imageBox = ImageOps.invert(image.convert("RGB")).getbbox()
-    imageBox = tuple(np.asarray(imageBox)) + pad)
+    imageBox = tuple(np.asarray(imageBox)) + pad
 
     bildFigur.crop(imageBox).save(filename)
