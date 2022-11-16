@@ -1,0 +1,1146 @@
+[DataSet]
+Version=2
+GroupCount=2
+Gr0-Name=Scan forward
+Gr0-ID=0
+Gr0-Count=8
+Gr1-Name=Scan backward
+Gr1-ID=0
+Gr1-Count=8
+Gr0-Ch0=DataSet-0:0
+Gr0-Ch1=DataSet-0:1
+Gr1-Ch0=DataSet-1:0
+Gr1-Ch1=DataSet-1:1
+SetInfos=DataSet-Info
+InfoSetCount=3
+InfoSet0=DataSetInfos
+InfoSet1=Calibration
+InfoSet2=Parameters
+
+[DataSet-Info]
+-- Scan --=--------
+Image size=16,3nm
+Scan direction=Up
+Time/Line=103ms
+Points=128 
+Lines=128 
+X-Slope=0 б╟
+Y-Slope=0 б╟
+Rotation=0 б╟
+X-Pos=-15,7nm
+Y-Pos=-195nm
+Z-Plane=0 m
+Line mode=Standard
+Date=15-11-2022
+Time=12:58:34
+-- Approach --=--------
+Setpoint=1nA
+P-Gain=700 
+I-Gain=700 
+D-Gain=0 
+P-Gain2=0 
+I-Gain2=0 
+D-Gain2=0 
+Tip voltage=1 V
+Feedback mode=Free
+Feedback algo.=Standard PID
+Error range=10nA
+Ampl. Ctrl. mode=Const. Drive
+-- Global --=--------
+Op. mode=STM
+Head type=EZ2-STM
+Scan head=STM3-06-732.hed
+Software ver.=3.10.0.20
+Firmware ver.=3.8.1.0
+Controller S/N=023-06-188
+-- Module --=--------
+Controller Board=2
+USB Module=2
+Nanosurf Report=10
+
+[DataSet\DataSetInfos]
+SubSectionCount=4
+SubSection0=Scan
+SubSection1=Approach
+SubSection2=Global
+SubSection3=Module
+
+[DataSet\DataSetInfos\Scan]
+SubSectionCount=0
+Image size=16,3nm
+Scan direction=Up
+Time/Line=103ms
+Points=128 
+Lines=128 
+X-Slope=0 б╟
+Y-Slope=0 б╟
+Rotation=0 б╟
+X-Pos=-15,7nm
+Y-Pos=-195nm
+Z-Plane=0 m
+Line mode=Standard
+Date=15-11-2022
+Time=12:58:34
+
+[DataSet\DataSetInfos\Approach]
+SubSectionCount=0
+Setpoint=1nA
+P-Gain=700 
+I-Gain=700 
+D-Gain=0 
+P-Gain2=0 
+I-Gain2=0 
+D-Gain2=0 
+Tip voltage=1 V
+Feedback mode=Free
+Feedback algo.=Standard PID
+Error range=10nA
+Ampl. Ctrl. mode=Const. Drive
+
+[DataSet\DataSetInfos\Global]
+SubSectionCount=0
+Op. mode=STM
+Head type=EZ2-STM
+Scan head=STM3-06-732.hed
+Software ver.=3.10.0.20
+Firmware ver.=3.8.1.0
+Controller S/N=023-06-188
+
+[DataSet\DataSetInfos\Module]
+SubSectionCount=0
+Controller Board=2
+USB Module=2
+Nanosurf Report=10
+
+[DataSet\Calibration]
+SubSectionCount=2
+SubSection0=Scanhead
+SubSection1=Cantilever
+
+[DataSet\Calibration\Scanhead]
+SubSectionCount=0
+Version=6
+HeadTyp=EZ2-STM
+SerialNo=uncal STM
+RevisionNo=1
+ScanFit=None
+CtrlInPol=Positiv
+Main1InPol=Positiv
+Main2InPol=Positiv
+SignalUserADC0Pol=Positiv
+SignalUserADC1Pol=Positiv
+SignalUserADC2Pol=Positiv
+AnalogOut2Pol=Positiv
+AnalogOut3Pol=Positiv
+XAxisPol=Positiv
+YAxisPol=Positiv
+ZAxisPol=Positiv
+ZAxisAnalogOut2Pol=Positiv
+ZAxisAnalogOut3Pol=Positiv
+Ch0Corr=Sub
+SetPointCheck=Equal
+InCount=24
+In0=0,Channel0,Tip Current,A,2e-08,0
+In1=1,Channel1,Z-Axis,m,1e-07,0
+In2=2,Channel2,Not defined,V,35,0
+In3=3,Channel3,Not defined 1,V,10,0
+In4=4,Channel4,Not defined,V,10,0
+In5=5,TipSignalDC,Tip Current,A,2e-08,0
+In6=6,TipSignalAC,Not defined,V,10,0
+In7=7,TipPhase,Not defined,V,90,0
+In8=8,Lever Current,Not defined,V,10,0
+In9=9,User Input0,User input 1,V,10,0
+In10=10,User Input1,User input 2,V,10,0
+In11=11,HeadSig2,Not defined 1,V,10,0
+In12=12,Channel5,User input 1,V,10,0
+In13=13,Channel6,User input 2,V,10,0
+In14=15,Dissipation,Dissipation,V,5,0
+In15=16,TipSignalDC1,Deflection,V,10,0
+In16=17,TipSignalDC2,Deflection,N,1,0
+In17=18,SensorSignal1,SensorSignal,W,0.005,0
+In18=19,SensorSignal2,SensorSignal,A,0.0005,0
+In19=20,Channel7,Z-Axis,m,1e-07,0
+In20=21,XAxisSensor,X-Axis Sensor,m,0.0001,0
+In21=22,YAxisSensor,Y-Axis Sensor,m,0.0001,0
+In22=23,ZAxisSensor,Z-Axis Sensor,m,1e-05,0
+In23=24,User Input2,User In A,V,10,0
+OutCount=9
+Out0=0,ScanAxis0,X-Axis,m,3.25e-07,0
+Out1=1,ScanAxis1,Y-Axis,m,2.6e-07,0
+Out2=2,ScanAxis2,Z-Axis,m,1e-07,0
+Out3=4,AnalogOut0,Tip voltage,V,10,0
+Out4=5,AnalogOut1,Not defined,V,10,0
+Out5=6,AnalogOut2,User Output 1,V,10,0
+Out6=7,AnalogOut3,User Output 2,V,10,0
+Out7=8,DriveAmp,Not defined,V,1,0
+Out8=9,MixedOut4,User Output C,V,10,0
+ScanCorrCount=1
+ScanCorrA=0
+ScanCorrB=0
+ScanCorrC=0
+ScanCorrD=0
+ScanCorrE=0
+ScanCorrF=0
+ScanCorrG=0
+ScanCorrH=0
+ScanCorrI=0
+ScanCorrJ=0
+ScanCorrK=0
+ScanCorrL=0
+ScanCorrM=0
+ScanCorrN=0
+ScanCorrO=0
+ScanCorrTableRot=0
+ScanCorrRotX=0
+ScanCorrRotY=0
+ScanScaleZ=3276.8
+ScanScaleXY=256
+ZRangeFit=None
+ZRangeCorrCount=1
+ZRangeCorrA=1
+ZRangeCorrB=0
+ZRangeCorrC=0
+ZRangeCorrD=0
+ApproachStartPos=-1
+MaxApproachSpeed=1
+ManualMoveSpeed=1
+DefaultDynRefAmp=0.05
+DefaultDynRefAmpLiquid=0.5
+DefaultDynRefAmpVacuum=0.005
+DefaultForceModRefAmp=1
+DetectorABGainAC=3.5
+CompDcSourceWithX=0
+CompDcWithX=0
+CompDcSourceWithY=0
+CompDcWithY=0
+CompDcSourceWithZ=0
+CompDcWithZ=0
+VideoSupport=1
+HasLaserOnOffCtrl=0
+XYCLPIDGainsX=1.000000;1.000000;1.000000
+XYCLPIDGainsY=1.000000;1.000000;1.000000
+XZeroVoltage=0
+YZeroVoltage=0
+ZZeroVoltage=0
+ScanAxis0FilterCoeff0=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis0FilterCoeff1=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis0FilterCoeff2=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis0FilterCoeff3=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis1FilterCoeff0=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis1FilterCoeff1=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis1FilterCoeff2=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis1FilterCoeff3=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis2FilterCoeff0=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis2FilterCoeff1=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis2FilterCoeff2=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis2FilterCoeff3=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+HasXPositionSensor=0
+XPositionSensorPol=Negativ
+HasYPositionSensor=0
+YPositionSensorPol=Negativ
+HasZPositionSensor=0
+ZPositionSensorPol=Negativ
+ApproachStatusMode=1
+ApproachStatusPol=Positiv
+ApproachStatusMeterRange=-1;-0.9;0.9;1
+SensorStatusMode=1
+SensorStatusPol=Negativ
+SensorStatusMeterRange=0.0866142;0.102362;0.102362;0.811024;0.811024;0.913386
+LaserWavelength=0
+
+[DataSet\Calibration\Cantilever]
+SubSectionCount=0
+Version=2
+GUID={7C725C17-AB98-465d-AADA-D6D453C769DA}
+Manufacturer=STM Tip
+PropCount=14
+Prop0=D[0]*[N/m]
+Prop1=D[0]*[Hz]
+Prop2=D[0]*[m]
+Prop3=D[0]*[m]
+Prop4=D[0]*[]
+Prop5=D[0]*[Hz]
+Prop6=D[0]*[]
+Prop7=D[0]*[]
+Prop8=D[0]*[б╟]
+Prop9=D[0]*[m]
+Prop10=D[0]*[]
+Prop11=D[0]*[Hz]
+Prop12=D[0.3]*[]
+Prop13=D[1]*[]
+
+[DataSet\Parameters]
+SubSectionCount=8
+SubSection0=Approach
+SubSection1=ZFeedback
+SubSection2=Lithography
+SubSection3=Imaging
+SubSection4=SignalIO
+SubSection5=Spectroscopy
+SubSection6=SPMSystem
+SubSection7=Stage
+
+[DataSet\Parameters\Approach]
+SubSectionCount=0
+ApproachSteps=L[10000]*[]
+WithdrawSteps=L[20]*[]
+AutoPeriode=D[0]*[s]
+MovePeriode=D[0]*[s]
+StepSlope=L[6]*[]
+AutoStartScan=B[0]*[]
+ApproachSpeed=D[0.75]*[%]
+AFMApproachMode=L[0]*[]
+AFMMotorSource=L[0]*[]
+AFMStepByStepSpeed=D[1]*[]
+AFMStepByStepSlope=D[1e-06]*[m/s]
+AFMStepByStepFineStepSizePercentage=D[5]*[%]
+AFMStepByStepCoarseStepSizePercentage=D[90]*[%]
+AFMStepByStepMode=D[0]*[]
+
+[DataSet\Parameters\ZFeedback]
+SubSectionCount=0
+PGain=L[700]*[]
+IGain=L[700]*[]
+DGain=L[0]*[]
+PGain2=L[0]*[]
+IGain2=L[0]*[]
+DGain2=L[0]*[]
+SetPoint=D[9.99786e-10]*[A]
+SetPointForce=D[2e-08]*[N]
+SetPointDC=D[9.99786e-10]*[A]
+SetPointAmp=D[50]*[%]
+SetPointPhase=D[1]*[V]
+SetPointForceUnitMode=L[2]*[]
+SetPointForce_V=D[2e-07]*[]
+SetPointForce_m=D[4e-16]*[]
+SetPointForce_N=D[2e-08]*[]
+SetPointDeltaF_Hz=D[0]*[Hz]
+SetPointUserDefined=D[0]*[A]
+ChGainRegError=L[2]*[]
+FeedbackMode=L[0]*[]
+Algorithm=L[0]*[]
+RefFrq=D[170000]*[Hz]
+RefAmplitude=D[0.0499893]*[V]
+RefPhase=D[90.022]*[б╟]
+CoarseSweepStartFrq=D[350]*[Hz]
+CoarseSweepEndFrq=D[650]*[Hz]
+CoarseSweepStepFrq=D[100.002]*[Hz]
+FineSweepStartFrq=D[130000]*[Hz]
+FineSweepEndFrq=D[210000]*[Hz]
+FineSweepStepFrq=D[100]*[Hz]
+ManualSweepStartFrq=D[130000]*[Hz]
+ManualSweepEndFrq=D[210000]*[Hz]
+ManualSweepStepFrq=D[100]*[Hz]
+AutoCalFrqPeak=B[1]*[]
+AutoCalPhase=B[1]*[]
+DynamicAmp=D[0.199744]*[V]
+CalRefPlotGraph=B[0]*[]
+ForceModFrq=D[20000]*[Hz]
+ForceModAmp=D[0.800012]*[V]
+AutoFrqSweepRange=B[1]*[]
+AmpCtrlMode=L[0]*[]
+FrqPeakReduceAir=D[20]*[%]
+FrqPeakUpperSideAir=B[1]*[]
+FrqPeakReduceLiquid=D[5]*[%]
+FrqPeakUpperSideLiquid=B[0]*[]
+FrqPeakReduceVacuum=D[20]*[%]
+FrqPeakUpperSideVacuum=B[1]*[]
+RegMoveMode=L[0]*[]
+DynamicMeasureBW=L[9]*[]
+RegOutputSel=L[0]*[]
+FrequencyLockRange=L[1]*[]
+PhaseCtrlPGain=D[0.3]*[]
+PhaseCtrlIGain=D[2.5]*[]
+AmplCtrlPGain=D[2.5]*[]
+AmplCtrlIGain=D[20]*[]
+UserOpModeInputSel=L[3]*[]
+UserOpModeInputPol=L[0]*[]
+UserOpModePIDGainCorr=D[1]*[]
+UserOpModeDCOffsetMode=L[0]*[]
+UserOpModeDCOffsetAutoGain=D[10000]*[]
+CantileverExcitationMode=L[0]*[]
+
+[DataSet\Parameters\Lithography]
+SubSectionCount=0
+ModuleLevel=L[0]*[]
+OpMode=L[1]*[]
+InactivePenMode=L[0]*[]
+AutoChartSettings=B[1]*[]
+AutoCapture=B[1]*[]
+XYMoveSpeed=D[1e-05]*[m/s]
+ZMoveSpeed=D[1e-06]*[m/s]
+LiftTipAbsZPos=D[0]*[m]
+
+[DataSet\Parameters\Imaging]
+SubSectionCount=0
+ModuleLevel=L[1]*[]
+ScanRange=V[1.625e-08,1.625e-08,0]*[m,m,m]
+ScanOffset=V[-1.57422e-08,-1.95e-07,0]*[m,m,m]
+ScanRotation=V[0,0,0]*[б╟,б╟,б╟]
+ScanTime=V[0.103124,0.103124,0]*[s,s,s]
+Datapoints=V[128,128,0]*[,,]
+ScanMode=L[0]*[]
+OverScanSize=D[0]*[%]
+FirstScanlineRep=L[1]*[]
+SyncOutMode=L[0]*[]
+LineScanning=L[0]*[]
+RelTipPos=D[5e-09]*[m]
+ContourEnabled=B[0]*[]
+AutoReadjustProbeEnabled=B[0]*[]
+ReadjustLiftHeight=D[0]*[m]
+SndScanDynamicAmplitude=D[0]*[V]
+SndScanDynamicAmplitudeEnabled=B[0]*[]
+SndScanForceModulationAmplitude=D[0]*[V]
+SndScanForceModulationAmplitudeEnabled=B[0]*[]
+SndScanEnableDarkMode=B[0]*[]
+SndScanEnableKPFM=B[0]*[]
+SndScanSndLockInExcitationAmplitude=D[0]*[]
+SndScanSndLockInExcitationAmplitudeEnabled=B[0]*[]
+XYMoveSpeed=D[5e-05]*[m/s]
+AutoSlopeCorrection=B[0]*[]
+AutoDeleteBuffer=B[1]*[]
+AutoChartSettings=B[1]*[]
+AutoCapture=B[1]*[]
+SpikeGuardEnable=B[0]*[]
+PrescanSpeedup=L[0]*[]
+
+[DataSet\Parameters\SignalIO]
+SubSectionCount=0
+UserDAC0=D[0]*[V]
+UserDAC1=D[0]*[V]
+EnableUserADC0=B[0]*[]
+EnableUserADC1=B[0]*[]
+EnableUserADC2=B[0]*[]
+TipSignalMode=L[0]*[]
+ExcitationMode=L[0]*[]
+MonitorOut0=L[0]*[]
+MonitorOut1=L[0]*[]
+EnableUserADC1ZSensor=B[0]*[]
+User0CtrlMode=L[0]*[]
+User0InputPol=L[0]*[]
+User0OutputFlag=L[0]*[]
+User0SetPoint=D[0]*[V]
+User0IGain=L[1000]*[]
+
+[DataSet\Parameters\Spectroscopy]
+SubSectionCount=0
+ModuleLevel=L[0]*[]
+OutputType=L[0]*[]
+Repetition=L[1]*[]
+RepetitionMode=L[0]*[]
+FwModTime=D[1]*[s]
+BwModTime=D[1]*[s]
+ModRelValue=B[0]*[]
+FwModDatapoints=L[256]*[]
+BwModDatapoints=L[256]*[]
+SyncOutMode=L[0]*[]
+FeedbackActive=B[0]*[]
+AutoChartSettings=B[1]*[]
+AutoCapture=B[1]*[]
+SpecEndMode=L[0]*[]
+FwModRange=D[1e-07]*[m]
+BwModRange=D[-1e-07]*[m]
+XYMoveSpeed=D[1e-05]*[m/s]
+StartOffset=D[0]*[m]
+StartOffsetMoveSpeed=D[2e-08]*[m/s]
+FwModMode=L[0]*[]
+BwModMode=L[0]*[]
+FwModStopValue=D[0]*[A]
+BwModStopValue=D[0]*[A]
+FwModStopMode=L[1]*[]
+BwModStopMode=L[1]*[]
+FwPauseTime=D[0]*[s]
+BwPauseTime=D[0]*[s]
+FwPauseDatapoints=L[0]*[]
+BwPauseDatapoints=L[0]*[]
+FwPauseMode=L[0]*[]
+BwPauseMode=L[0]*[]
+AutoRecalibrateProbeInterval=L[0]*[]
+PressurePulseValue=D[0]*[bar]
+PressurePulseDuration=D[0]*[s]
+PressurePulseRelative=B[0]*[]
+PressurePulseActive=B[0]*[]
+PressureActionId=L[0]*[]
+ModulationStopValueBandwidth=L[0]*[]
+
+[DataSet\Parameters\SPMSystem]
+SubSectionCount=0
+AOut0=D[1.00009]*[V]
+AOut1=D[0]*[V]
+SPMMode=L[1]*[]
+VideoFPSControlValueMin=D[1.5]*[]
+VideoFPSControlWindowSize=L[5]*[]
+VideoTopLight=D[100]*[%]
+VideoSideLight=D[100]*[%]
+VideoTopBrightness=D[80]*[]
+VideoSideBrightness=D[80]*[]
+VideoTopContrast=D[70]*[]
+VideoSideContrast=D[70]*[]
+FlexVideoTopExpTime=L[60]*[]
+FlexVideoSideExpTime=L[60]*[]
+FlexVideoTopGain=L[8]*[]
+FlexVideoSideGain=L[8]*[]
+FlexVideoTopADCLevel=L[2]*[]
+FlexVideoSideADCLevel=L[2]*[]
+FlexVideoTopRatioR=D[1]*[]
+FlexVideoSideRatioR=D[1]*[]
+FlexVideoTopRatioG=D[1]*[]
+FlexVideoSideRatioG=D[1]*[]
+FlexVideoTopRatioB=D[1]*[]
+FlexVideoSideRatioB=D[1]*[]
+FlexVideoTopRatioGamma=D[1]*[]
+FlexVideoSideRatioGamma=D[1]*[]
+FlexVideoTopAutoLevels=B[1]*[]
+FlexVideoSideAutoLevels=B[1]*[]
+FlexVideoTopPositionMarkerX=D[0]*[]
+FlexVideoSidePositionMarkerX=D[0]*[]
+FlexVideoTopPositionMarkerY=D[0]*[]
+FlexVideoSidePositionMarkerY=D[0]*[]
+HighResVideoTopExpTime=L[60]*[]
+HighResVideoSideExpTime=L[60]*[]
+HighResVideoTopGain=L[25]*[]
+HighResVideoSideGain=L[8]*[]
+HighResVideoSideADCLevel=L[2]*[]
+HighResVideoTopRatioR=D[1]*[]
+HighResVideoSideRatioR=D[1]*[]
+HighResVideoTopRatioG=D[0.8]*[]
+HighResVideoSideRatioG=D[1]*[]
+HighResVideoTopRatioB=D[0.8]*[]
+HighResVideoSideRatioB=D[1]*[]
+HighResVideoTopRatioGamma=D[0.9]*[]
+HighResVideoSideRatioGamma=D[1]*[]
+HighResVideoTopAutoLevels=B[1]*[]
+HighResVideoSideAutoLevels=B[1]*[]
+HighResVideoTopADCLevel=L[2]*[]
+HighResVideoTopPositionMarkerX=D[0]*[]
+HighResVideoSidePositionMarkerX=D[0]*[]
+HighResVideoTopPositionMarkerY=D[0]*[]
+HighResVideoSidePositionMarkerY=D[0]*[]
+ImSoVideoTVConfiguration=S[]*[]
+ImSoVideoSVConfiguration=S[]*[]
+ActiveSensorByGUID=S[{7C725C17-AB98-465d-AADA-D6D453C769DA}]*[]
+MeasEnv=L[0]*[]
+SystemStateIdleZAxisMode=L[0]*[]
+SystemStateIdleMixOut4Mode=L[3]*[]
+SystemStateIdleXYAxisMode=L[0]*[]
+SystemStateIdleZAxisValue=D[0]*[m]
+SndOpModeEnabled=B[0]*[]
+SndOpMode=L[0]*[]
+ZClosedLoopMode=L[0]*[]
+ZClosedLoopSpeed=D[1000]*[]
+XYClosedLoopEnabled=B[0]*[]
+XYClosedLoopSpeed=D[1000]*[]
+
+[DataSet\Parameters\Stage]
+SubSectionCount=0
+
+[DataSet-0:0]
+Version=2
+Points=128
+Lines=128
+Frame=Scan forward
+CurLine=127
+Dim0Name=X*
+Dim0Unit=m
+Dim0Range=1.625e-08
+Dim0Min=0
+Dim1Name=Y*
+Dim1Unit=m
+Dim1Range=1.625e-08
+Dim1Min=0
+Dim2Name=Tip Current
+Dim2Unit=A
+Dim2Range=4e-08
+Dim2Min=-2e-08
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-0:1]
+Version=2
+Points=128
+Lines=128
+Frame=Scan forward
+CurLine=127
+Dim0Name=X*
+Dim0Unit=m
+Dim0Range=1.625e-08
+Dim0Min=0
+Dim1Name=Y*
+Dim1Unit=m
+Dim1Range=1.625e-08
+Dim1Min=0
+Dim2Name=Z-Axis
+Dim2Unit=m
+Dim2Range=2e-07
+Dim2Min=-1e-07
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-1:0]
+Version=2
+Points=128
+Lines=128
+Frame=Scan backward
+CurLine=127
+Dim0Unit=m
+Dim0Range=1.625e-08
+Dim0Min=0
+Dim1Unit=m
+Dim1Range=1.625e-08
+Dim1Min=0
+Dim2Name=Tip Current
+Dim2Unit=A
+Dim2Range=4e-08
+Dim2Min=-2e-08
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-1:1]
+Version=2
+Points=128
+Lines=128
+Frame=Scan backward
+CurLine=127
+Dim0Unit=m
+Dim0Range=1.625e-08
+Dim0Min=0
+Dim1Unit=m
+Dim1Range=1.625e-08
+Dim1Min=0
+Dim2Name=Z-Axis
+Dim2Unit=m
+Dim2Range=2e-07
+Dim2Min=-1e-07
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[SetView]
+ViewWidth=638
+ViewHeight=526
+ViewCount=4
+View0=SetView-View0
+View1=SetView-View1
+View2=SetView-View2
+View3=SetView-View3
+
+[SetView-View0]
+ViewTyp=1
+LineOp=2
+Channel=1
+Frame=0
+ViewSize=256
+ViewMode=0
+GraphMode=1
+AspectRatio=0
+AutoZRange=1
+ZRange=-36,103
+ParCount=6
+Par0=1,Shading,0
+Par1=1,DeltaGain,5
+Par2=1,Smooth,0
+Par3=1,DriverInstanceNo,0
+Par4=1,RangeMin,0
+Par5=1,RangeMax,95
+
+[SetView-View1]
+ViewTyp=0
+LineOp=1
+Channel=1
+Frame=0
+ViewSize=256
+ViewMode=0
+GraphMode=1
+AspectRatio=0
+AutoZRange=1
+ZRange=-47,102
+ParCount=3
+Par0=0,ReverseLine,1
+Par1=0,XAxisMin,0
+Par2=0,XAxisMax,1.625e-08
+
+[SetView-View2]
+ViewTyp=1
+LineOp=2
+Channel=0
+Frame=0
+ViewSize=256
+ViewMode=0
+GraphMode=1
+AspectRatio=0
+AutoZRange=1
+ZRange=-1477,3282
+ParCount=6
+Par0=1,Shading,0
+Par1=1,DeltaGain,5
+Par2=1,Smooth,0
+Par3=1,DriverInstanceNo,0
+Par4=1,RangeMin,0
+Par5=1,RangeMax,95
+
+[SetView-View3]
+ViewTyp=0
+LineOp=1
+Channel=0
+Frame=0
+ViewSize=256
+ViewMode=0
+GraphMode=1
+AspectRatio=0
+AutoZRange=1
+ZRange=-1633,6297
+ParCount=3
+Par0=0,ReverseLine,1
+Par1=0,XAxisMin,0
+Par2=0,XAxisMax,1.625e-08
+
+[ProcessorSet]
+ProcessorCount=0
+
+
+#!bЭo╦сс:g╒ёЕ	iШЬy^E%╙(c╨╫K╕&эо3БУЛS÷╪Щ≈Цшb²	Y"п⌠D▓ЛД²&▐ГI╪ш┴YтЪs≥A Аz&╫q	─
+у+╓РШЁГ╠╤Ц█
+XЫ	ю	)©N*0ЯВтю┼\n√хP─┌*Qi©5y■ГЕпЮпэдч╡Fp┬ш╗Я∙l▒eщзt [д╓┤▄=Eл┌l┘k!ПlB░	╗$ХтЛB╖4≤Г▐K╚%W÷╓иПЁ█ ▒"┐О░L& JПyqэ╪};нрч╧,
+ЯB╨К1ыp#OЭ≥Х╞(J5	╤╡ЪбП|`M╖aЕНqV0╘
+УЗАо^█ХЮ?(/?Цb╔Ы+Ежu	Ь	]/у╡╢║g╚d_кО/÷▒/┼эo."й7	м	Ь[ПskaИш{х⌡в┬°Ъ÷>м│;╚Б┤f█М
+╖И┐kBв xЩV÷nЖ5(N	;E┘ъм≥5лcъB	*
+l▄GёUuW_d²wKe░а╥;B;д1▓⌡W !UB8mбо~┬$юрмR;*sa<ь^>_U⌠═АL╔,с C╙!╦Y
+ЖL	Цd⌠▄	сяo,Q╡cжHйсжЪ©ё╞%°╝шв▌╧
+├фAщ7@т
+nс÷ДЛd╞╠╩ 9≈├┼d
+6ащj╬┐╓Юy├сcй;Мё╧╠╨╢ФЭ ╔uМ 	O_vm▀>╠3B╡	ь#с/\!c	╝	иhG╕%)l< mЮэwy╫ьq═kt<GЩ⌡.·"mС╨М▓╫(АhX╚SхПт	√Ф7э	Л╚ejVЯ╦"	h	║МIrъ4яЭ[├p::√Ё▒╔▀	IЬьjП2╨▓Qb╕╞ХВP╚\еG·{╤╙╓[║ аmь'
+Р7░Wп,╜'b(
+'╞Pf%╕⌠[╕▐ю┐▐u√&!Dл ЁY ■Ьв═Z╩▒²q У1	╣DэЗрУ	9Мy<оS≤W┤Я+ЙФэ█
+8╘6к╗RE°H╢kп	0√Ж√щIiЬ	∙┘
+й∙жъ=KY╚шз╓bю╟Ъ┤V\уTЫШ╢░°`ахЛiБдрn╜≤\О@`
+≤╛▐Y(╣w'Э≤0╦YЛ!0≥	ШЛYЙsf	кPВ9aЫэС┴	▌г╜~>J/©■q▄├93≈
+Ъn²~o')щй■ШП&╦√? ЁfjZ└м╩т│)ц	│#╟м&]VZa05≥/√└и╞-ЖУ}╘к╥bщe-4Т	╤╛ВЕKЙ'Ц!╘zН≈▀Щ╢8 <XЦ
+┌/}╨эa■╢JрbУ
+3ьзn╥"
+Т>k*▒p	p~	ик-о
+hэTЙк	▒Юь©85v║чл	h	П$Б-ШХ╥}═	ъ╗лНf}	Вx|u╦=	П╖w);А@Xл╪%#!
+Н0	∙нФ╗┐╝/ЕiC┘╘
+@Ьц∙<а╖╠ТCёЪ╛gмi7`9ВФСЦ	R	n═■■)▀СгргMЩЙю]9АИщ╬▀-╝─[вз┬╜LaнLшvlЪc▀█dh~▐э&9в^
+÷IЧ ┴HQ(▓Uk╖╢1Ы [╨█PwU╙╢╟А╘@╜Кz\E╤╛╫!┬:(чЗп-К┘o	.═	°Ь═б┘щ░ПЙ╧rО,	╝К1гrgQПUч	0Ье©рЪT┴─pьХя≤що╞з║s ╡
+i9D9	ЕCJ╙( ш6 >4Т{е^U&B⌠jи Ыа┌╘nэЦhжк%	шt╕е÷╬3	ёdй)╖со╠A5nбAа	╬А╒bОБЖ╖	°╥▐∙╩ШqЛ╘ееЕ Mш>,╛S√зN?wrfQ╠2Цj©K 'У }╘■`8а<7Яь ╔| ╢vЖ
+]к╞8`oрf▒еzв#
+Тм·-	E╔Ъ9	C╞ '5?s\] у_Uд║Е├∙тAsQ	зЕ8dиOРк(Bо╦,x╔}k╤Эфх┘─РА;╬fОА#%?Ди?┤?У▀Q▒В а╫X]l┘П&ЪI╪ANSё=2уаUБ^	▐;6Ь╕°bяэкз -ыпёICx░U	щI%Ц+7жI6>_╚┘≤Я└┤bЛ┌z°дэ	rBUшм8	a╗\╬R]█ О	ъ┌Г∙эХ	┬╨qЭ%╪ц⌠╝	c Ё╫оsУ	cЩс╒)║▌@└	╟s #И╚─д#У6h╚┴≤Б_┼RJ┘⌠╗4Gп	╨J∙√▓▐т
+=;Кa╣▀]╛L√Sy.S° Э	цuГЁ'┬хлj-╗╟O╒╒╟~N╞ ▀/z╘м┤G$`╩╦▓_OЭ■	╟█d╞MI╪nЦ(чэИ╡8
+│(Tt░╝Е┴╜e
+в≥║ёL┤ZъadШХY п%┐eлDё^█╓ж&зктфAHуаыС╓⌡2\RЦс╓фсгИ,╧~≥©г─K		║Эе1- Ю╚>╬²╙Вэ;88?8XЙVh ТжЬ─A╜ЯД║П7эu╖y= ╥©GЩdСЙq╤▒3ЁЙ┐c6V┴┘у┬1&CГ!	г┘E	t г╞	Дf ▀e╥б╣-│qх/4╚╬Л~$╕╦|HшQ]йdH│©о■©г╦iьпВ
+д└Ф▒э'©▄УU┘ц5вХ┐у$ Ш-ж╜⌡╣/S
+Юrср@И	)l╖Uq	ЯЪ
+=YYГБ9ЧM ╗⌡Би\╜{╢▓╦лМ_ТнE2+r⌠╫╦к3▐ТiЙ╘	 ·c^	р■ц⌠▌÷Б|Щ░Ск▐}╦
+°Ч:─╤╜
+∙;	┐╘Vт=л·(9д'
+▒║┐L7!Я╣п┼_Л█e─╡	┬╩╔#TNБ╧`Рwnw`Г	╣≤ВX╢d√НT╓;	ЖhИ┼,⌠≈н╦╘╞╢WH╪  n├!ж ▀ дB	=тuяPКP	┴╩	лЦvX[VнЙж▐щ╫%t
+Сr╗*©F'│L2%┬─КАК
+%>/≥2йbЦ· ю▒╦(К
+╛╨V▄Г}мц}AjплP╙┴дU░╚E⌡Е	iЁеQ┴╒▒п≤M	т/ЬLЫ/6╩
+ыо²t╤w	┴°╟wq	"z3:
+п╖г{╗≈╛╡Щ┐uЬ╜Що░Ж╩0f
+!┼╞ЛНHЪЫR╫Ъцц╤б;²Q>zсх°ФH	S	,qо╣ы8ол╤║╒у`ЯsЭjrК
+M	?m█V	Yу▌
+э╔┌Ж}⌡┴AЮ;K╗ C┌┴A KРЛДeК╢Ы/s│М Q²Ё:╝^хдЭ≤ё⌠о@|Sиy{Ё}|│∙Oю|ъ▒;b?	(╬│R╝┼	╣Ч┘'YЙE	▄
+в f&7 ╪
+лъ'
+vL°	4д
+┐┬╫<OgBOY┐ХЮ>э1Ё╗юа╔nWБrЪ┬≥╓Юв≥ry -П ² w,√Ъю+ГкЯHW╟	'	ч╕Pжqхм╨":!5╛в,kЖv▀Ж-j╫a	 iW 7	ЮV╠СГ▀8
+A─е┼`│wЦжы┤9╘--┴ИE{л≥╘Я√╓ЛО╫4У╢P÷│ЯRг8≤bИ ФN╬╤╣&oёОГ╩Ь┌^бц#└├ябq~e=	h═UBйЁщa∙<u└p ┬rDщёС╙≈OP@YVrPGaа░~(	Я
+ШК÷─	┌^║ф}╝QОе╛╥Кc4╘ерu·,╣`gKю#⌡Ы╙
+┐Hр÷0■к*Z└╚!√ш▓b
+_WpЬТДт1+[═Ф▓бп°8е1_* М▌-5	а╗+гtfз╦▌}^-g/хZмeu/┴│░Хu≥©о^┤с&╧я─≈╩.▌c!╬┤a ╙2"ЧсВ╤!рg█┤h&' hАuюУ╗▄┘l.eZБ╗РСХ╗ГсХ╖ml8╙lУ!Ь┐ыUФ∙ж	╕NА╨Л#C╡fю┌lzGY╗Qы∙АS@╛fY.^(Ш	Шь 3)╝)х%	╜[ъQ9j p√eР
+║{╘╛.xПSт █д╠Siэц=_S`п⌠РNЭ╪c]eяТzь#═├FpЙ╚ЬQQ≤╩ы'╖ХЦ^e║u╙wy	$ф≤|к.├8ъ4dWМ╖╝▄Ющgц√S∙Н░╙QП╩y╔	К ÷╩?╛п█яe░╞	Э└ <	5ЯlТч~©ъЪOODIтtр	 4K?JМ!M═h┤▌R(hЦg7gVk!K=.
+бCэ;6дZ\+vГэаш╒╤яШ░╙▐╩ юЗ╥.Шe╩┘Л<uн	НПжм▐^"═аЩТ`V╥▄· ²Y╠y┴O!2ч╥■а┐F	▒U(T	т╒	и▀╛╪aкDD ┐пы;Тэ╚,▐п#│	4v"╗xс6Хё═ЭеG
+=IW[ц°e Эл╟!R╘1ёRхЮ	цЗ┬!                                                                                                                                                                                                                                                                xya╕1
+мь_c	С≈В■WМ>	!aж3╢gKИ;	╤Ря{nЬд═мЯ(зA╘┐у▌лшnPх╞		жУиx(сп■ЦVфG/■Л46├lg╕>_Ё[эZ°┼	я▌	MХх╠Mщ╝|C╡╡ЮWМW_b╨Ti>5	НЫ	╪ПLl
+╓ [▐┬┬%╟dЬлдкВE@:ж8С ╘v	xъ┤Ё°8F▌╦к╧МЬ╟R.acыP(_-A 5┼╕╠0╘0Ш+░Я(█Pms╚╔ ≤e=■ KF0┤@	WsaПD	ч≤┤D╛@(─+р║ьЙ
+╧Je≥CёъJ╫k>ТK╫7=█╣ь	╘▀ГL╖>ЛъммВ╩║О<25┬:┘wXяР>Шп5х╒YЫH╬йьв▒⌠{⌡иМ,■·ТЗ▐л╩∙ы2╘PN4╖Y	Hы©е(ыVД≥╛щ'║лtTёгnxRMфA▒Б
+4%лR╤н%P`й6iЁн■┬х?╞F\?С┬╜ГйpиАdЕ5─b╤a╙Cт"~ЁЬW⌡▐a░.C░тыSЪx╙╔eоic▐7Г╛ЧЯ`░(≤[":≤\╢]ейМ╬$D@бIсj'ц╧}╙щr\ В		▐ь╓FШ=─ АGо
+╨Н А/ё║ в<дQв⌠_OЙh╟╦ыЬ1▌<уP©m9ncqТёУ©©,╜TЯt╚H	≤═p─╬э	╖▐╕
+ЪaWP1И[КXц╛CEMВs'kUbйI,OЦ J-┐H]Ж▒└~╟┬РLx©ю▐
+4ТDs ╕]ЯН97R ╓'&╥mФ╕Х░▀зC	Q╟╪DэммOOw_ц`┼	pщ÷KМЩА3
+x╓&бУо√
+}╔3w~ЕLWфFg╥K▀6*Ed
++,┴⌠8┤╧Сf■ь╛╦G_ёЗ─C▒Яэи·├и!$ м╓
+▓ щ^у╚Rяt╪U@ ztq;▓eO╠"┼Ы© ▒-М╠иИD│qXU0э7▒L╜
+'+о┼Ц╙j▄,⌡pо"аHЛ%╕■╣
+йКОЯМD	с*╜Ь≈├е>╢В╥Ф#÷ 	ЦQ┘7]2Р{╢ыщуя	⌡╫q	oЗe>╕АЁдgT[QЕd5╚<KЯi	ОUC©yаXыЮDД	<Н'ы&C
+P2P▐ъмY\Э░N^Dым╓Щ,╜п6©вId▀I╓┐Й╖╖⌠▒3?╚9U|ЪЭ²	▐ДШ9≈²9k╨▀O░Ор)з╞╟,-Н;ЕО▐▄убЛ3╨Gй┐т─	О╧┐╛"p╒	[■{R╞ФzКъ█Yjbщ┼J∙\≈э╛рУ╩З*С╬cen╣`╜⌡/╔F╦e:o∙h	├╠F╙├7	┤"≈╓╫x+√х≤ЮG'Ё7■tЮ`Y°╓Ои&	Jhп▐ы╗=Iy	Й3зTjхF≈Fв┴└╩t╟-≈+ u▀)┐Я─]шG╬эсЗ╤~⌡K╡mDП*┬D▓#М┬D╡FI hю╚,·╦┐ЕьdтF#┐_ +ЧяT┬Ё°ъ│0~┬bRБн]^
+╒√?|Z
+Yж6R@ЬH		F≥	VIE°3,p■╒┐щД;Б═░⌡Щ·┴▌╩Л[╢Y╔┬)╟	|ШМДоKСр;ё+▒#Ё▐50,²╚8Щ%┌╠■0KТуД²_Хе4.%	1ЖG╙╠ЙW	┴Ё│oG√ФЮ4╪R└К	╗П
+ь
+⌡W
+╟Д┼≥]ёъ	!pл╞зГгc	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                =IeД`3÷	:Ш┤√уОЙ │|АТ╦≤B╚q
+Sй	;
+7ыХH≤Й╪nw≤К╚▌Ю.ме!zИ3▄÷╦ТpEТн[╘Ц'╚╓▄FXBl.Ь|▓≈В√@8;г┌7Ъa5с╕Vv╠
+ШЩГv,б╡Г|д╪└Ф*uА│XёГhМ·│ CЮG1
+d1Mж╨шЕ╞C╤▀ВT┘ 
+	z.lP1{Щ⌡QOыfКтУW+╟мGсzJю┐ч·▓э5	L┐юO╓ JЩ╤юН$лд⌠╢$╚▀]▓┼:Л Сщ>е╤⌠░ ²)┤G	+≈HVц⌡┼╟╖√UНCтO-ePЪ╚²Ъ}уВоd[tх )÷е╢kCХ┼r.U╠оЕ├Ё┤▓2╩П┴ЕД╗Х7IiёWъ■@FLzв≤ы7└ j)▐wlg≈мK├mБрYх╪qЩ;ё^n┘(~-ыo▄▒Ыц :П╖╫
+
+h|┌╪0щщ▌v╘u	мsе\СйeBйNжфаuЩ	txБзQ74╧	~▐шTt└?∙й⌡÷е^8Тbэк²8И ЖtэВ╩	Фёлпщ°Зу	┘с}дmЮm	Р▓PM
+Q╗]gТ(:cm\бч╡А;╗
+╟fk~ъ╘▌zЕО╚╧^	:║тrж\i╖╬<б'TЙl<8!	/ЙТBйo&p╒╞╦A■п║▐AФ╞│
+fyi╜о5с=B╕Т▐F%м╪р&▀╬├икs
+ТрM7─шDWЯ?1Uг;#?	▒оьРМ~²V ▓Sv2ыKДn╔м▄сg╜Э*os]эq╟©Ч°▀vЫ TЯО╥ь⌡#В©f%ж╘Ъ#ьуU╥╨╒┌Б3╗b╧п╫4в╖╒^╬PN5HЩ╫≤Ь·PЬX|╜тA!"ед┘aЛ▀GMZ`T⌠	h²@╓ШdЛ(K)-Oq9F2	╨	/	=iл╔▓6хCfХ▀o]
+vHтnу	═ЬИхg]▌4╟╗╝┴⌡?hM⌠ё┴нШcTм\░qДP "б─ТP│;╪╠зЫ	─и╪wмЙвz▌Aкзт=┤▀╪yи┤╩	ЯT╒ж▀-~#	┴с╟_[ЯP═▀║(1/═u╔ЁАшgк*ЪНл{-Ъ⌠4ЕD4ЯА%
+9╨Dх	Э∙╔i■у}║Э2└8|ы%б}IX"╓m
+└]AКjЁmhх|УдA╪fатqЮaЁ╫8н ~.	й╟0}Xаi>c4-⌡щъl═чдC0■?.÷sD{ЩУФ°mмН≈р┐▐^	⌡Щ	▒^
+oЩЙх└
+П#)"2l╦≤e	╦B≤⌠lpk	╥ЛbЪw≥{╣║╜-ЖИCё╚Ё░d╨ОSx
+░fл╪╨?9'РЪ╜?╖╛Юе~(щxЩ1=р─║YЙ╖c┌╗оP\b─0l/в	7	)╥e■НЙУ^Шy/5·C(мДlЕ╕vT░дт+зЦ]
+Щ5cеЫZdл]\QЕ"╗P\ДлЭbKKB	╜;ТШР/эy²еDE≤ыпХ@чВкСщj╤┘9П[│ ЁшЕ;И╦c≈⌠\≥р╟O╟vл~сы╞S@FГ╥╪A╕хLн╘	Z[А|тX	/NЁn╔ъЕYN	bl∙B 
+M╧	>█оьецiОSдPВД╙ф ║}°-╫╟м
+	k)М=п]ФЕпп'▀вLЮ ДnV╜╙▌	┤|GЁ▌N	иЩвghПаОЩ_bр╚EЮ▒
+d[ы"г[o┴╦─²B╔!\сtt	Zь ▒хиРwТBё7ББIp╖ НЫ
+[╔Ъъk	TIQХШБ╤ЗW╒zа]0═'ЫKO/tw╗МsJ)П`]┴~	
+~к╤c▄-≥Ш═│О⌠Щы7Ы<╒√с╓BW╧е▌\sЯZf:Х╦░9+CвТ<w≈l╠SoE~А╢▒R╛кХ▀╥ ░CwЯAzS4	┤а5S]tЪЛ┐ИэБm2@__≈°╛╝т9Ьn]\▀≥┼EО;48YPk$o}sи╢╚Ро%Q :ЖДй╓┘zФ┴N▀уЪ┬zS*р╔_	еР	hU3D{qL5бC_	s`qrРz▄┤║─≤M;╘)g╖СhКйв?	ъГ└fRэFr	°Эt▄}Гl|	у╞ТxB▓d1≤РpЕ≥╛╛Щ_╡c7рДЧ╕╬*к█i╕h╠хш?╣+╥°а0	╡И▐²W;╣≥U:M)┴юЭе╕%;гM$Е	╡f┼╪Fю█ёd▐7∙ФП√с_L·ю√бЧm&ипxШ	╘E	зRЁ"╩МУ≤F!СЯ'7Ж─	яЕ!7?bвС	З@0ёК╢iUТtЦ⌡ЩЕ1┘│	L╙√C
+;,й@╫Ч≤Бс`wlBъK8J'ЧgnDЯ≈╕Ьу█⌡,└╒√P·ЛAёMjWk▀^lЦ3O=Ьi_пDf&F╘fФBUaшЯВ╥5╜Rф*Юв};
+C┤к╨ ч╨^╘9╧АOk█░:m'ЙТl■З ЮН└э═pьza ╣
+гW▐x⌠j┐]WоУЯEЯр▒⌠═°Z3HС╕вtF6²	уn≥wокk═█oрУi╩р╦ъв╥хЖI0EБгЕM┬c+YХе╣ФФ5вv"≥└!║╡╙MГО#ыГX╩┤╬ Ы─ВkФсэбфyzсхЗ2,уьЫ╢мГ╒шБ s└&	┐и8SA▌зао{I"Цл■Pю╗│2Э*	_ъ░╟Щ;A'
+│├╣│ф▐	ЪУ░(У└▓©Е║Щ╥вд▓
+Wк>Ь3Е шFс⌠╚╡%	ЪБ@NК▐	21$╬╦Q+I]иКQ`╤╠1/╔И"╢n!╕cиЗаMo╩2╖=ГЦзy▀Пs$5┴ч∙CБ╖÷V╢Ыr
+▐@0КЖ
+|
+ o	? ╬Oд≥l'ВИ	²╕TWжжИРVб╟Фt9°T│\Эц	н╨╠	Y╟
+!GDи╛8╔9=бg╧0Hд╗м$ж²╦PфЛ*dBыQУoU≤Z!U║╖Ъе≈мЖэ╦lY!d▀|lбХYЮ,\Ь╣╞f9©Z"	юIй[▒W&Y╤e╝)≤²РРВo.⌠kHs%%╟\T8QЬ©vД&С:┬G
+9²▀`≥Г╧{вH"ёD ┬░╨6/╖Ъs√с╖-Щ|▓:┼ж▒.НuМ└▐∙▒*I/°%╣Eю^tд`╣║4*МчИ┤ТYщ√б<⌠ы≤(b▄	╒╔l(S@о ДтЦp7▓Эзт#ячяи═vЗ╢╤╞ё▓#ы┤!q 0⌠И<Aеы=Ъ▀NyxJQ√≥ю:JZМx░╫oоО⌡╝g\╣;Ю╢td2ч д╓≈S╦л╝!║Яeф]*VvDЬY!Х╦	дZ#+2_║aэв[╡└╠Злр╧йКI/ZB╙т╦.#0ЕF[═КФхтqqшх└xi·╣╫u@╡-╥XсзTQ_Фk~╨JUwсC│
+Яг,╧м^⌠╡ ╖Vle┤ш²│а	
+Тv@ь╬2Ь9Ш²к≈Мc8a·И(┼у┴(В═9
+Ж;⌡'·≤	ЬЦh"<}Rt├]LЧ'▓█═ОМ-K-мdc╤7UT7▀Л(Ь°Тм▄э═НWG[Dз
+6В≤▌Л!©J80┤2	lE╨Ръky
+	G▐y@pN╘iъgПЙt╡°@	?УOОю{ъBo	▒╟╧/PJ,└√ЛЗHПл┤O╣cА≈П÷═-*щ▌rП╩ЩУdЪ1I?Z
+X л#╙≈j╬r'o>!гш3
+═]$З╓HЭёВОSZ
+э0э(ё+#Q∙▄/≤9VDБ2V
+^7рд\!(▒щ╨Р{Ё1Ыe`l=ь2УхУ─71┤Е┌CqM|yrРмЫЩ
+G╦▀w╠6L\└7╜^≈Ш_-╔~╦(═вшS<▐eз│hdСx╢©а≥а|	┬O	п┼ш1Fш.╦u╞┬n▌u╔U■q╪Щ5╤<^m▓╪┤ФGБ╟°l┼	4KuЮ■БА/ЫШMRU<Л╓╔дЙdэlохР╝┼(3Ы)ЛяK╔╧Д(RНe█5╜╣К,юМb┘q©╓╔ЫУЁ
+<Э═к:·╤═┐Кq╓{ц╘Ч~эЁyъ├Шs°[┴0C
+╟ИДёh√╫,╝▒а√лБz,0XUv╤щ┌К{ ,я≥ъn(>г▌·Л╝Й╙<ХY╪,╜"Г(_#IQ	Шо÷#▌kГ⌠╘и≥m6пЫЗвм ╒цЕяСu╚ё▓oФ╘8л}м╜Яае4м╡NЙ<Ив≤▒ЕaNА%║╣Мщ9kбСуС^рщФ1⌠=└NB>к	KЧи%:l>╣М\W(	w·еч≤У│м╬I┬cф*uаw╜ЩrfMЙ▓?	≤├GFв█JYtA>-╡⌡хл╙Г≥▐╖q┘─LVЁАV≤4+┌UNЙ╜3╝╔9+мD√┘3Bла)╠&	8апб3
+^2■╢"⌡╪D▓p-┌э_▐Cb:ЫТ!юg?О└Z7ЙWй⌠·┘ц╗ЗyЮэTsЦ	Oc█3ЩxДъCьB╨ЦК:Ё~Х
+KЗ⌠@q6agCешX>АЖш,▌3и▌nq■	ъ 	KтO┼М[mB─шф∙W╥│█Лф╛2ц_s╦╪NN 	НлБ╣mIГ╥РЦььh≈j╣й%Каb]▒Ри-Вк°ц]÷dF3 tхшу1рцЦWbkкqS─▀╟t	/t}ГMУБdи{R╖дGжpвvяж▄a2Х5F ╛Gв╜с3е√©ЪвC÷╝РZр▄-8xщ╝═Iш2БyNeK?╣	т	z╝л$	#▀#s/ьЪ"│р╢╒ХyO╨`_Ю■wвN╡CQT∙rь╖7┤rh5╔╣fе·c+▄▐Ъq"≥5
+Ё8вж0vH┬Мbлm╗лрсSпеY2ЦG▌Ёт┘9qфФ╔╥├╛\Ц!х'	H╠	/╜┐╣р├┼Е║╔лk	╪`√WXЦтн├≥~Рпр╒`≥=m`@lа"	(│├[yШъ`ЦP│HzзX╧'#}╣iAF╣	╧▀ R╢■ЛEм▐с8цА┌╘1w}$╘bХ≥D═	l╙mA1<°─53/╥ыг⌡15╟vЫ▄ьSо*т\\аОB▀▓sЯL╪%┐╥╕РxЧ╞т#╚Ю╞!8uИцХRнпW·╘X■Ц7ъа╚=zъ≥ёUЙ╕╢y╙sГт\	├Бща0ш# Uж?Kтрf╪cг|s▐┐╢√h┐▐bР	ЪQnOиА'э0a╧ЭDыРJШ╖≤1n.╖"0pЯ	
+DУ╡щЖg■эТХ$▀mO7Rn~┼⌠┌}э╖'	:	E╧Ф╚Ъ4JхЙ,`=┤ащ.h┼CUхq-╗"ы≈пRм╫╝┴4dа╦bA▐nhpeeю⌡ЭSk▒Ш╓	о╪b╩dt░	гъIВ▓t	ШQON"эW║fs╒▀YаFэ⌡ъ·╙|▓╬CS╔ЁюA{║╟*НЕ~Эь╣х╚{эЁЩ+─яС╖:сS+п<г█i╕l╣┼Щ≈8фY²▒жTХ│╓ё)┼╡С(·°Y	КGХЕ╛}$jп┐tИ^╘uыG&e╔Ъ1Яфb▓И8n╬'TG█║ы ╣"и	░Q≈ъU[M	╡г?╘МMы Ф9
+ +zQC┤┘	n:pзwe)НгD┘©YСg\┌°=oф≥}зGbыH┴?дЭb▌dЫ,C╫╝Ъ  f6д╡5rз▀V╙/⌠ЙЧ©ЧkЗEЙН╣Фp║eМ┬┬bКцXЬЧ▀|ьK;YЦ╦}ы!⌠o▐мЬL▀Х≤иW dБ┤ЪЭE╦аaЁ[Zт│&ВЯj	ви|ЁРеZoекм╤[┐m7аf	цА4@├k≥)╜▄{J└┐	с■F5GН/нБXфя_■-╨з9┬в╒е°╘u
+4Д╠н:vqтл╚у▓Ov9Ц
+╪>~S≈>дщ╚+чшHТj:²u╢─k{]XюtВГт║1xKMVw▓ч╪`▄дuSЗuxNеX÷{Fz1hфf/│yE[C
+й╧-6>▓~²кw)о7цVU4╟g⌠п&▄╣(\█WйХ╠|_╤²;&╢Р]}╨X>т┘┌w9	B+I≈	3!pц2Kd╞┴·└;щ{_╒╠t∙▄└DГыЦНш╖ШС T╩ё▒Ц█Ы╒|\2Ё╠jB╠ш·пяOквВНэв┘{Ж-ьм.вщэ╥ы⌠сЪo8tк	ёY
+ъZ©╘=─jO╛┘ДlcАу8Q■wO#ф┐°0WKUjк]Ч╡LOсш(I	М┼╖╟YсП╣▐.В$Уs║тН┬╢МAQС├╠╡
+*Ч(+▐I[║1|ф╫▌`yе$P┘пт╬D%9t╗W>┬═ч>^°З2└"°Qнс╡Vb░с}8╜T* Cт	Д
+oAмг╞■R╘Ы≤≥ъэX▐ы#╜Ъgеr@QbхbЭ Э°я#чмф
+Ю?	17ИГ╖╢Ф	 S	°┼(я▐_5юARЧ└Вh√F+EьА▐
+ХУ зP≥dлВг:тБ╤╛╥╧4╢╖,VOю▐╨g·=WSнjцоgЩ÷sС┼╕Ф─гГ Ю╫╓jш┼╢nMG(эе┐╟мыg╟DiЛЪ╥Ь÷V3y`┘0═9]
+░ D⌡I╘╓
+ЮMALR√мН<нlЦ8(╟If,ix┬oэ≥X]╘^rп\РъJу д╗[╢q╘╚}╗я7	!·└┘╘;┘#	└H=я>█gO"yTьс≥╪	ш Q.⌡rW┼5г▒w╟┬с[╢+⌡2k{·RgЕЗёNЮcx	Г⌠5■RЧ╥	│|┬ф┘│Д[
+eMT}l	ВФKъ├Э,_@qыы║║[У╕=IХ~)Uk╥PкY²Tk8\Ы╟[Y@ЁЯю≥╬шg╞В╗А~ь╜Ew=┤░²Т▐Q│²у
+>H7V	иE0Ъ8ЛТqogr╣uY╘ +CMs(~╪ю┴Q▌!╫CU8жр▄+@1²vЛ;Х╩°├Рьfц∙│\╜е└
+╔|√2c	;╚я┌М26@н┬▄Я│╙ Q6YС≈4ёъ┐╖эГ"ъ█e_$┘╖▀вx╟∙╕Е╢ЙIq*
+wш9УN'Lh,]Хо╦8ц╢y█╦╦╜i╨▓b╨ГC╫qмС╥шМш@БYь'ц!╚гу╪д╕░ццK&┬Тэ▐ХшЁ²°	Ъоя	╡#дл■МzHЛ©	f{╓ОЫТ7⌡З╜^┼┐]©
+c╔╫	╙и╤эl╢/L-ЬsН╬5мB╤&Ь:Эш╞
+≤°⌠Ер@┘Ю└u╥мMV'Ч`© ЛLN PЮhшYф╫аЖEИQ/╫Ш-,╞*═
+Ё=▓Щ МnА~ПMqjпt Ь{┘Пх
+0хu~⌡7╨фf°4HБр>╖_▀N
+ШGK]Ю╦яP╛$М?!iл∙й▀╜}▓yt<┐ZЩPёN┴©wъъдZqПiFQx Х ╒цdп/yf`╙╣╞9 	╫©о╪е▄iНщ)@L>hf>
+cЛ≤Ь*ъ;	шщс╝яt	&дЯ"M?y9vgус2╩д`╩иm┬aЯZм╔┤EиqсъKо·Зюp$░KФ© ╚t▐^БW#▌▐╔DHБ L=▒═ыКха;│╝БПтХaЧ	Э	T@8b!╓l▓kХV┐С╠(═6бЕW╞Ш═H▌d╖·ПоUЦМ$░°У≤╟У&{иЯ╬*(╚б╕ШcgмБь/╔┘У⌠∙╩@<mцО╪
+к&Щ╤?╗
+╠b_3`▀Юг▌Ъ╡║й╝╬╥E┴b▐yЭ/Ос≈Гtъ─Ё3╟Ш╫tv&┘l·╞t1°ПO─о	;ИUу rЪЯ+·╡PFЭ*╜╒═╞а≈╕ux┤HЕ≈ЬМZx╪пXU┬vW╓'p╡■c?°╟Л3|┐┬⌠Y|┘┐cBэ		6PR└F}oQцhлюЧи`	яЦ▐ш#d│Фм╝0wё[┼Н÷Р╬ЧР╘╡@yкRН
+▒
+цЦ2²~БН╫оЖeжd#Жа/н░9╣(°Q╓#М@╞ЁЫкФп7hLЕфQ
+U+╩≤(9	5AhtТ)им<⌠╪│		О│	урh7╫PЗ	Н²Ъ║>╫Zo²S▒╣© █ nN=o╒К AvKOфКУaФ	{гm)""ЭIё┘x)ШpYUБ┌СЖ═Р┬
+НжьЦ~i┬Юxб╪V▒(╕tD╝iГ╥tO│иБ╚рO⌠
+Ьё╒э;C1'ЩВоВ█!┌Пца▓ u╟FэMG┘и╕┬0з├:═╧B	;─╗тЮцS▀	2÷■и╦┐ёОE$╡д
+╖К╗[┼│=s≤x1 ёЩBF_╦6w	8ю	!╤
+╦:]н╥╔н#║[╒[я╠^5Ё*кD╬~Н╥Ы╠м╓`)╩#яw5!3┤iОId║Ы÷,m	u"ь╧Ny
+L┬║cН]н	╜Гб╖^╚ьS▓5У°Ы┬7\щ ┐;xKТ╠█≤зyЦЬЕ▓Ъj╜/╥╢DG≈)·ЭаS╦÷╛;xftve┐То╔╟Y║ёБЕ ╠┬0	Ф─│Ёаfh^V,щ┌4т	c┬c	+⌡nхj÷З4G~Цq⌡в,√E÷ЕЬщy─©"q8Oо╕░о╠T4%zp╞ГЕв┤LЁ<╢V≈∙4PХр,┐@\╤5╠©("КВ┴╬╧╤Ё▒еШи≥Б╜3┐·yYKС8z;/▄e #╨≈ВфМeh	9Ф╣Я╢UPАБг}╕╔hУ╙prб⌡aЦП2╖Фнзъ!f8 8LIQнГ▓J╫≥d ╣Ц·▌Uп═0alEYЩ}ГК(Р╕гжыzUм4©S,иеeаКzCьXО≥С4#°Чт╢║yf≤ъ█f░_©б\╘и1Ff[╛KfIб0∙usТ у▄Э8i	Uищ& └XY┬9H╗Рьуl╫ IqЦJ≤Ж╧
+░7╓нЪ╢≤э▒
+ ╬√ДнfЖ┬Ф
+фщ÷7;0?╦B°Р[6┬)!k.■й	?└/]ЯQх÷╫°÷~d|	Ийце Ч>'■┘z1╤/С7'┘ЬPоL║fD▓Ё║─Н	╫≥П,U©╬cЁc]⌡ЦФ╨ЪФйВu≥ч╞д⌡лШ&Ц:©
+╫╣Ъ├JжЯЫкf&Т ≈U]╚╫Ж∙╨{ш┬Ы	C-╝з_<⌠ТQgmXже╡⌡RKК║%яL≤з%Ej3v╝Zъ\БnшОdJ└iЦ`{~ъ2xО'RчВ/╦шьЬ`÷{чФ:│S·°ы7V	-XЕх⌡╓·╟7,┼└5н2д^^@lЦ6v(IР%Ш:ЖёКh╨ш#Ш└`s╥e╩yUз~ZF╓B╒ЩgыДoдSй'u2М╟|ыo©>)и'▀g√ЗejX┼Sи╫g╔z	>Эq.T╫(≥Л+ah	|╡═
+╬Ц	5aэнX&О╓─P▀╜n1Жz%0Р`Зэta)
+5жeДHН|`KдШ⌡wмя╢оОмшМ$─Ипob├кБDЧ)ф╩0Z&┬Тр	кr╚g4┘lгЫллp#╖r0Д'6Ю%kV	@╨╜#FН├▐A0<┌ТХ	AkI╫ц%	[]M▒т}╧ьOi║аФ┼в·WURG gж╬бo┼Ltц╚кЫS╣G▐S∙]©xWj^E*Яп▌╞;%IДи|Д╫qgzюRёSd\З	аydD(╔╜лп├оwaящw░■╢Ф6┤NХюkЮЬБSQgy5ТМ²GЯ
+А▒Яу
+уM]5пR9▐W┼░Фу[▀_0aЧ_⌡╚P9
+Ф⌡%9ЪёЧЛ ·m╒6╤0ЁNzB╠}┘`т═∙≥░┬+dvJJ▒≤╪▀√	tИ+UMZh÷hbЭ
+╗╕y&╠Жяqj(В▐E▄v}Т═Я)╛рVЁ)	╗Ы╨)┼
+E╧@Ъ┐ce36C-к*Ёl'O	Nc╚7ъDX5
+╞нН4═Ль`Plл▌▌╙ж?СYK	≤┼]╜▌86a@ШиE8ДЙЬw╕DoН┤HAтТ√Кg▌хгжq1н┴┐ЯkД!╠6⌡⌠╙╖д{	·Ь╥	ЬЪ M▄Ъ>$Xфэ?к4L≤	1Y╫O<zс▄≤/	М└╜▌=©·H≥hШ▌bЁ┘:е	Ж║l╝O┬╝х╤Б4∙┐╞©ЗC>Ь╡Т░иR■r╝а)■ГП═P■ЬKЩ	+╧┐g_P▓a≤bь▐A|JХO
+ъ┴ю╛YдЬaK&▒╥;фh[ЕщM0З▌kф)╘K?+°N;эoнy)OЫйруtУ/жi<н]3 ШИАe,ВIr╜iК	оС°+мV╬Ёа$t░╨	B═\С╟Н■╔vJ%ю┌мBЭЩvо!6чш╛y\eЪ╕В╣■┤■ E▀█╔Т█и═п
+█╡+aхZ┤fПd?Т╓;ш.5├]Yю√МЩ╝dршу╕eJzцU ▄╒╓Df<┤Я╠&$gn▄Эh? ╜	≤Р
+ф╤нЮф┐QТШ	4н|▌gK╛цмQпкб╗А╥"%©═┌э?У'\╦╡░iС<Ъъ&?Ыя*P:Рщ╥л∙ф6К╘v	p,тn
+╥┴ЙJ[█TЁbд!лж°nтЩ╜╘"T▐^Б	UиЬuцгrtNjbё~.╙_DСын=Z&nHЯ│2"d²Н@cщ/╔Г'C≤М╨ ггю²!ЛАГv7П╗+┼ьh║
+╠Гъ└NйLЮУX	
+-╛ИВA&	╘!≈оф&;©&s≤e╟ц√╚ы°╬p ╣ АЩ²Вs%║"]C┐≈Ша	a©2╬Г╣"Й┐K#ыE╘≤н;
+k\kФ &╣║шД╒яыo╙╛Е┼ГSщ╩еv}▓
+┐╟лbkRu/D-z`1-╡╙30hК+wq╫▄u
+иbH■U	│pъСгЕ/─│tХ╖ы└TMн,Л"xcё0╧└╤√кtY≤g╟║* Щ9©_o┌⌡,║(>╪Cб_	mS	q┴	n?5Nd;ЯЁтjЗм	■ цk≈яиi╥J∙┐Лuу_N]zЗ÷еp59<╩▓╤▀{hв!≤$mиb╖]Ы?б|HТ·]▓Х3Ег│GoPЪЁЦы(Д8╦P╒┤OKоЩ╘4\С■;yчЫя	▐ ╩сL╔Щy]P	B┘╝зы	A	gRй	 ╝@ВДWjр;Oф8эI0nш┤f▄_vШY·{Х╖i╤V╣╨`7EH0┐ъ"н=x`i[C╒;<Qкб/б╤qЯ|N|y║u╙TD:e⌡i▌Rf╔f╞░~░vшП|│СОбrн	ОП'+n█jх[─kДF⌠╪	IЪC╛/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                z"ъsя3ЙT?└vWнXЮp.╓йC@B:░ГЖi╥Тhз9H⌡aЮ5JгшЙ<8ч1C9hA≈зП7·;l╚ОB╓	└	р(°Цfaьxs╘╚4-!РЭ*ёCл√$╓║<=@EK╤▓╝┴GдfКm	▐.╩ж1 Бю{5оЬXQ│Д8╧#█
+Щ°	Lae©lpВ║Щ╚]1?OУBюбклЛS┴.Ю`└╓╖цbьZ▓x║м╢©Я╔PсE>o`БЫ@╚]┴р╜╔-Gяi(╣еRй╨Ho/╠ ╞╟ц╤≈├ё<	╢Р? ╙│Э╩╬яoТ8	6bя╔║%НгqВ▓┘трS 	ох═Гrы;┐√┌yб&3Р	XБ7ВАЙ╪уЧАQюФ╕:z:ЙЬсm#uулы├▒N└*╩7ШЕ┼z⌠Ч┴°╨k1GЯ'И╪ ы╨█4Eю3 g	LВ√HB= y└NКW9⌠ЩЩзО	° ╕°з,╕ф-"%Ъ╡z	rUя	P≥!s	%MSL╧©иЮ:Й*QJ╠hЭ╧?	шЫ╒м╫,Н"eЗqY■²[ПP:U-Ё÷░▓⌠┐gg)S│	╕─&°\5Бw9rшg╞дсЯ©.╞зз■╠╚ёЪ╘; б╟чС≥"о
+g▓(÷"A|йцHБ}ФЭЖс};ъu_╔·▄v■S≈6сЩ╤▒_:╙╘4	 ╕ьЯ█%╧[0qшРTсСИO^5ем╫√Ш;А╠KаK╢лpр║C	▌─╨D+й≤$█LТТ┘╚/\Л/┌*иБgYHs>1╗Q╡╪j┴╘∙яаА╒
+╦xдктP:СJ⌠$Юyg▐К╤АC╛WЭП║П┘▀G	└─║▀*─ё▐<÷P╣─╔"
+Dv&≥┬iц╒╕o┐²Зн"└⌡;z═╫ЮЛOj	╠8)╛⌡[zи4Т9zHЬOЖ█K+ф╖@t	Ё|▌█:≈О.Ш└	Ек╣О∙┬2JbR]и5╗╦Х7╓ЯьЯ4i▀▄a ЩqИ≤╢74"пЮс▀
+Ы]И'┬═├Г>ДL 8жaA#с┴K╞&}P┐d	╝Jи╫qкФч=╩	ФАй0│²{Ь
+у╛ g-│еazцбr@кш^жyФJКщВш²Ц╩ЙIаЗ.Йc	С∙)УКЪ/УЕ╫≥*с≤пAy╫°7Г╜(	$Д9dжй╤р╛╨Qиф╤≤8n_]X▐7z7╙dгУипBe╞2В▒≥▒}╠С╘Щ╩Н╣F╛ О█XPХg┌ C ╟·.)Й;Г&╪,OПDэО╨▐Kх;%Tъ°ЕыьШЫh╛┘щ)}4ьФZ9#гQч╟RF╢vgЙ╢	QБXCp╤╢B╧"╘ё■йамЬъьМNЧoЧYкТ≥ШБT╒\≥╪м h╫╤Ьcю,ЗъWRюгоХ≈:╘о1═─б~CtХ|╤Г Eл╢Ы	╜oуEX°Оз·ИN^░Я┌+Б,⌠█}╞┐.∙Z┼≤	K$©Б▀tcь	≥мМ⌠эИ	;²2оч%Aы╞Q#й╪Вв╢<7пхШС└н▐ ){aгбGл Wд╛юq?2┘▄Y}╝╟╪O.F^1▒,╡ЛpДцк2@mx▀nщD╓c<ё*е
+С▐Цх-nvqШv
+!>┤КM+░┘╦v▀LЗ^╨╝х~бнOШЙь▀lб>ЩЛ⌠²■╚╗(Д36iwQ0#+│f	SрвTЕ╛°┼│ 	ЪАuO©≥░²ч┤ч	 ≤┴M┼⌠в	D⌡Ф┬`цЯ<вcю·Ы[МоЯ:@?▓Щ╜ПУ.	m≈		ГЦ╣╖k?JЧщ\
+╞з*P┘▄C╢:b"UЗ╛fB.ЫыжZЪ:ж ш+jl	C2░@	┼Q╧≤n╕бz╬═Жrк░∙H│7╘Yы═∙юMkJФ=wМ─?╪∙,
+╨·ВOьяh+m█W6Йт█щэ2+Cv▒ЦЩпЪФОcТ┐╤*▄═и²6<юзЬ╖▌6Ж╝╥╝7⌠└уу╘╧
+M÷Q≥s╜О(рnО╠▄Ре╫о■ 7ёЙW├Зя░]	0
+≈_юUЗQ7╞t╥vH╩j│W≥Xpк▓гcГp┴│▄Ц	л°WЦТУ(·ПеZбE;©ф}Ш	NF┐
+Mr┌>▐╗x *C+╛tА│н╪%█°Ф^л6P┴ЪFШ	oё┐^▌ЗTъW(&ТS╥фkЬ53-ДЧ╗╒█п╠I╬╨оhjU	з■IбTH╞9uвЪjr,Р└≤┴Ж0K'+I╩⌡iш┬Жг#-k┤Im╪Wю≥ww▄╦въoЙw┘>1НS╞в1╔╕ЭONs!Ы╨^О╠h⌡╜Нp╝▐╖©ёкqS*╖кo!кg7╨ЕМL
+r`╟зwг√≈X╦┌,┴эЕ*шДЦ9Е н6дЯаъМЫо√СсМУIй\H:╬b	╒ЧмOtQLq░╙ Ю╦`ёгИ ╬H╨ёtу Ы⌡оL
+╘щ ╔~bS╘}o▀М~╣╨╩MАhu	Ы4Д[у9ш	u_ЁE	∙р,!sa	ьШХ9╛	U╫╖Яф▐n
+E╓РoxRа}	ХШMu}TФ
+< ЦЖ┴А÷К▒╒CЁ:ЁHы╚Оэ├UTбvоуP	╢┤5ГТ▌╧U⌡╙T■ Эn л▄мсзр╖у▓C≈╥4#ё╗╓:░>3lh╩&t┘(гю]э\╜Ф7╥&Ъ["^Eхrv╒ХЗ	aYюИТUв┼Р~0л4	Вo░▀┐Е2CЫAЯs<bдаЪД≥╣⌡╪╞	╒╩\kЪ%?ЛЪw©ш}√амoTмр[·╙▄≤/eЕбГЪ╖щСBТ2═⌠ыHrm╓ЭтыЕ╚ ┐a█XY╔ф▒k╤и▀НaийтrD·j@≥▀\Ц▐бЁ/к5кИр╞ y▒аA╚S>╫AИ┘]║╞Пh/≈⌡ЯЩБ▒	U1ve══² Ё├Ц≥;y~F╨▀Fю╗╕╘OЫH[d╙ ц
+ #п⌠МwИL÷²T≥©]НяфэW│-8 S≈ж╟5u	%!▄°* tQ.7╬t╨@bqф╖┤qoi╪ts╨√┬Тa
+┐П 9В╜^├╡FZ^┐.3Oцф2#-╕⌠a╜@q│@2Fбf┴У"Q█`Сjч╜▐A■╒Y
+щZK≈┬r▄╤≈┌AUеЛ╘Y√<C
+ё╓}═	_f
+"│ИТ,nsnьj иГ═OвлЯа²	цУzа<╕ьЫ@║Ы╦(sо╛"рz▀╚╬t├≥y'▒²└и▀┤_├┬VwЙвЁ<.к╥ LH┌╫!ЁизgД█╪7U	*ЗGо
+I╔
+IЩ╗╜(Чф≥╩ЙЖ├8\▀6hЁ'Dф╩<ы▀╞Е╕TВЭ3ДВнуn"iтвНЙwЩ_УORf!╬еЕ─l?mk÷°РЛO╓к╕к²к≤к²к÷к·к║кёк╟к║к·к╒к·к═к·к╔к╒к⌡к√к■к≈к⌠к▀к┴к▄к▐к░к▌к▄к┼к┬к┼к▌к┴к┌к▄к∙к∙к▀к├кУк■к⌡к■к√к≤к█к∙к≈к╧к╘к╠к≈к╖к╓к╖к к╗к╕к°к÷кёк²к²к╨к╞к╠к╠к╡к╡к╬к╚к╖к╗к╤к╤к╞кнк╞к╞к╝крк╢к╕к╧к╛к╛к©к╧к╛кёк╓к╒кёк≤к║к√к°к■к·к╞к╕к╗к╗к╙к╙к╓к╕к╝к╛к╔кёк╖к╚кёк╗к╖к╙к╙к╙к╚к╕к╒к╘к╕кёк╚к≤к≥к√к≥к≥к≥к║к·кёк╗к÷к·к╕к╒к÷к²к║к═кёк═к╔кёк≥к▐к■к⌠к┼к┘к┐к■к├к┐к▌к┼к┴к┼к├к┤к▓к┬к┴к├к▐к─к┬к▄к▒к▐к┴к⌡к≤к╥к²к⌠к▓к≤к≤к∙к√к≈к╒к≈к⌡к⌡к╛кЁк╘к·к≤кёк╝к°к╥к╬к╧к╡к╞кбкхк╫к╧к╨кгк╥как╩кЁк╠к╥к╨к╧к╣к╧к╘к╜к√к⌠к∙к≥к═к⌡к╔к═к⌠к╫к░к░к⌡к≈к▐к≥к═к∙к·к╓к·к к∙к к≤к▒к≤к√к▓к┬к√к·к■к═к·к к√к≥к╒к÷к╤к╓к╕к╓к═к╖к╕к╘к╝к═кёк²к╔к÷к⌡к≥к°к░к▓к░к▌к┼к▌к┴к│к─к┼к┴к┘к▄к■к┌к√к▐к▀к{к┐кпк┘к┬к├к│к╗к▓к░к⌠к к≈к≈к═к÷к╕к╒к╗к╞к╜к╞к╕к╩к╣к╤к╦кгк╝к╣к╖к╖к╩к╗к╨к╠к╢к╛к╚кфк╢к©кьк╟к╧к╡к╖к╛к╕к╞к╕к÷к▐к≤к╒к■к·к≥к≈к⌠к█к║к°к▓к≈к█к▀к√к■к┘к░к▒к▓к▐к▐к█к▐к┬к▐к▓к≈к⌡к▐к╖к╦к÷к≈к·к∙к°к╖кхкюк╒к·к╙к║к÷к╒к·к÷к╙к°к╞к╔к╖к╪к÷к⌡к▒к≥к√к≤к∙к┼к┴кЖк┼к┌к┘к√к⌡к≥к▓к▒к╙кёк╓к╘к÷к╕к©к≈к≥к⌠кёк║к╠к╚кцкчк╡к╒кёкюк╗к·к═к╕к╖к╟к╝к╧к╥к╓к∙к╢кск╘к╤к╔к╓к╒к╥к╪кекЁкЁк╟к╞кЁк╘к╤к╨к╥к╡к╢к╡к≥к к╘к·к≈к╓к≤к к°к║к≤к∙к╓к·к═к≥кёкёк╒к╒к╔к╡к╙к╠к═к■к╗к≈к⌡к╓к°к·к⌡к·к╒к╔кёк²к²к°к·к°к╝к╘к╓к╗к╕к╚к╚кёк╗к╕к²к╘к╥к╒к÷к═к⌡к▐к▐к▓к■к█к┬к─к≈к├к│к▄к┐к▐к≥к≈к²к╕к╛кёк═к╒к╔к∙к⌡к к═к═к╔к╙к╓к·к╟к╚к╓к╛к╖к╝к║к╬к╪к╕к╛к╜к╤к╫к╗к╔к╒кЁк╞к╘к╗к╙к╖к╙к╢к╚кбк╧к╡к╙к╞к©к╨к╜к°к╝к╙к╘к°к╛к°к╔к═к°к≥к≈к≥к║к╕кёк⌡к╝к°к∙к к⌠к≈к⌡к■к⌡к⌡к√к⌠к²к║к≈к⌠к≤к▄к┤к├к┴к█к■к╒к╗к║к╚к╖кёк╢к╖к÷к╞к╓к÷к╖к╘к╙кЁк╙к╕к╛к╕к╣к║к≈к°к⌡к≤к к≈к█к▄к┴к█к▌к┤к┼к√к▌к╘к▌к≥кщк╗к≈к⌡к╓к╘к╘к║к╒кёкёк⌡к²к║к╬к╕к╜кЁк╙к╗к╖к╒к╕к╫к╜к╛к║к╠к╝к╖кик╧к╞к╡к╝к╞кек╜к╟к╡кЁк╧к╝к╦к╡к╩к╩к╜к╩кЁк╝к╢к╖к╙к║к÷к║к╖к≈к╗к╚к╘к║к╘к²к║к╙к╖к▐к╕к═к°к≈к⌡к╡к╝к╝к╜к÷к■к÷к∙к к═к▐к≥к°к⌡к·к╘к╞к╗к╗к²к╚к═к╕к╔к╒к╘к╕к╖к╖к╟к╘к╒к╡к╔к═кёк²к°к∙к⌡к∙к÷к√к▀к▀к░к┴к⌠к▐к╕кЁк╙к≈к═к÷к≥к≥к═к·к╤к╝к╖к╝к╣к÷к·к≥кёк╔кхк╡к╥к╡к╕к╤к╙к╙к╝к╗к╙к╕к╖к╜к╖к╡к╧к╩кпк╞к╖к╓к╗к╖к╡к╚к╛к╡к╙к╪к╢к╕кёк╒к╒к╔кЁкёк╚к╓к╕к╚к╗к╕к²к═к²к║к≈к░к╙к═к°к■кёк÷к▌к▐к▒к▐к█к┐к▒к■к∙к┐к┘к▄к┤к╖к⌠к▄к▌к·к║к≈к°к═к÷к⌡к╝к╞к°к╖к╕к╔к╡к╒к╚к╒к═к╛к═к⌡к╓к≤к к∙к÷к╒к╒к▓к╜к≈к÷к╘к≥кдк╖к╕к╙к╠к╕к╔к╓к╙к·к╞к╚к╤к╜к╔как√к█кюк·к╙к╣к╙к╚к╒к╝к╓к╒к╙к²к°к╤кФккк╒к╜ккк╜к╟к╩к╖к²к≥к╡к╒к╡к╘к╖к╘к╒к╧к╝к╞кюкак╗к╓к╔к╜к╖к═к©к╖к╓к╚к╖к╒кёкёк√к∙к▓к║к╔к≈к▒к≈к·к■к╠к═к°к⌠к≈к▀к∙к▐к▓к╓к⌡к╚к≥к╛к═к╔к╕к╛к╒к·к·к╓к╓к²кёкёк≤к°к╒к╒к к║к║к║кФк к╕к╔к═к⌠к°к╓к⌡к√к·к≤к≥к°к╔к°к╔к╘к╣к╒к╛к╙к╒к╙к·к к÷к║к╒к╪кякшкхк╦к╡кцк╣к╫к╡к╢к╚к╖к╗к╕к╒к°к╖к▌к╚к·к╛как╢кдк╞к╕к╞к·к╕к╡к╟к╜к╢к╔к╛к╥к╙к╬к╢к╜к╚к╢кек╞к╘к╢к╕к╡к╛к║к╒к═к║к╡к╡к╕к╗к╛к╖к╖к╙кёк÷к║к²к⌡к▒к┴к▐к∙кдк╒к┼к к к к÷к╖к▄к╕к╨к╘к╖к╞к═к╕кёк║к╓к≤к÷к⌡к╙к°к╙к╙к²кёк÷к╒к║к°к╕к⌠к■к▌к▒к·к▌к⌠к▐к█к▓к▓к▓к°к√к╕к╠к╘к╙к╜к╢к║к╙к╗к÷кёк╣к╞к╛к╜к╠к╤к╣к╝к╟к╖к╕к║к╔к⌡к╘к╓к≥к⌠к╘кёк╪кл╪кек╒кнк╚к╓к═к╤к╡к╝к╔к╘к╓к║к╓к╕к╟к╓к╜к╨к╝к╗к╤к╡к╚к╘к╙к╕к╛к╝к╚к╙к╥к╗к═к²к║к╔к²к╓к║к÷к°к▓к·к·к■к║кфкёк≤к°к╞к╗к╕к╒кёк╔к╕к║к═к°к╘к╓к°к╓к÷к к║к≤к·к╓к÷к к⌡к·к═кФк═к═к▓кМк▒к≈к░к▓к∙к┴к⌠к▓к∙к▌кк┴к█к│кк┌к┬ктк╥к║к╖к╢к╛к║к╒к║к╚к÷к╚к╞к║к╜к╙к╓к╛к╒к╓к╤к╓к╚к╠к⌡к╟к╕к╙к╗ккк╜кТкЁк╕к∙к╠к╜к╗к╣к╕к╓к÷к╒к╔кЁк╜к╜к╜к╤к╥к╠к╜к╝к╣к╢к╜к╙к╚к╜к╛к╗к╗к╙к║к═к╔к·к≥к╗к⌡к к╝к╜к╖к╘кёк╓к║кёк║кёк╕к÷к²к²к÷кёк╒к╕к╔к╒к╒к║к╕к╚к≤к·к■кЁк╘кёк═к≥к√к°к°к╔к⌡к▓к╠кёк≥к╔к═к║к·к≈к°к√кяк≤к╒к║к²к╕к╞к╝к╟к╤к╞к╢к╦кЁк╓к÷кёк∙к≤к╚к╛к╡к╗к·к╕к·к≈к к╗к≤к²к≈к°к°кёк÷к╤к╚к╚к╬к╥к╣к╜к╦к©кяк╧к╠к╧к╟к╘к╒к÷к╘к═кцк╟к╛к╠кбк╩к╜к╫к╗к╘к╛к╠к╓к╢к╝к°к°к≥к╔к≥к▓к▓к▓к≥к╘к∙к▌к°к⌡к кёк²к²к║кёк╗к╒к═к≥к÷к║к╔к╓к°к°к╝к╗к≤к√к╙к≈к·к╒к≤к⌠к·к÷к╒к к к²к к╒к║к·к≥к√к╓к▓к≥к⌠к≤к▐к▀к▀к├к▄к┘кк▒к┼к▌к┼к├к▀к▌к┤к├к█к├к┐к┤к▀к░к▄к▌к√к┴к┤к▄к▐к┼к к⌡к≥к к═к≈к╓к╔к≥к╗кцк║кёкёк╒к╓к╟к╞к╜к╙к╢к╚к╘к║к╙к╔к╙к╙к╓к╞к╜к╜к╚к╜к╥к╡к╡к╛к╘к к°к√к²к═к°кёк≤к≥к÷к²к╓к╖кёк∙к°к·к÷к╗к═к╕к╒к╕к╘к╥к╓к═к·к·к╝кёк╘к═к≈к≈к╚к╒к²к·к═к╒к√к²к²к╗к╖к≈к≥к╕кдк╝к═к²к°к√к≈к²к к√к⌠к▌к▌к█к■к к⌡к≥к┼к├к┬крк┤к▐к█к█к▄к┴к▄к▐к█к≈к▒к█к█к▒к▒к°к┴к█к▓к⌠к▄к▒к²к╓к■к▒к▀к═к╡к°к·к÷к═к╞к╗к╝к╘к╛к╣к╠к╟к╗к═кёк╙к╔к╝к╜к╛к╨к╜к╥к╘кЁк╞к╗к╜к╔к÷к·к·к÷к÷к║к°к≥к╔к≤к░к⌠к≤к░к≥к к■к√к╘к╒к║к╚к╔кёк²к╔к║к·к═кёк═к╔к≤к⌠к∙к∙к≈к⌡к╕к к≈к∙к⌡к≥к≥к к к≈к⌡к≤к∙к═к к·к°к∙к╒к÷к╘к к▓к∙кдк■к°к▓к≥к√к≈к╗к╙к°к╒к√к√к╟к≈к█к≤к⌠к╘к┼к▒к▄к▄к█к▐к∙к≤к┐к┼к■к▌к⌠к∙к╘к╜к╚к╒к·к╘к║кёк╖к╘к╝к╚к╢к╜к╗к╞к╖к╗к╞к╛к╔к╙к╓к╔к╟к╡кЁк╡к╝к╞к╖к╓к═к═к═к║к╓к╗к°к▓к√к▓к■к░к√к░к∙к⌠к≥к║к∙к²к к к²к╛к╓кёк°к≤к°к═к⌡к⌡к≤к⌡к≤к к═к╩к⌡к╤к⌡к≥к·к⌡к²к⌡к²к≈к÷к²к╪к÷к÷к°к·к╘к°к≈к╓к╜к╒к═к═к╕кёк к≤к≈к░к■к║кл╒к▒к▒к⌠к▀к■к▄к▌к⌠к▀к▄к╕к∙к≤к▌к┤к┼к▄к■к▓к▓к≤к⌡к░кёк°к°кёк≥к÷к·к╒к╙к²к╜к╘к╠кЁкбк╢кЁк╤к╠к╛к╥к╞к╒к╜к╗к╙к╙к╞к╞к╚к╗к╙к╗к╗к╙к╗к╜к╓к╗к╕к═к°к÷к·к≤к∙к▓к▓к╓к╖к≈к⌠к║к°к╙к╠к╟к╙к╗к°к≥к≥к÷к°к⌡к²к≥к⌡к≤к²к÷к°к╟к²к⌡к═к≤к⌡к╒к▒к▐к▓к█к░к к║к≈к∙к⌠к▌к▐к■к▐к█к┘к┴к▀к░к∙к∙к⌠к▐к√к∙к▄к▓к■к▄к░к⌡к⌡как⌡к╫к⌠к▄к⌡к≤к▌к√к▒к┼к▓к к к▐к■к■к░к▒к╟к╖к²к║к╕к²к║к╖к║к╓кёк╜кЁк╛кЁкЁк╞кфк╜к╝к╒к╒к╒к╢кЁк╖к╘к╖к╜к╘к╝к╖к╘к╧к╢к╕к╖к╠к╘к═к╠к╛кЁк°к·к°к║к кёк╟к°к÷к╓к╛к╘к╢к╟к═к÷к║к°к╗к к║к╓к·к²кёк╔к╓к╒к╖кёк║к÷к≥к÷к к╦кёк к²к╖к╝к║кёк║к√к■к▐к■к▒к┬к⌠к√к⌡к∙к⌡к≈к≈к≈к к▓к░к▄к▄к≤к▐к▌к▐к■к▌к░к┤к■к▄к■к╕к╗к≤к°к▒кфк≈к┴к┤к░к╒к≤к∙к╣к╖к⌡к⌡к╗к╒к╒к╓к╖к╛к╜к╟кЁк╚к╚к╝к²к╘к╗к÷к╖к╙к╕к╛к╘к╓к╘к╗к╗к╘к╒к╟к╙к╓к╕к⌡к²к²к≥к═к⌡к√к║к²к≥к°к∙к°к⌡к╒к╜к╙к╚к╪к╨к║к║к°к÷к╦к÷к°к═к·к²к÷к÷к·к к°к≥к⌡к√к°к≥к║к÷кЁк╘к⌠к√к■к²к≥к≈к▓к█к▌к▐к▒к▒к▒к▓к▒к∙к▓к⌡к▄к░к к▒к▌к▒к▀к▄к┼к┬к÷к∙к║к▒к░к├к┼к░к▌к╔к▀к░к┤к▌к├к▌к▌к┼к≈к░к■к┤к┬к╝к к║к║кёк╖к╓кёк╡к╚к╕к╜к╚к╓кёк╗к╛к╜к╜кюкнк1лбк╤к╓кёк╠к╗к╖к╠к╛к╦к╙к·к·к÷к■к╓к═к═к╡к к≤к√к⌡к·к╒к╙к╖к╘к╚к╩к╛к⌡к═к≥к═к²к·к╒к╓к°к·к²к╒кёк·к≥к║к╜к║кёк∙к⌡к°к╕к÷к≥к≤к≥к·к≤к°к≤к⌠к⌡к к≈к°к≈к≈к╒кёк═к╒к²к≤к■к⌠к√к⌠к▓к▓к■к⌠к▒к⌠к■к■к▓к■к≈к█к┼к┼к▐к░к░к▌к█к⌠к┴к▌к▒к▌к·к√к▌к⌡к°к≈к║к≥к╠к╚к╛к╝к╡к╘к╧к╟к╚к╔к╞к╗к╚кёк╗к╛к╘к╓к╕к╗к╢к╣к╘к╘к╚к╞к╞к╗к║к═к≥к≤к■к⌠к░к░к▓к≥к∙к°к⌡к╨к╖к╓кёк╕к╠кЁк≤к⌡к÷к÷к╗к╔к²к≥к║к≥к╒к⌡к╖к÷к к║к■к√к≤к∙к≥к⌠к⌡к⌡к■к к≈к√к≤к░к▓к▐к▐к█к░к■к═к⌡к≤к²к≈к≥к≈к░к√к∙к√к■к█к▄к■к■к▌к┴к▐к⌠к≈к┴к∙к⌠к⌠к▌к⌠к═к°к⌠к▄к░к░к┘к┬к√к■к▐к▌к∙к к▓к∙к╡к╗к╗к╝к╞к╣к╜к╟к╡к╘к║к╖к║к╗к╘к╖к÷к║к╞к╗к╡к║к║к╘к╗к╚кЁк╘к╞к╚к╛к╖кёк╙к■к≥к∙к⌡к√к·к к²к╠кёк╔к╧кЁк╦к╚к⌡к║к╒к╓к²к╗к║к╚к╡к║к÷к÷кёкёк÷к≤к√к■к⌠к═к к≈к⌡к°к⌠к≤к≤к°к╒к≤к≈к√к■к≈к∙к⌡к■к≈к▐к°к▓к⌡к°к▒к≈к▓к▐к≈к⌡к┤к≤к⌠к∙к└к▒к█к┬к┬к▓к┼к▀к├к┤к┬к▀к├к└к┘к▓к▀к┬к▌к⌠к≤к⌠к÷к≥к═к÷к⌡к╥к╝кЁк╠к╖к╚кякЁк╗кёк÷к²к≈к║к·к╒к²кёк╛к╘к╘к╝к╛к╠к╠к╘к╣к╡к╘к╢к╖к╕к÷к≤к√к▒к∙к≈к⌡к²к╞к║к╔к╝к╠к╘к╟к╔к╓к╛к╒к кёк÷к°к╜к╔к═к╗к═к÷к╚кёк║к═к≤к║к≈к▓к·к≤к╓к≤к∙к∙к≥к к²к÷к√к┼к⌠к∙к∙к°к∙к▓к█к═к∙к■к≈к∙к█к▒к∙к∙к▓к≈к█к²к┴к▀к▐к└к·к░к▒к┤к▌к┤к┬к┬к▀к┴к▐к▀к▀к▌к▒к▐к∙к к≈к≥к╥к╞к≥к■к═к═к║к к╕к╓к╞к╖к╙к╚к╦к╘к╙к╙к╜к╚к╚к╖к╥к╗к╗к╕к╣к╝к╗к╘к╢к╝к╤к╤к÷к²к°к⌠к⌠к░к⌠к√к≤к╖к╢к╢к╔к╙к╡к╧к╝к═к÷к²к╒к╒к═к║к╒к╕к╔к╘к·к²к╒к к╔к⌡к╒к°к·к∙к≤к∙к≤к≈к√к∙к█к к▐к■к▐к█к≈к▒к█к▄к▒к▌к⌡к·к÷к°к■к⌠к┴к░к▓к╣кюкГк÷к∙к▌к⌡кшк°к▀к▐к┴к∙к÷к≤к≥к≈к╓к╕к■к⌠к░к к┴к┼к⌠к┤к█к▓к▒к█к▌к∙к⌡к╚к╓к÷к²к╕к╘к╞к╔к╕к╗к╙к·к╙к╠к╒кёк╜к╥к╙к╘к╓к║к╔к╛к╚к╖к╣к╨к╘к╖к÷к°к∙к·к≤к÷к²к║к╖к╛к╞к╞к╙к╜к╙к╡к║к≥к╒к╕к║к╔к╚к°к╜кёк╛к╗к═к╓к÷к═к╖к÷к≤к▐к▄к≥к≈к▐к∙к∙к√к⌠к≈к²к°к▌к▒к█к▐к▐к▓к≥к©к╔к╩к°к■к╓к╓к╓к╧к╓кёк╔к·к°к╝к≥к≈к≈к√к╓к≈к≥кЁк╚к≥к╙к·к²к╡к√к▌к░к▒к▄к▐к▐к⌠к к═к∙к┼к█к░к⌡к╓к╛к╔к╜к╤к╞к╫к╠к╖к╞к·к╜к╘к╓к╓к╔к╡к╔к╘кЁк╠к╔к╗к╞к╝к╜к╖к╓к╜к╘к÷к║к·к≥к к к к║к║к╧кёк╡кхк╤к╞к╞к                                                                                                                                                                                                                                                                ²к═к≤к≥к╒к·к╚к╡к≥к║к═к╥к╒к⌡к≥к√к║к╔к▐к┬к▐к░к▓к┴к░к▄к≥к■к√к■к■к▐к┘к█к█к┼к┼к▓к▐к·к²к°к÷к°к≤к√к≈к≈к≥к÷к≈к≤к■к≤к√к╔к≈к∙к╖к²к╗к÷к≈к┬к█к▀к▓к≥к■к┴к▐к┘к└к└к┐к┼к├к┴к▌к▐к■к▌к█к■к°к║к═к╝кюк╕кёк²к╜к╠к╙к╗к║кёк·к╒к╔к╓к╟к╛к╚к╒к╚к╕к╘к╖кЁк╕к╔к÷к²к⌡к к∙к╒к⌡к║к╫к╛к╜к╛кЁк╞кЁк∙к≤к■к≤к к⌡к⌡к═к⌡к÷к÷к╓к╔к╔к·к·к√к▒к к▌к▀к├к▒к░к≥к▓к▌к█к■к▌к▄к█к█к█к░к█к⌠к∙к■к⌠к▐к▒к∙к▌к≈к║к⌠к√к≤к⌡к▒к▒к■к√к▓к∙к▒к┴к┴к├к┬к█к▐к├к░к┬к▀к▒к▓к┼к┴к▌к├к▄к┐к▄к▌к▄к░к▐к∙к╕к≥к▓к√к≈к≈к╖к║к║кёк╒к╖к╙к╕к║к≥к·к═к╒к╗кёк╕к╒к╖к╕к╙к╖к╚к╓к╙к╖к╒к·к⌡к≤к═к≥к к═к╔к═к╙к╒к╒к╝к╚к╛к▓к▓к⌠к≈к√к■к≤к⌠к к⌡к║к°к к═к·к к²к·к√к√к█к≥к▄к▄к█к▄к┼к▀к▄к┼к▌к к√к■к∙к к≥к²к║к²к к■к≈к√к■к▐к≈к⌠к∙к°к≥к⌡к▒к√к╒к▄к█к┴к█к⌠к█к┬к┴к┤к▌к┤к─к┤к┼к░к▄к▀к▀к┘к─к┼к┴к┤к┬к▒к║к≤к°к°к≈к к≥к√к÷кёк·к╚к╚кЁк╜к╚к╖к╕к═к·к╗к═к°к╖к═кёк╔к═к╕к╙к╛к°к≈к²к≥к⌡к к╓к═к÷к╙к╔к╡к╝к╘к╓к╜к╖к∙к∙к⌠к⌠к∙к≥к к╔к°к═к╔к⌡к╒к²к≥к═к⌡к≤к⌠к░к▌к▒к▐к∙к⌡к▒к≈к┬к└к▌к▌к▐к⌠к▓к⌠к∙к≤к⌠к∙к▓к°к▓к≈к░к√к≈к≤к⌠к°к°к√к√к√к▌к▌к┼к░к▌к▌к▒к▒к▌к▀к▌к┼к┤к÷к┼к▄к▀к┼к▐к└кzк┤к▌к┬к┼к▓к▄к▒к▄к╒к⌡к⌡к≤к≥к к⌡к╙к╦кнк╚к╟к╘к╗кбктк к√к■к²к к кёк║к╙к╘к║к÷к°к÷к≤к∙к√к▒к∙к≤к╒к╥к╔к╖к╘к·к÷кёк╘к╙к≤к∙к√к≥к⌡к≤к■к≈к═к√к÷к к÷к°к÷к√к·к∙к█к∙к⌠к▓к░к█к▄к┴к▌к┼к┼к▄к┴к█к▀к▒к▒к█к⌠к▓к≈к■к▓к∙к⌠к▌к▓к≈к■к≤к⌠к°к▓к≈к≈к▌к▐к к░к▌к░к▌к■к▐к▌к├к▄к│к└к▀к│к}к┌к~к┘к┘к▀к├к┘к░к⌠к▐к▓к█к▀к▓к▒к∙к▓к▐к∙к▌к▐к∙к·к⌠к к⌡к≈к⌡к║к╚к·к⌡к²к²к≤к║к²к╒к≤к≥к≥к≈к≥к≥к▓к√к≤к╖к к║к═к²к╕к═к╗к╓к╜к╠к÷к·к≤к▓к▐к█к⌠к■к═к≥к·к≈к√к°к░к√к▌к┬к▀к┬к░к┤к░к░к▐к█к▐к▌к▌к┌к├к∙к к░к█к²к к≤к▓к⌡к·к≥к▓к√к≤к²к√к÷к║к⌡кёк╒к÷к⌡к√к√к²к÷к■к■к≥к√к┼к°к▌к└к█к▄к│к┌кк{к|к─к┼к└к└к~к└к┤к┌к┤к┼к▄к▌к░к▐к▐к∙к▓к≤к√к≥к кёк÷к║к╚к╘к·к═кёк²к²к╒к║к·к╞к к╓к·к⌡к╔к²к≈к⌠к²к╖к╙к╖к╒к╖к·к║к╒к к╓кЁк≤к∙к█к÷к█к░к⌠к÷к╗к╙к║к■к≈к≈к√к∙к≥к▓к▓к·к╙к█к╓к╔к╙кёк≈к≤к▄к■к▀к▓к█к∙к⌠к∙к√к⌡к≈к≥к≈к═к²к⌠к≤к║к║к╒к°к÷к║к·к°к·к╞к⌡к≈к≥к≈к⌠к√к√к▌к▌к┤к}к┼к─к~к┌к│к{к{к─к┬к}к└к─к}к├к▀к▐к█к√к∙к░к≤к▐к█к≈к≈к∙к▒к∙к√к⌠к≥к≥кЁк≤к≈к к·к·к╒к╔к╕к╓к╔к╓кёк∙к÷к≥к·к÷к≈к≤к═к·к⌡к·к·к²к╒к к≥к╒к⌡к к▒к⌠к∙к▒к░к√к╒к к к°к к≤к≥к░к■к░к∙к█к▄к≤к▒к°к⌡к∙к≤к▐к█к√к≈к░к╙к■к▌к░к⌠к≈к≤к·к╓к÷к⌡к°к≤к≤к╗к║к═к╝к╞к║к╡к╟к╖к⌡к²к≈к≈к≤к▒к≥к⌠к┌к┤к}к│к┤к┐кzкxк┘к├к÷к┘к▒к▐к∙к√к▐к∙к▐к░к²к∙к▌к∙к⌠к▒к⌠к√к∙к▓к⌡к·к°к°к╚к║к╕к╒к╙к╛к╔к╔к²к╒к╘к╘к к⌡к к╒к²к═к╖к╔к·к·к║к╘к╚к°к·к╒к═к║к║к√к┼к█к┤к┤к┤к┼к▀к┴к▐к▓к░к█к≈к≈к≈к▓к▌к⌠к█к≈к≥к⌠к█к√к⌡к▐к▓к█к┴к┼к■к■к▒к≥к∙к≥к°к÷к≤к≤к²к⌠к▓к⌠к█к≈к≤к°к·к≥к⌡к²к═к╒к≈к≥к к╖к█к≈к▌к■к┼к┼к├к┘к┘к▓к┌к~к┌к│к}кxк─к─к└к┬к░к█к▓к▒к≥к≤к≈к⌠к■к√к║к к⌡к°к⌡к°к°к°к°к≤к≈к∙к·кёк°к╒к°к²к╒к║к╓к╓к÷к·к²к≤к⌡к≈к≥к╗к╚к╓к·к·к÷кёк∙к к÷к≤к∙к▓к┼к▌к┴к┤к⌠к▄к░к⌠к▐к░к█к▌к⌠к≥к▀к▒к≈к■к▐к█к∙к▀к┴к┤к┬к▀к▐к■к⌠к▌к≈к≤к≈к²к≥к√к°к≥к▐к÷к∙к⌠к∙к═к╕к╒к═к≤к╒кёк╖к╒к═к═к╒к÷к⌡к▓к▐к│к─к┌ккк─к}к─к}кк~к|к┘к├к~к┐к┤к┤к┼к▓к▒к╓к≤к≤к■к╗к∙к∙к°к°к√к к⌡к²к⌡к°к═к╕к║к╖к╞к╜к╙к╛к╙к╝к╔к╟к·к╢к╓к°к═к²к²к▓к≤к²к°к╚к·к∙к²к°к■к╘к                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ┴к▌к░к┬к▄к┤к┤к▒к▒к▒к▐к к▓к▀к▒к▌к∙к·к╒к═к≤к▓к┬к┴к├к┴к▄к⌠к■к▀к┴к▐к≈к⌠к к≤к√к к║к⌡к·к⌡к⌡к⌡к≈к▒к≤к▒к√к≈к∙к║к╔к╒к═к╖к╙к╗к╓к к к≈к▌к█к░к┼к└к┘к┘к┴к▄к├к└к▐к▄к├к▄к▒к°к°к к к░к░к⌠к≈к к∙к≈к■к≈к≤к■к≤к√к∙к√к═к╠к╔к═кёк к■к⌠к▒к▒к▌к░к▓к░к■к░к█к┴к≥к≥к■к░к■к°к к≤к▌к▐к▐к≤к√к░к▐к░к░к▒к■к√к█к┌к└к≤к■к┴к┬к█к▌к┴к▄к░к▀к┴к⌠к▌к░к▄к┐к└к┌к└к┐к┴к┬к▄к⌠к≈к к°к⌡к≥к═к²к²к╔к▓к▓к к▒к▀к▄к■к²к≥к■к∙к к≥к÷к⌡к√к°к≥к∙к▓к■к▌к▄к┘к▀к├к├к┘к│к┐к─к┌к┘к▄к░к▌к░к≥к≈к≥к≥к²к≥к⌠к▒к≈к⌠к√к∙к⌡к·к≥к≥к°к╔к║к╒к╗к╓к╔кёк к∙к▓к√к░к▌к∙к█к▄к▌к█к┼к▀к▄к▌к▓к▒к┤к▀к┼к┼к▀к▄к█к│к┐к┬к█к┴к▀к┤к┼к┼к┬к┘к─к┌к┐к┤к▀к▀к▌к▐к▐к▒к⌠к▒к▒к▒к┘к┘к│к├к┘к┼к┬к┴к≥к≈к≤к к к к≤к к÷к╒к÷к·к≥к▐к√к■к▒к·к²к║к╒к≈к°к≥к≈к■к√к к■к▌к┬к┤к┴к▄к┴к┘к┼к▀к┴к█к┴к┤к┘к└к▄к█к█к▄к⌠к≥к≤к√к≤к²к╖кёк°к√к≥к⌡к╒к╒к²к╒к║к╓к╓к╒к╒к÷к к к÷к∙к░к█к┬к°к▄к┘к├к┤к┤к┘к┴к█к⌠к▓к▓к▒к▓к≈к▓к┤к▀к}кк├к┼к░к▐к▄к┬к┼к┼к┌к─к┐к├к▀к▄к┴к┼к▀к▐к▒к░к█к▓к▓к┴к│к}к|к─к°к√к═к²к к к²к°к·к║к к≥к╒кёк═к≥к⌡к▐к▄к▐к√к≤к≈к≤к≥к·к≤к≥к■к⌠к⌠к▒к▐к▐к▀к▌к▄к┼к┴к┴к┬к┼к≥к┴к⌠к▐к▄к┼к█к▌к⌠к⌠к≈к²к╒к÷к÷к°к║к к√к≈к≥к²к╒к║кёк°к²к═к÷к²к≥к÷к≥к°к▒к⌠к▓к▄к▒к▓к▄к▐к⌠к▌к▄к▐к≈к≈к√к▄к█к▒к▒к≤к▒к░к|к}к┌к▌к┼к▄к▀к█к⌠к∙к▌к├к└к┘к├к┘к├к▀к┼к┼к▄к┴к▄к▌к к⌠к▒к▀к┴к▐к▐к┴к⌠к▐к▓к■к⌠к≈к∙к≤к≤к к≈к≥к к⌠к▐к⌡к∙к≥к°к≥к√к к∙к≤к∙к∙к√к√к∙к■к▓к√к▒к┴к▄к▀к┼к░к▀к▌к█к├к┼к▄к┼к▀к█к█к░к⌠к≥к≥к≥к²к═к⌡к°к≤к·к≤к⌡к к°к║к╒кёк╒к⌡к·к к⌡к²к к√к■к⌠к▒к▒к▐к▐к▐к▌к▓к▒к░к▓к■к▌к▌к▄к█к∙к≥к∙к к■к|к┐к▄к┬к┤к┘к┼к▄к┴к┤к├к┌к├к┐к│к┌к─к┬к к█к┼к▒к▓к■к═к║к╕к÷к⌡к⌡к°к═к≥к°к≤к≈к▓к≥к≈к≤к²к╖к÷к∙к к·к╖к╙к╢к╚к╟к╟к╗к╒к°к к≥к≈к■к■к▒к▌к▌к▄к▐к▌к▀к░к═к≥к≈к≤к°к⌡к·к°к▄к▀к▀к░к▒к■к≥к к║к╔к╘к╓к╒к²к≤к≤к═к²к·к║к╒к╓к╔кёкёкёкёк÷кёк║к≥к⌠к▒к▓к░к▌к▄к▒к▐к░к▄к▄к▌к▄к▄к▌к⌠к▓к√к⌠к·к■к▐к▌к≤к⌡к√к▐к▌к▓к▓к▌к▌к▀к░к∙к╜к·к▌к▄к┼к▌к▀к┬к┤к┼к▄к┴к▐к▄к┤к░к▐к░к└к▄к┼к█к▒к░к≤к к∙к√к°к≥к∙к▓к▐к░к┐к▌к▀к┬к▀к⌠к░к⌠к▒к▒к√к▓к░к⌠к⌠к▌к▒к▓к▓к▐к▐к▓к▐к░к▄к√к■к▄к▌к▐к⌠к▐к▓к▌к▌к≤к²к·к≥к⌡к²к⌡к√к∙к≤к к≥к≥к═к═к║к·к·к═к⌡к≤к≥к°к≤к≤к⌠к▐к▓к▐к∙к▐к┬к└к├кёк├к┬к┴к┬к┘к├к▄к■к▐к┬к─к┘к├к┘к└к┼к░к┴к┴к█к┬к┘к┐к~кyк~кк└к┤к┼к┼к┴к┼к┤к┼к▌к├к┬к┤к┌к┐к├к▀к┘к┴к┴к█к░к▓к▌к■к▓к▐к░к▄к┬к▀к┘к┴к▀к▀к⌠к∙к▄к░к░к▌к┼к▌к■к▐к■к█к▐к≈к▓к▐к▀к▒к░к▒к┼к┴к▓к░к▌к▌к≈к▓к°к≈к≤к≥к⌡к²к═к╓к╓к╖кёкёк═к⌡к к╚к°к⌡кёк÷к╓к║к²к²к·к²к²к°к≥к²к√к⌠к▒к⌠к▓к▒к▒к⌠к▓к∙к┼к▌к▀к▄к░к┴к▀к▐к┴к⌠к≈к█к┤к▐к▒к▒к▄к⌠к▀к█к▐к┐к┬кzкxкyккк┘к┬к█к▐к▐к▒к█к▐к▀к┴к┬к┬к▐к├к└к▌к≥к▄к┘к█к▀к▀к░к▀к▒к▒к▐к▌к┐к└к┼к┬к┬к▐к┼к▄к▄к▀к▄к▄к░к█к█к┤к▐к┼к┬к▀к▌к■к▒к▐к▒к∙к▒к▒к▄к▓к▒к⌠к▓к≥к≈к≈к≥к≥к к÷к╒к╓к═к°кёк к≥к к²к⌡к°к°к╕к÷к°к≥к║к·к°к≤к°к√к≤к к√к≤к░к░к≈к√к▄к┬к├к┘к│к┘к▀к┤к├к┐к┤к{к~к┘к┤к┐к┤к▐к⌠к■к∙к√к▐к┼к┘к▄к┴к┤к├к┐к└к┴к к≥к√к⌠к▀к├к┼к┴к┐кккxк~кк├к┬к┐к┬к┘к└к▌к┘к┘к┼к┘к├к┐к└к┐к┘к├к▐к▒к▒к≥к°к√к к▄к█к┬к├к┬к┴к┘к└к┴к█к▌к▓к▒к▐к≈к┼к┴к▄к∙к≈к■к к²к╒к╓к╖к╗к╔к╔к═к÷к═к÷к÷к╖кёк╒к÷к╕к║к°к═к╗к╗к═к║к²к═к÷к°к к≈к≥к■к⌠к■к▄к■к⌠к▀к▌к▌к█к▄к▀к┼к▄к░к▀к└к┌к▌к├к▀к■к≈к≤к°к═к°к⌡к√к┼к├к▀к┬к~к~к┌к┼к┴к└к│к▌к┬к▐к▄к┴к▄к█к▀к└к┌к└кzк~к┌к┤к~к~кк└к┼к├к└кк├к│к┐к┼к┤к▀к▀к▓к⌠к▓к≈к▐к┤к┤к┘к┴к│к▀к┴к▌к▄к▓к▀к░к▓к⌠к⌠к∙к▐к▒к▒к▌к▌к░к▒к∙к≤к²к к²к°к⌡к⌡к°к⌡к²к╔к°к²к²к÷кёк╔к╛к╖к╔к╖к╚к╞к╙к╕к╗к╒к°к·к⌡к°к°к≤к√к⌡к°к⌡к⌠к█к▌к░к▐к▄к┴к┼к┬к┘к│к└к┼к└к┤к┌к└к▐к┼к▓к┬к┤к├к└к┐к┘к┌кк┐к┘к┐к├к┼к▄к┬к┬к┼к└к└к┐ккwкvкwкvкxк~кyкyк|к│кvкxк{кxк{к~кк├к┬к┬к▒к▄к▒к┴к┤к▐к┴к┼к├к┐к─к|к│к─к┴к█к┤к┼к▐к⌠к▓к⌠к≥к⌠к▌к░к▐к■к≥к≤к⌡к≤к╒к═к к·к≈к⌡к²к≥к°к╕к╓к╚к╚к╗к╞к╜к╚к╜к╙к╙к╚к╝к╛к╘к╙к╒к═кёк÷к°к╔к╓к╒к═к╒к╓к²к≈к∙к∙к▓к▄к▌к·к║кёк▓к▄к▄к┼к┼к┼к▌к≈к÷к╒к÷к⌡к≥к▌к├к┬к┤к┤к┴к▀к▄к√к█к░к▐к▌к┴к┬к┬к└кzкwкyк~к|к─к⌡к}к─к}к│кwкzк|к~к─к█к┌к┬к└к┬к┼к┬к█к▌к÷к▒к┴к▒к└к│к}к~к}к└к┴к█кёк▀к▄к┴к█к▐к▀к▄к▄к▐к▓к к≥к²к║к²к╒к╗к╚к═к·к°к·к╕к╕к·кёк╘к╙к╗к╙к╘к╛к╛к╙кЁк╞к╗к╚к╘к╙к║к÷к║к╔к═к²к²к╓к╓к÷к≈к≥к■к░к▒к⌠к■к┤к┐к├к┘к█к▐к▒к▒к≥к°к═к∙к▌к┼к├к┼к├к┬к├к▒к■к╒к╦к╓к■к■к▐к▒к┼к▄к▀к▐к┤к┬к├к┌к┘к~к┐к~кzкxк|кёк÷к·к└к┤к├к┴к█к∙к·к║к к▓к█к░к▄к█к┘к▄к┼к█к·к∙к▓к▓к≈к·к к░к▒к▀к▐к░к∙к≤к⌡кёк╖к╟квксквкикдк╫к╤к╝к╚к╕к╖к╕к═к╗к╘к╛кЁк╟кЁк╞к╞к╛к╝к╨к╠к╢к╞к╠к╛к╘к╛к╓к╘к╘к╒к╒к·кёк╕к╔к╙к╚к╟к║к≤к■к┌к~ккк┘к┌к┌к┐к┌к┌к┘к┐к┬к▄к▀к┼к█к┬к▄к┴к┤к┘к┴к█к▐к█к▀к┤к┘к├к┘к┤к│к{кsкuкtкvк|кxкек▓к▐к░к≤к≈к▌к┼к└к}к}к└к┘к└к┤к└к▀к┘к┬к┼к┼к▄к┴к▓к└к▄к╣к┴к┬к┴к▀к┼к▄к▌к▒к█к░к⌠к≤к°к⌡к╒к╒к╓к╕к╖к╡к╛к╞к╘кёк÷к·к÷к═к²к·к═к╓к╓к╙к╙к╛к╞к╥к╫кмк╛к╜к╗к╖к╖к╔к╒к╓к╒к╒к═к÷к═к╕к÷к║к║к║к≤к⌡к⌡к├к├к┘к┼к░к┬к▀к┼к▌к▀к█к┴к┬к┘к└к┘к┘к┴к┴к┤к└к┐к└к┤к┼к▀к┴к▒к▄к┼к▀к└к┐к┤к▀к█к┼к}к}к─к▐к▀к┴к▐к├к┴к≤к┤к┘к└к┴к│к|кк│к┤к┘к┴к▌к▌к▒к┴к█к┤к┤к┘к┌к─к├к▀к┬к┐к├к┤к┬к┼к▌к▐к▓к■к∙к·к÷к╖к╖к╚к╟кЁк╢к╜к╛к╚к╝к╔кёк÷к÷к║к╔кёк╞к╞к╚к╘к╞к╟к╟кЁк╜к╗к╔к╕к╗к╕к╕кёк╒кёк╒кёк╒к╔к╔к÷к к⌡к⌠к⌠к┘к▀к├к┴к┴к▄к█к▄к∙к┬к┤к┘к┐к└к┴к├к┤к▌к▄к┼к▓к├к└к├к┴к┴к▄к├к┴к┘к┐к└к─к─к|к|к}кк┘к└к└к▄к√к┴к┐к┼к┼к▐к▌к├к┤к┐к─к│к┌к|к┌к┬к┼к┼к▀к├к├к┤к├к└к▄к┐к├к█к█к▌к▒к▒к▌к▐к√к≤к≤к к к║к╘к╜к╚к╥к╦кцк©к╧к╢к╥к╞к╛к╔к╓к╒к╓к╖к╛к╙к╜к╜к╠к╚к╝к╜к╛к╝к╚к╝к╚к╗к╓к╗к╗к╙к╝к╛к╛к╚к╝к╚к╛к╙к╦к╦к╙кк┐к└к▒к┼к▓к┴к²к≈к▌к▄к█к├к┼к┌к└к─к┤к┴к├к▄к┬к┘к▄к┤к└к┤к┴к└к┤к┘к│к┐кк│к┼к┌кк┌к─к}к┌к├к┌к├к▀к▌к┤к▄к·кк┐к┬к└к┬к├к┐к┤к▐к▓к█к▌к█к▀к░к▄к▌к┤к┘к┼к▄к└к┬к▄к░к∙к≈к°к²к║к²к╗к╕к╙к╠к╡к╩к╨кюк©как╦к╙к╛к╟к╚к╗к╘к╛к╝к╡к╛к╚к╞к╝к╝к╜к╝к╝к╟к╜к╞к╙к╙к╕к╚к╚к╚к╘к╘к╛к╝к╜к╙к╘к╕к÷к÷к├к┐к▄к░к┼к▀к┼к█к┴к▀к┐к▀к┘к│к├к┘к┐к▌к▀к┤к┬к┬к к▄к┤к█к┤к┬к┴к┌к~к~к─к─к├к┌к┤к├к┌к│к~к|к{к|к┐к├к├к├к─к┴к┼к┐к▄к▀к≥к▀к█к▀к▀к█к≈к░к∙к°к▐к▓к▒к▒к■к·к▒к■к┴к┤к▌к÷к≤к≈к⌡к·к║к║к╓к╓к╖к╚к╜к╝к╞к╠к╛к╞к╛к╚к╛к╚к╛к╝к╛к╞к╙к╙к╡к╛к╜к╙к╚к╙к╜к╜к╜к╞к╛к╛к╠к╞к╝к╗к╘к╘к╚к╚к╙к╚к╘к═к⌡к к▀к▓к▓к▓к▌к┤к┬к┤к├к▄к▌к├к┐к┤кк┌к└к█к├к⌠к▀к▒к█к┼к∙к┬к┴к┴к▌к┘ккк~к┌к┌к┴к┘к─к│к┌к┬к┴к├к√к┤к▀к└к│к▓к─кк|к┬к└к▄к┘к~к~к└к▀к▀к┬к▄к░к┴к▀к▐к▒к▓к▀к▒к█к▄к▀к▐к▒к√к√к⌡к≥к°к²к·к╒к╖к╕к╗к╗к╖к╠к╜к╚к╙к╚к╚к╚к╜к╝к╛к╜к╤к╡к╝к╘к╝к╛к╚к╖к╕к╘к╙к╘к╗к╕к╖к╗к╗к╙к╜к╙к╞к╚к╚к╘к╚к²к°к√к┤к▒к┴к▌к┬к░к▓к▒к∙к√к≈к▐к▀к┤к└к├к└к┘к│к├к┴к▌к┼к┼к┤к▄к┴к├к┤к┘к┌к~к─к┌к┐к│к┌кzкxк|к{к│к{к~кwк|кzк└к┤к└к└к┤к└к┌к└кк▌к█к├к┤к┤к▀к▄к▐к░к┬к■к≈к▒к▌к▌к▓к▒к▄к┬к┴к≥к╡к╒кёк╓к╙к║кёк╚к╖к╓к╗к╞к╞к╚к╛к╛к╚к╚к╢к╤кЁк╢к╥к╝к╩к╫к╥к╟к╞к╚к╜к╘к╖к╔к╞к╛к╘к╚к╚к╙к╚к╟к╝к╡к╜к╘кёк╒кёк√к█к▀к▄к√к■к▓к■к≈к≥к▓к≥к■к⌠к≈к⌡к°к°к■к▒к▒к▌к▌к▐к▌к▀к█к▌к┴к┬к└к└к}кzкzк┌к{к}к─к~к┐к|к┬к┬к┤к─к┐кк├к┌к─к~к┐к┤к└к┴к┬кк┘к┴к▀к▀к┴к┐к└к┤к█к┴к█к⌠к⌠к к к∙к▒к░к≈к·к≥к╓к╒к║к╖к╢к╞к╝к╓кёк╔к╕к╙к╙к╘к╝к╞к╟к╡к╞к╠к╦к╠к╤к╪к╤к╤к╨к╣к╞к╗к╝к╚к╚к╗кёк╔к╒к╔к╗к╙к╕к╔к╚к╙к╛к╔к╕кёк·кёк к⌠к≥к∙к⌠к■к▓к≤к°к░к√к⌠к▐к⌡к≈к к▒к■к√к▓к┼к▄к▐к┬к┤к▀к┬к▄к┴к┐к─к┤к~кzк|кzкyкк├к┬к┐к┐к░к┴к┬к┐к┌к─к│к┤к─к}ккк─к┐к─к~к┬к▄к░к▓к▐к▌к▀к░к≥к°к■к к╒к⌡к∙к√к°к≤к≈к к к≥к к║к·кёк╔к╓к╖кёк╔к╕к╛к╠к╗к╝к╡к╟к╝к╞к╣кЁк╩к╪к╩к╤к╢к╡к╝к╢к╛к╜к╖к╛к╖к╕к╝к╢к╛к╜к╚к╞к╟к╝к╘к╘к╚к╓к·к·к≈к²к≥к≥к═к■к░к⌠к≥к■к■к⌠к к°к к к√к≤к≤к⌠к▓к▌к▀к∙к┼к░к┤к▀к┴к┴к▌к▄к▀к⌠к┤к▄к▀к▀к┴к▀к┬к┴к┼к┼к▐к▌к▄к┴к┬к┌к┌к└к├к└к├к}к│к├к┴к▓к█к░к▓к█к▒к░к▐к■к╘к⌠к√к■к⌡к²к°к⌡к═к≥к≈к к╒к╒к╒к╒кёк╓к═к÷к·кёк÷к·к═к╙к╖к╛к╟к╠кЁк╜к╡к╣к╣кцк╬к╬к©к╣к╝к╜к╛к╚к╗к╘к╖кёк╘к╚к╚к╙к╗к╖к╘к╔к╓к°к═к²к²к≥к∙к∙к░к∙к▐к┼к▌к░к▀к▌к░к▓к∙к⌠к∙к≥к▐к∙к≈к≤к▒к▌к▄к▓к▀к█к▐к█к▄к▐к▐к░к┼к▓к▀к▄к┘к▄к▌к▒к■к≈к√к≥к╕к∙к⌠к▓к█к⌠к■к▒к√к⌠к▒к⌠к▒к┬к▀к▄к▀к┴к░к▒к▒к▐к к≤к≤к÷к⌡к⌡к к°к·к╣к║к║к╒к═к╔кёк╕к╖к·к║к╕к╕к╓кёк╕к╕к╛к╓к╛к╝к╜к╟к╝к╥кЁк╢к╧к╟к╞к╠к╤к╟к╚к╖к╖к╖к╘к╘к╙к╘к╘к╛к╚к╛к╚к╕к╖к╕к║к╕к÷к≤к√к≤к≥к√к⌠к▌к▐к▄к▀к√к≈к≈к▐к■к≈к∙к▐к▐к▓к░к▐к▄к■к⌠к░к░к⌠к┴к├к┌к┤к┴к┼к░к▒к▒к▓к▓к▓к▐к≥к≤к∙к▄к░к░к▌к▄к▐к░к▒к╠к╗к÷к▓к⌠к∙к⌠кёк≤к▒к≤к∙к√к▓к■к≈к⌡кёк║к╔кёкёк÷к║кёкёк╒к╓к╘к╔к╗к╓к╔к═к÷к═к·к²к к·к·к°к╕к╘к╜к╝к╡к╠к╟к╝к╣к╡к╞к╟к╝к╜к╜к╚к╚к÷к÷к╔к╓кёк╔к╔к╕к╔к╖к÷к╕к°к°к°к·к≥к╖к═к╒к²к╓к╢к°к▌к┘к┌к▐к┤к┼к░к█к▄к█к▐к▐к▀к▓к░к▌к░к√к░к▐к┼к┬к┤к█к█к▌к▓к≈к■к▐к█к░к█к▐к▐к▓к▐к▄к┴к┼к┼к▀к█к▀к▐к▐к▄к≥к÷к²к√к▒к▒к▐к▒к▌к░к≤к▓к▒к≈к≥к≥к≈к к°к·к╔к╔к╗к╤к╣к╤к╦к╟к╞к╢к╙к╒к║к·к⌡к°к⌡к²к╒к═к╔к╛к╛к╡к╦к╟к╠к╟к╤к╫к╢к╢к╟к╜к╝к╗к╘к╛к╖к╕кёк╔к╒к╚к╙к╗к╚к╘к╔к╛к╗к╝к╚к║к⌡к⌡к°к▒к┤к┘к└к─к▓к┼к┴к┌к─к┌кvкк┌к│к┐к┬к█к▒к∙к≤к°к к⌡к≥к▐к▄к┴к█к┼к█к▄к▄к▐к█к▐к░к▐к≥к▒к∙к▄к█к▐к⌠к█к▓к▐к▐к▌к▌к⌠к∙к∙к╓к√к⌠к■к≤к∙к√к²к≥к·к≤к к²к╒к╒к╒кёк╕к╙к╘к╖к╓к╕к╞к╞к╘к╒к╒к²к╚к╙к╔кёк²к÷кёк═к╓к╖к╔к╗к╘к╝к╛к╚к╛к╜к╞к╝к╛к╜к╕к╓к╒к║к·к·к·к°к·к÷к║к╓к╔к╓к═к║к÷к╓к╓к╒к▒к∙к°к√к√к▒к┘к┬к└к├к┐к┐к▀к▀к▓к√к≤к▐к░к▌к▐к▐к■к■к√к░к√к≥к▓к▐к▌к█к▓к▒к▌к▌к■к к▓к∙к²к⌡к≤к≥к■к▐к▐к▐к├к┘к┤к├к▓к░к▓к⌠к▐к∙к√к■к≥к к∙к■к≥к≥к к⌡к к⌡к²к°к°к═к÷к║к╖к╔к╕к╖к╒кёк╔к╕к╖к╒к║к·к╓к║к╒к÷к╒к╕к╓к╗к╗к╖к╛к╞к╙к╙к╔к╛к╛к╚к╕к╒к╔к╓к═к≤к°к╔к÷к║к╕к╔кёк╒к╔к╒к÷к·к╒к·к°к═к⌠к∙к≥к≈к■к▒к┼к┬к┤к┤к└к└к▄к≤к■к≈к▒к░к█к▀к░к√к≈к■к▐к░к░к⌠к⌡к≈к▒к≈к∙к²к░к█к░к≈к▒к▓к≤к∙к█к▓к▓к█к▒к▒к▓к▒к░к▄к▒к²к╓к║к÷к═к╖к═к²к═к к≈к÷к·к║к═к═к║к²к÷кёк╒к╔к╗к╖к╕к╔к╚к╞к╟к╝к╚к╛к╚к╕к╗к╒к═к╔к║кёкёк╒к╖к╚к╕к╙к╘к╙к╠к╢к╠к╜к╠к╚к╜кёк÷к╘к÷к≈к√к≈к²кёк╖к╚к╓кёк║к═к═к╒к÷к║к║к▒к░к▓к┼к┼к┤к┌к│к┘к┘к┘к│к┐к▄к░к░к▄к▌к▌к⌠к┬к▄к█к█к░к⌡к▒к■к┼к▌к░к≤к▐к▀к⌠к▌к█к▀к▐к▌к■к▓к▒к к▒к⌠к∙к≤к┘к▀к⌠к▓к≈к·к≥к²к╖к╗к╒к║к²к²к≤к≈к≤к°к÷к╓к·к║к╒кёкёк╓к╓к╖к╓к═к╓к╖к╖к╔к╗к╔к╔к═к≥к≈к√к■к░к√к≤к²к═к°к╕к╔к╔к╔к╓к╘к╘к╝к╜к╗к╛к╔к═к╔кёк⌡к⌡к∙к▓к∙к≤к°к÷кёк╗к╓к╗к╔к╔к÷к к≥к▌к▄к█к┼к┴к┼к┘к│к─кк│к┐к└к└к∙к≈к∙к▄к▄к▄к▄к█к▓к▐к┴к┤к┴к∙к≥к·к к║к⌠к⌡к⌠к⌠к▒к⌠к█к▒к█к┴к┘к─к┘к├к┐к≥к║к≤к■к∙к⌠к≤к·к║к╗к╞к╞к╕к╩к╞к╙к║к╞к╚к╗кёк╒к╔к╖к╖к╘к╖к╘к╓к╕к╝к╜к╘к╗к╛к╚к╔к╙к╒к÷к·к≥к■к√к■к√к≈к╒к╓к╒к║кёк╔к╙к╕к╒к╓к╔к╕к╔к║к²к≤к≈к■к к°к≤к≈к°к╓кёк·к÷к║к╒к²к╓к⌡к≈к≈к█к▐к┘к░к▓к┴к≈к┴к▀к┐к┌к~к├к┼к▀к┴к┴к█к┼к█к▒к▒к▓к▐к▌к░к▓к■к▌к┘к┼к█к┘к┘к▄к▄к▓к┬к▄к┬к▀к┤к┘к▀к┼к▄к▓к■кёк²к▒к⌠к²к÷к╜к╛к╤к╢к╞к╖к║к╒к·к╒кёк╘к╕к╒к╗кЁк╗кёк╒к╘к╘к╝к╕к╚к╘к╚к╖к╗к╗к╓к╔к╓к╒к÷к≥к▓к▌к▌к к≤к°к²к²к═к÷к═к║кёк╓кёк╒к÷к╒к║к·к²к∙к▒к≈к■к∙к√к≈к≥к≤к²к к²к╕кёк к√к∙к▓к▒к┴к┘к┘к░к▐к┼к├к}к{кк┘к├к┤к▓к≈к▒к▐к├к▄к▀к┼к┐к█к┴к┬к┘к├к┘к┼к▄к┤к┬к▄к▐к▌к▄к▐к▐к█к┼к▌к▀к▄к▌к░к▓к°к÷к≤к≥к·к²к²к╕к╞кбк©к╫к╨к╨к╥к╛к╢к╚к╙к╔кёк÷к²к║к╗к╔к╕к╗к╗к╚к╚к╙к╚к╕к╖к╖к╖к╙к╖кёк²к·к≤к∙к▐к▀к▀к≥к≤к к⌡к⌡к°к÷к╓к╒к²к╒к═к°к⌡к·к∙к⌠к▄к█к к≤к≈к°к к к═к═к²к к≈к║к≥к⌠к≈к┐к┌к┘к├к├к┬к┤к└кzкzк{к~кк┤к░к▒к█к√к≈к▐к▄к▄к▀к┴к┤к▄к▓к⌠к█к▐к▒к⌠к░к▓к░к■к▌к▓к√к░к▀к▄к▄к┬к▀к┤к▌к▄к░к÷к√к∙к√к≤к≤к²к║к╕к╓к╛к╙к║к╓к╓к÷к║к╒кёк╖к╖к═к╗к╙к╓к╘к╖к╙к╙к╘к╓к╖к╕к╗к║к²к╒к╘к╔к≈к░к░к█к⌠к²к²к⌡к·к°к═к⌡к²к╔кёк╔к═к⌡к²к╗к≥к░к░к∙к≥к°к²к≤к≈к═к≤к≈к√к≤к∙к≈к·к⌡к√к▌к└к├к└к▄к┬к▌к▀к┘к─к┌к┌к─кк▌к█к┴к┴к▌к▌к░к▓к▒к░к▄к┼к┬к┴к▐к░к█к▀к▌к▀к▀к▓к░к▒к▒к░к▐к▐к░к▒к▌к▐к█к┼к■к■к∙к≤к≥к√к·к╓к╚к╖к╝кёк╡к╖к╘к╖к╓к╓к═к║к≥к²к÷к║к╖к╚к╛к╡к╡к╙к╛к╘к╓к╙к╘к╕к╖к╔кёк╔кёк²к⌠к⌠к▄к█к┼к▓к░к▒к⌡к°к≤к к²к═к°к²к к√к▓к≈к░к√к▓к√к▐к▐к▄к▓к█к▐к▓к≈к∙к∙к≈к√к■к▓к⌠к└к│кк~к┐к└к┌к┐к┴к┘к┼к▐к█к┘к┤к┼к▌к▐к▐к▒к▒к▌к▒к⌠к▌к▌к▐к≤к≤к√к▌к░к░к▄к▐к┼к▌к█к├к├к▌к┼к┼к┼к▀к├к█к┴к▄к▒к≤к°к≈к÷к⌡кёк╔к╓к╔к╒к╔к╒к╙к╞к╚к╘к═к÷к·к═к÷к╒к║к╒к╒к╓к═к╚к╖к╘к╔к╘к╓к÷к÷к÷к╖к╛к╒к≥к√к≈к■к■к═к°к⌡к к к⌡к≈к√к√к°к≥к▒к▒к√к░к▓к█к┼к▀к°к■к≈к≤к▓к▓к⌠к⌠к▓к▓к▐кёк÷к²к▄к┐к┌к├к▀к├к┤к┐к└к┤к⌠к█к┴к┤к┼к▌к⌠к⌡к°к к▓к∙к≤к≈к∙к⌠к⌠к≤к∙к⌡к≈к⌠к≈к∙к⌠к∙к⌠к▓к≥к⌡к≥к≈к∙к≥к▓к░к┼к▀к▀к█к■к║к╒к╒к╖к╙к╚к╗к╙к╙к╞кЁк╗к╕к╔к╒к═к╔к║к═кёк╒кёк╚к╚к╗к╕к╘к╗к╓кёк╓к╚кёк║к╘к╜к╘к║к═к·к≈к░к▄к┴к▌к■к≈к≤к∙к√к▒к≈к■к≥к■к⌡к⌠к░к░к▒к▄к▒к к├к█к▌к■к√к√к∙к■к√к≈к≈к∙к▓к■к░к▄к┘к┴к┤к▒к∙к▐к▒к≈к▐к°к к к■к∙к к°к°к к к°к≤к⌡к≤к≤к≈к∙к░к■к■к■к≈к■к≈к≥к╒к╛к╝к·к■к■к·к÷к⌡к∙к▌к█к▄к⌠к√к░к≈к÷к║к к╒к╖к╙к╣кЁк╞к╜к╗к╕к╓кёк╞к╕к╗к║к╓к·к≥к╒к≤к°к╓к²к·к⌡к═к⌡к к°к⌡к║к╒к╒к÷к∙к⌠к┼к▐к■к▄к┤к█к░к░к▐к√к≤к╘к≥к·к°к²к≈к≥к∙к▒к≈к░к▀к░к▒к▐к≤к≥к≥к▓к■к∙к≈к к√к≈к∙к┘к┤к├к┤к├к├к┴к┴к▌к⌠к²к÷к║к≥к°к√к■к°к≤к∙к■к≈к≥к≤к·к≈к≥к к к⌠к■к≤к∙к∙к∙к▓к▐к■к▒к≥к▓к√к≥к⌡к²к√к⌠к∙к▒к░к▓к⌠к÷к≤к к≥к²к·к║к║к╖к╔к║кёкёк═к²к√к∙к≈к≈к≤к≥к╓к═к⌡к≈к≥к°к÷к к⌡к к⌡к≈к≥к≥к√к≤к░к█к┬к█к┘к┴к┘к∙к∙к█к┴к▓к√к√к∙к к√к▐к▒к░к∙к∙к▓к≤к к·к√к╕к═к═к║к÷к░к⌠к∙к▓к≥к·к÷к┘к┐к┼к▀к┼к┴к░к▓к▒к°к║к╟к©к╣квкцкфкикгк╜к÷к≈к√к к≤к≥к≥к≈к·к║кёк║к≈к■к°к∙к▐к▒к▐к√к░к к²к≤к≤к∙к²к≥к°к√к к≤к·к╓к÷к╔к÷к²к║к║кёк╜к╡к╣к╕к╔к╚к╠к╗к═к⌡к÷к╓кёкёк═к°к≤к≤к⌡к≥к≈к√к▒к√к≤к≤к⌠к⌠к░к█к▄к┴к├к│к▒к≤к░к²к░к▓к∙к░к⌠к к╒к÷к╓к═к■к■к√к°к╒к╗к╕к╕к╓к╔к═к²к²к√к√к√к╗к²к≈к┌к├к▀к▀к┴к┼к┴к█к┼к▐к▓к∙к≥к²к·к²к≈к≥к≈к≥к▒к≈к≥к■к▓к∙к■к≈к≈к√к⌠к░к■к█к▀к▄к▐к░к█к░к▐к⌠к░к┬к≥к├к┬к┬к┼к░к▓к▓к к≤к⌡к≤к≥к√к√к≥к к°к≤к к≈к∙к∙к≥к≥к√к∙к▒к▄к▌к▓к⌡к·к°к■к■к≈к╕к²к·к к²к≈к⌠к▒к≤к▓к█к▄к▒к┬к▌к▄к▄к▀к⌠к■к⌠к≤к⌡к√к≤к²к╒к÷к⌡к÷к°к⌡к⌡к·к║к═к═к╗к╙к╖к²к·к⌡к²к║к╓к÷кxк}к┐к░к▄к к⌡к∙к⌠к■к■к⌡к═к╕к╔к╕к║к╒к к∙к⌡к∙к≥к≥к≤к≤к к к╘к═к═к■к≈к░к■к█к▌к▒к▌к▓к▌к░к▐к┴к├к┘к┴к▀к▀к▀к▄к▐к░к■к∙к■к√к∙к∙к≥к÷к≥к≤к∙к░к к≤к░к▒к≈к░к≥к█к█к≈к√к√к■к к⌡к∙к░к⌠к▓к▐к■к▄к░к░к┴к▌к█к┘к┐к┴к░к═к║к░к┼к▓к▐к▒к≈к к·к⌡к к≥к°к°к к·к⌡к═к÷к÷к·к²к÷к║к°к∙к°к≥к≈к≈к≥к▄к▓к▓к▌к┴к┴к█к░к▒к≈к■к≈к²к╔к╕к╗к═к║к≈к°к²к к≤к≈к≥к°к·к°к°к∙к≈к■к▒к⌠к▀к┼к▀к░к█к▄к▄к┼к▀к┬к┌к┬к┌к├к└к├к├к▄к▌к⌠к∙к⌠к▓к▓к√к⌠к⌠к∙к√к⌠к√к░к▐к⌠к┬к▌к▌к▀к▀к█к▌к░к▌к▐к█к▄к■к▐к▐к▓к█к┘к├к├к┼к█к▐к▌к┴к┴к▌к┴к▀к█к∙к■к≥к²к≤к⌡к·кёк÷к·к═к÷к≥к·к к║к⌡к·к к√к√к⌠к∙к▓к■к°к²к к·к°к{к{к└к┴к▀к▐к▒к■к∙к к√к≤к⌡к·к÷кёк°к═к╔к²к²к·к╒кёк÷к╕к║кёк к⌡к≥к∙к▓к▒к▄к▌к┼к┘к┴к┴к░к┼к┴к┤к┘к┬к├к┌к┘к┼к┐к┴к▐к√к∙к▒к√к▌к▀к█к■к√к⌠к√к⌠к▒к▐к┬к█к░к▐к▌к░к┴к┼к▌к▄к▐к█к▐к█к┬к┼к▌к▄к▄к█к▐к▄к░к▐к≈к²к÷к⌡к²к╕к║к║к╒к·к²к╒к╝к╛к÷к≥к⌡к·к²к║к║кёк╒к╖к═к≤к°к⌡к■к▓к≥к≈к√к≈к√к≤к≈кzкк┴к█к≈к■к⌡к⌠к к к≤к°к⌡к⌡к╒к╗к║к╚к╓к╒кёк╔к÷к╓к°к·к╒к╖к╒к⌡к╒к к≥к⌠к∙к■к▌к┘к├к┌к└к├к└к┘к|к~к}к│к┘к┼к┤к┘к┐к┤к┬к▐к▐к⌠к░к┼к▄к▀к┴к┴к▒к▀к▌к┤к█к▀к▌к▌к▄к▀к▐к░к▒к⌠к▓к⌠к▓к▒к⌠к■к≥к∙к∙к▓к█к▌к▐к▄к■к▐к▒к▒к∙к■к▓к∙к°к╓кёк╖к÷к═к÷к╘к═к║к÷к╓кёк═к÷к√к≈к▓к⌠к⌠к▐к▀к⌠к≤к²к·к²к к|к┌к░к▒к⌠к▒к▒к▒к▓к⌠к∙к▓к■к■к║кЁк╠кЁк╡кйк╔к²к⌡к²к⌡к≥к⌡к⌡к²к╒к√к∙к⌠к▄к▀к├к└к│к├к┤к┼к■к░к▄к┤к┤к├к├к├к└к┘к┘к┤к┼к▀к┴к┼к█к┼к┴к┴к■к■к∙к░к├к└к└к┼к▀к┼к▀к к∙к▓к∙к≤к∙к√к к≤к√к▒к█к▌к≈к▒к░к┼к┴к≤к≈к∙к■к■к⌡к▒к░к⌡к°к═к⌡к╒к╕к╕к°к√к≈к⌡к°к·к·к╔к║к║к÷к║к к≥к≤к≈к√к⌡к·к║кёк║к÷к┴к▄к█к░к√к÷к÷к²к к°к≤к≥к·к═к║к╚к╟к╗к к⌡к≥к≤к√к·к²к÷к·к═к⌡к∙к≤к■к⌠к▐к▒к▀к┴к└к▀к▄к▌к▀к┤к├кк│к}к┐к┤к└к┘к┬к┤к█к█к▄к▐к░к▌к░к⌠к√к÷к═к к▓к▌к█к▄к┬к┤к▄к⌠к√к■к≥к∙к≈к к⌡к≥к к√к▐к■к⌠к²к≤к▒к⌠к■к╗к╔к√к√к√к≤к░к▒к░к⌠к≈к≥к°к╔к к√к≤к║к·кёк║к═к°к·к°к²к⌡к≈к≤к к∙к·к═к╒к╒к═к═к┌к─к┴к▐к к║к║к═к⌡к⌡к÷к═к к к⌡к к²к²к к√к≈к≤к≥к к²к⌡к°к°к°к÷к≥к к▒к▌к▀к┼к┼к├к┌к├к└к─к└к└к┴к┐к}к─к│к│к√к▐к▌к∙к≥к≈к■к≈к≈к≤к■к⌡к к√к⌠к к к═кёк╓к≥к√к∙к░к▀к▀к▐к⌠к°к÷к═к°к≤к°к⌡к╒к·к▒к▌к∙к∙к∙к░к∙к■к▀к░к▌к▐к█к▐к▐к▐к█к┤кёк■к█к■к█к▓к░к⌡к⌠к▐к▐к░к⌠к⌠к∙к√к к·к═к÷к═к к к┼к┴к▒к█к▐к√к≤к°к≈к°к к╒к╔к╒к²к⌡к⌡к≤к≤к√к к∙к≈к≈к к≈к·к÷к·к°к°к≈к∙к▐к┼к┬к│ккккк}к└к▀к▄к┼к▄к▐к▌к≤к к≤к≈к≈к⌡к≤к·к√к⌡к²к≤к√к к≤к■к■к≥к╓к╛к╜к╓к≥к⌠к∙к∙к∙к░к⌠к≤к²к°к≈к≤к≤к▓к▌к⌠к░к■к≈к∙к к√к⌡к√к■к▓к⌠к▓к≤к∙к≈к∙к∙к▒к▐к▀к┴к┤к┼к▀к≈к▓к≈к▐к═к≤к∙к к°к²к■к≤к к≥к≈к≈к·кzк}к└к┘к┼к≥к▐к■к■к▓к≤к║к°к≥к⌠к▌к▓к▌к▌к▒к┴к├к┬к┼к▌к≈к░к√к▓к▓к∙к▒к▓к┼к├к▄к┐к┌к}к~к┐к│к█к┴к▐к░к▒к√к⌠к≤к≤к≥к·к²к≤к²к≥к°к≤к⌡к≤к⌡к÷к⌡к⌡к°к÷к·к²к÷к к²к⌡к°к√к⌠к░к▄к▓к░к⌠к≈к∙к°к≈к≥к≥к≤к■к▓к≈к·к°к╓к≤к⌡к к⌠к≈к≤к°к■к≈к√к▒к▌к▌к░к▓к≤к▐к▓к█к▀к┤к░к▓к▌к∙к▐к█к█к█к▓к░к█к▌к▐к|к─к┘к∙к▌к█к∙к■к√к√к∙к≤к≥к⌠к■к▓к▒к▐к▐к▓к▀к┼к┬к█к■к▓к▓к▓к■к∙к⌠к▌к▄к┴к┬к└к┤к│к{к|кк~к┘к├к▀к█к■к≤к≈к к÷к к°к²к²к к÷к÷к÷к·к⌡к═к⌡к²к к·к≥к≤к⌡к²к≤к√к⌠к∙к√к▐к√к⌠к■к▒к√к■к≈к≤к■к≤к▓к▐к▐к▓к▒к▒к▌к▐к■к⌡к∙к≤к≥к≥к≥к≥к°к⌡к⌡к∙к▒к▄к▐к▄к┬к┬к┴к┴к└к┤к┴к▄к█к■к█к≈к■к⌠к∙к■к≥к▓кzк}к~к▓к▌к▌к▒к▓к▐к°к√к∙к√к≤к∙к▒к▒к▄к▌к█к┘к├к┬к≤к▐к∙к⌡к⌡к■к▌к▌к┼к┴к┴к┬к├к├к┴к┘к┤к▄к▌к▄к┴к┴к▓к⌠к░к▓к к°к°к═к²к÷к╔к°к║к╒к⌡к╫к·к°к²к²к·к≥к°к°к°к≈к к■к≈к⌠к▓к⌠к⌠к√к≈к≤к≤к■к≥к√к▒к⌠к≈к√к∙к≤к≤к°к░к√к■к⌠к▓к√к∙к⌡к∙к▓к∙к к≥к·к■к┴к█к▒к▐к▀к▌к┼к▓к▒к▐к▓к▌к⌡к▐к▌к█к▓к▐к▒к▓кxк{к└к┌к░к█к┼к█к▐к▄к▐к■к≈к≈к■к░к■к▒к■к⌠к░к▐к█к┤к▄к▐к░к⌠к▒к▀к┴к┼к▀к┬к▀к┤к┌к┐к┬к┴к┼к┬к┬к└к┼к┬к▀к█к░к▒к░к▒к▐к⌠к▓к∙к≈к≥к к к°к°к к≤к▒к▐к▌к▐к▌к┼к░к▒к∙к▓к▓к≤к∙к∙к∙к∙кёк≈к≥к═к к■к■к⌡к к к√к к≤к■к≥к÷к°к к╔к╔к║к⌡к²к≈к⌠к▒к▀к▐к▒к└к┤к├к┼к├к└к┐к┐к┤к┘к┌к├к┼к░к▒к≥к▓к▄к▀к┼к┴к┤к┘к▐к▒к⌠к▐к■к▄к▄к▀к▓к▄к▌кчкёк▓к▓к°к▐к▓к█к▐к▐к▌к▒к▒к░к▒к▒к█к█к┬к┴к▄к▀к▀к┴к▀к┼к┴к▀к█к≤к■к■к▓к≈к░к∙к√к≈к≈к√к≤к≈к к║к⌡к═к∙к■к∙к▒к▓к▐к┴к▌к┼к▄к▓к▄к├к▄к▒к⌠к⌠к▓к≥к≤к∙к≥к к°к≈к∙к≥к≤к≥к≈к⌠к≥к÷к║к²к÷к≈к°к·к·к·к·к═к≈к≤к╘к к∙к░к▌к┼к≤к■к▐к┬к┬к┴к┴к┤к▄к┬к▐к▐к▐к▌к▀к┼кwк{к│к┌к┴к┘к┴к├к┬к┼к▌к░к█к▌к░к▐к▄к▄к▄к▌к▐к┬к┬к├к┬к┴к┬к▀к▄к█к┴к▀к┼к▄к▐к░к▓к▐к⌠к░к░к⌠к░к≤к к≤к∙к∙к■к к⌡к≥к к°к═к═к╓к║к║к═к к²к²к к к⌡к≈к√к√к■к▒к▀к▄к▄к▒к▓к■к░к▒к■к°к²к≥к≥к≤к≥к⌡к≈к к√к≈к≤к√к≈к≈к≥к²кёк к═к²к°к²к╔к║к∙к÷к▓к≤к░к■к▌к▄к┤к┤к┴к└к├к┤к┤к▄к▀к┼к┬к┬к┼к▄к├кк┌к┐к┬к┴к├к■к┘к░к▐к█к█к■к▄к▒к▌к█к▄к┼к▄к┴к▄к█к┴к├к▀к┴к█к┴к└к├к┤к┤к┬к├к┘к┴к▀к┤к┼к┼к▄к┼к▐к▐к⌠к⌠к⌠к≈к⌡к≈к⌠к∙к°к║к╓к╖к╕кёкёк╒к°к÷к÷к≥к≥к≈к∙к√к█к▄к┴к├к┼к┬к█к┴к█к█к⌡к к⌡к²к²к⌡к к⌡к⌠к√к√к⌡к∙к⌠к▒к·к к≤к≈к°к°к║к÷к°к÷к·к∙к■к⌠к■к░к▄к▒к█к┌к┐к└к└к┘к┐к┘к┬к▄к┤к▄к█к▐к▒к▒к}к┌к┌к┴к├к┴к┼к▄к▀к▌к▀к░к▄к▌к▐к▐к▌к▀к░к░к▒к▒к▌к■к▄к▀к⌠к▒к▄к┴к▓к┬к┬к┘к┘к┐к┌к┤к┤к▄к┼к█к▌к≈к√к√к≥к⌡к·к≤к√к≤к⌡к²к≥к к╓кёк╓к═кёк╗к║к°к≥к÷к≤к√к∙к∙к▄к┴к▄к┴к┼к└к▐к▐к∙к≤к∙к к⌡к╒к║к²к÷к к≥к╕к╒к·к·к║к║к к°к≈к■к·к≥к║к≥к╔к²к°к≤к∙к▐к▌к▌к┼к┤к┘к├к┴к└к┘к┘к┤к┬к⌠к▌к▄к█к▄к■к░к}к|к─к┐к█к┴к├к┴к┬к█к┼к▀к█к░к▐к█к⌠к▌к⌠к■к÷к∙к∙к≤к√к⌠к⌠к⌠к▌к▐к▄к▐к┤к┘к┴к░к▄к▐к█к к∙к▓к⌠к≤к⌡к°к к⌡к°к║к°к╒к═к║к²к²к к⌡к·к╒к÷к╒кёк╔к╕к╓к÷к≈к⌠к√к▒к▐к┴к└к┘к┐к┴к▀к▀к▀к°к∙к▓к░к∙к÷к²к²к⌡к▓к■к⌡к√к к·к°к╓к²к÷к≥к⌡к°к⌡к°к⌡к⌠к≈к⌡к▐к▓к█к█к▀к▄к┬к┬к┴к├к┴к▀к├к├к┤к▓к┴к┬к▐к▀кsкzк│к▄к┼к┬к┬к┤к├к├к┴к┼к┌к─к┴к▀к└к┤кк▄к┤к┬к▄к█к▐к⌠к▐к▒к▐к▐к▐к▓к▀к┤к▀к▀к┘к▄к▌к▒к⌠к∙к∙к░к■к≈к▒к≈к≈к⌡к╒к╓к║к║к║к÷к·к║к÷к═к╒к÷к·к°к к к≈к√к⌠к▓к∙к┬к├к│к░к░к█к∙к║к░к≤к⌡к⌡к°к≤к≈к≥к к≈к√к≈к▒к▐к▒к·к·к²к²к÷к■к▒к■к∙к⌠к≥к√к÷к√к■к▒к┼к┴к┤к┌к├к─к┐к┐к┘к▌к┼к┤к┤к█к▄к▓к▒к≤кzк}к{к─к┐кк┐к┘к│к┌к├к▄к┤к┼к┤к▄к┤к┼к┴к▀к▄к▄к▒к▐к▌к░к⌠к≥к▌к▌к░к▐к▌к▓к┤к┘к┤к┴к▄к▄к▄к≥к∙к⌠к■к■к√к≤к≥к⌡к⌡к·к°к⌡к⌡к÷к²к⌡к·к°кёк╒кёк²к к÷к≤к≥к▒к█к┬к┬к├к┘к┤к▄к▌к⌠к к≥к≈к⌡к≈к√к■к≈к≈к к к√к▓к░к▌к░к▌к▐к▒к²к к÷к°к°к∙к∙к≤к≥к≈к≈к░к▓к■к▌к┴к┼к▄к├к┼к┌к┴к▌к▐к∙к∙к⌠к▌к░к▓к░кrкzк└кк─к│к▀к┘к┤к▀к⌠к┬к┴к┬к┴к▄к█к█к░к⌠к░к▌к▒к⌠к▐к▌к▒к░к▌к┼к▌к∙к≥к∙к▀к█к┼к▌к▐к▒к√к≤к≥к√к≤к≤к√к■к≥к■к к²к·к²к к²к°к°к°к·к÷к·к║к║к═к·к к°к▒к■к░к⌠к▓к┘к─к├к┬к╛к▐к⌠к≤к≥к≥к▒к░к■к╗к≥к∙к≤к▓к■к▌к▒к▌к▒к■к▒к к█к∙к∙к⌠к█к⌠к⌠к▓к⌠к▓к■к⌠к▄к└к▀к┼к┴к▄к▀к█к▌к▀к▀к▄к▌к┼к░к▐к█к▀к▓к▌к░к▄к▀к▄к▀к■к▌к▐к∙к∙к к∙к≥к√к≤к√к≈к≈к≤к°к к°к²к·к°к·к⌡к≈к≥к к∙к▌к▒к▐к■к⌠к⌠к к≤к≤к²к²к≥к■к√к⌡к∙к⌡к·к÷к·к÷к²к≥к÷к к⌡к·к·к║к²к°к·к к═к²к▓к▌к⌡к═к²к╒к√к≤к■к■к█к√к√к■к∙к∙к≤к≥к√к∙к∙к■к▓к█к┬к▌к▄к▓к█к▀к▒к≈к■к■к√к■к█к█к▄к┼к▌к▄к┬к┼к┼к┐к┐к─к─к┐к┤к┬к≈к█к█к█к√к▓к▐к┼к┬к┴к┼к▄к┴к■к■к■к▒к≈к■к√к≥к≥к√к⌡к═к²к═к·к═к║к·к╕к╘к╓к╒к÷к≥к°к°к√к▐к▐к░к░к▐к▒к⌠к≤к°к⌡к≥к═к°к⌡к≈к≤к к²к²к÷к≤к≤к≈к⌠к≥к≥к≤кёк╒к к²к╒к║к к⌡к≥к∙к█к├к▄к┌к┤кк┌к┴к▄к█к█к≤к∙к▓к⌠к■к⌡к▓к≈к°к°к≤к≥к≥к≥к╛к²к╟к²к√к⌡к║к²к╒к к≥кёк°к▓к≈к═к║к╔к╓к·кёкхк╗к█к°к√к▐к⌠к▐к■к■к⌠к√к┼к┐к┤к└к█к▌к█к░к√к∙к▒к▓к⌠к∙к⌠к⌠к∙к≤к⌡к°к═к╒к°к°к²к²к°к·к°к к°к⌡к к≥к к÷к√к≥к⌡к≥к⌡к°к·к╒к·к÷к═к²к°к²к⌡к÷к≈к к⌡к√к≈кёк²к·к╔к╔к╒к╙к╕к╓к·к═к√к√к░к█к┘к┐к│к┐к├к┴к┤к▒к▄к▐к■к≥к⌠к┬к▒к▀к▐к▒к▒к▒к▓к▒к≥к⌡к√к▌к≤к≥к√к┼к√к═к╚к⌠кАкЁк╒к╚к⌡к⌠к█к┘кмк╓к▓к╗к╕к⌠к░к⌠к▌к▐к░к▓к▌к▒к▀к├к┤к▀к┤к┼к∙к▓к∙к⌠к▓к░к░к▄к⌠к▒к▓к▒к■к≈к≈к≥к║к⌡к≈к≤к√к к·к≥к к⌡к≈к■к∙к√к║к╖к╗к╚к√к≤к√к∙к√к═к╓к╗к╒к²к║к°к к≤к≈к≤к≤к²к²к≥к²к°к²к·к≥к∙к к∙к≈к▓к▒к├к┐к┐кк─к|к|к┌к┼к╘к∙к⌠к√к≈к√к░к░к▐к■к≈к∙к²к║к⌡к≈к▄к▒к°к⌡к╞к⌡к∙к╩к╗к╜к╖к≈к■к≥к∙к⌡к⌠к▀к┼к├к▀к▀к░к▒к┴к┤к─к■к═к▓к▓к∙к┴к┬к▀к▐к█к▓к▌к≈к▓к■к∙к⌠к▒к░к▐к■к■к■к√к■к∙к к≈к к≈к≈к≥к≈к≤к≈к√к≈к√к⌡к⌡к⌡к≈к■к■к√к к■к≈к⌠к√к√к⌡к·к═к²к≤к к■к▓к░к▒к▌к▐к▌к■к▓к∙к⌡к≥к≥к≤к к∙к▐к▐к┼к┘к├к┌к~кyк{к{к│к─к┐к┘к∙к▌к█к▀к░к▒к▌к▒к░к▌к▌к┼к▀к·к╗к╒к≥ккк╔к╕к÷к╟к▓к≥к╙к░к▌к▌к█к≈к▌к▀к┴к▀к▀к█к┼к┼к▒к▐к∙к≈к▒к≥к∙к∙к                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                uк|к{к{к┌к┌к┼к├к┌к┐к┬к█к▌к░к┼к▐к▌к▌к┼к▐к▌к▐к▐к■к▒к█к▐к░к▓к■к▒к░к▒к▓к▓к▒к≤к░к∙к▄к▐к┬к█к▀к┼к┼к▀к┼к┬к├к▀к└к├к┤к│кк|к}кxк~к└к▌к▄к█к█к■к█к▀к┼к┬к~кyкxкyкtкrк│кzк┌кzк~к~кк│к└к├к┐к├к┤к├к┘к└к│к┌к│к│ккк┐к{к|кxкvкvкuкxкsкxкuкuк|к{к├кк}кк|к}к┬к┬к┤к▀к▐к▄к┬к┤к│к┤к─кuк{к{к└к▌к⌠к┼к▓к⌠к░к▒к▒к▓к■к▒к█к█к█к▐к█к▌к▌к░к▌к≈к⌠к⌠к∙к∙к к≤к≤к√к≤к⌡к≥к⌠к∙к∙к∙к▄к▐к┴к┼к▌к▐к≥к≤к√к░к≈к░к█к}кyкuкsкqкsкyкzккк┌к░к┬к┐кккzкxкtкrкnкwкuк|к┌к├кzк|к{к{к}кк└к─к{к}к─к┤к└к┌к┴к▄к▌к┤к▄к█к┘к├к─кк┌к┘к└кxкyк{к┴к}к}кzкyк~кxкк~к┌к┐к├к┘к─к─кxк┤к░кsкrк─кzк}кyк|к└к⌠к▀к┼к▄к⌠к▓к▒к┼к├к▄к█к┴к┬к▓к░к▌к▌к▐к▒к▐к▀к▐к▌к▒к■к░к√к▓к√к▓к▌к▌к▒к┼к┬к│к}к┌к└к┘к┌к┐к┴к┘к└к┐к┌к└к}к{кwкtкtкк▀к┌к{к|кк~к~кк─к|кvкwкzкzкvкwк}кzк|к|к|к|к~к{кк~к{к┐к┐к├к│к┤к┘к└к┘к≥к─к|к{ккzкxкuкsк{кxкqкvкtкuк}к|кwк|к─к│к│к┐к┐к│к┐к─к│к│кк┘кnкtкoкsк{к}к┐к┤к├к┘к┤к▄к┼к█к⌠к░к▐к░к┬к┴к┼к┘к┤к┤к▀к█к▄к▐к▌к░к▐к≤к≈к■к⌠к■к▐к▒к▄к┼к▄к├к┬к┴к┤к■кк~к┐к┌к┘к┐к┘кzкwкuкqкtкzкsкrкtкzк~к{к|к┘к{к}ккк|к│кzк{кxкwкxкzк}к|к|к}кк└кк~к}к┌к┌к└к│к─к┌к└к┐к│к─к~к│к┤к{к~кxкuкyк│к|кuкsкxкsкzк|кxкzкxкwкyкvкvк├к~к~к│к{к~к│кjкnкyк~кyкzк~к┐к├к├к█к░к▐к█к▒к√к■к■к√к⌠к■к■к▓к▓к⌠к∙к■к■к▐к▄к░к∙к≈к≈к√к≤к√к⌠к▌к▐к▀к┴к┘к┐к{ккyк}кzк}к~к~кк{кvкvкuкuкqкoкsк{кuкpк~кvк{кxкxкwкyкyкuкpкwкrкyкvкvкtкwкuкvкsкqкpкnкnкlкpкuкoкrкtкyкuкuкuкyкtк┼к┴к█к▀к█к▐к⌡к■к▓к▓к▐к┼к┼к█к▌к⌠к▐к▐к█к⌠к▓к▀к▌к█к█к▒к▐к▀к_к_к^кfкgкnкuкzкzк|к─к├к┴к█к▐к▄к√к∙к■к▓к▓к▐к░к░к▐к█к■к▒к▐к░к√к░к░к■к√к⌡к■к⌠к▒к░к▄к░к├к┘к└к│к┌к│к─к├к─к└к~кyк}кvкqкwкpкlкrк─к┘к└к─кrкrкwкuкuкvкrкqкvк}кwкnкqкsкqкqкnкoкmкkкfкgкpкmкrкvкvкyкyкк~к┐к┴к┘к┴к┼к▄к├к┼к┼к░к∙к▀к▌к∙к к≤к√к≈к≤к≤к■к▓к░к▓к√к⌠к≤к≈к∙к■к░к┼кYк\кgкhкnкrкsкqкwкxк~к┐к┘к▌к▌к▓к▐к▐к▄к√к■к■к■к▐к░к█к▄к┼к░к⌠к■к≤к⌡к²к°к²к╒к║к°к к▓к▐к√к≈к⌠к▄к┬к├к┤к▄к▀к┼к┐к│к~к{кtкqкqкrк}кvкqкnкwк{к{кsкrкqкpкqкtкrкoкrкqкsкrкqкoкnк~к┘к└к─кyкqкuкyк|к─к┐к┐к▌к█к▓к┤к█к▌к▐к░к▒к░к░к≈к⌠к≥к∙к≤к⌡к≤к к≥к≤к≈к⌡к к·к≤к≥к к√к к≤к▌к┬к▀к`к`к[к_кiкuк{к│к│к┌к─к─к┌к┤к┤к┼к▄к▌к█к■к≈к≤к⌠к▓к░к▌к█к▄к▌к█к▓к▒к░к▒к√к▓к▐к▒к▐к░к▄к┬к├к└к~к┐к─к└к┼к┌кк├к┬к{к}к}кqкkкnкnкoкkкlкiкnкoк~к┌к█к└к{кkкlкiкhкlкrкmкmкlкkкoкmкpкhкdкbкfкjкmкoкsкtкvкxкyкvкyкvкyкzк~к}кк|к|к{к~к}к└к│кк|к┌к┐к└к│кк┐кк~к~к{к~к{кyк{к─кTкTкYкtкtкxк|к}к┐к─к└к┐к├к┴к▄к▌к█к▐к█к▐к▌к▐к▄к┼к▀к├к┤к├к├к┬к┘к┼к┼к┴к┬к┼к▄к▄к▀к┴к┘к┤к┐к┘к┴кxкvкqкrкuкwкuк│к─к|кwкwкwкrкjкkкnкiкoкjкrкjкsкmк°кrкfкfкlкfкgкfкfкgкdкfкlкiкfкeкiкiкlкpкzкwкyк|к~к─кёк▐к▀к┼к┼к┴к█к░к┴к▀к▀к█к┬к█к├к▀к▐к▒к▌к░к▌к║к▓к┐к┐к┌к┌кк─к|кzк|к{к]кaкjкeкiкlкuк}кyк├к▀к▄к┌к├к┬к▀к┬к┼к┬к▌к▀к┼к▀к┬к┬к┬к┤к┬к├к┤к┴к┤к┴к┬к█к┤к┼к█к┘к├к├к┌к┐к└к┐к┐к├к┤к┐к~к┌к┼к─к}кzкyкvкyкqкsкpкqкlкiк▒кyкqк║к│кpкqкiкgкnкnкdк`кoкqкmкlкjкjкgкkкtкpкuкrкsкzкzкzк}к│к└к▄к┼к├к┴к┬к░к┤к└к┼к┤к┬к┤к─к└к└к┘к≤к▌к█к┴к┤к▀к┼к┐к│ккк|кzкxк}кzк\к]кgкnкnкrкnкtкxк|кк┌к┐к┤к┤к█к░к▌к┼к▀к▌к▄к▌к▌к├к┤к┼к┴к┬к┴к┴к┬к┼к┐к▌к┬к┐к└к┴к│к┘к┘к├к┌к│к┘к┐к└к▄к▄к▌к┘к┬к|кwкuкsкuкxкuкoкrкpкvкkкiкtкtкnкlкrкnкlкrкuкoкwкuкvкuкrкsкuкqкsк{к≈к■к▄кzкzк└к÷к·к░к▀к²к≥к∙к∙к├к┌к▀к┌кsкpкsкqк~к}к{к┬к┼к│кк│к▐к░к▀к┌к─к└кwкxкvкvк{к╛к\кdкeкrкwкzкsкwкyкuк}к|к┌к├к┘к├к┤к┼к┴к├к┤к├к┌к┐к┌к┐к┴к┬к┤к█к▐к█к█к▄к┤к┬к┴к┤к┐к~к~к┌к~к|кк~к┌к│к└к▀к─к|к}к~ккyк█к└кxкvк▌к┼к}кzкyкyкzк{кtк▐к}кyк┼к┘кxк}кtкzкxкzкsкrкsкnкqкpк|кwкmкvкuкsкtкuкtкoкrкxкzкvкwкxкxкwкvкqкpкpк|к~к|ккyк┌к}к|кuкyкtк─к├кtкtкpкtкyк|к{кkкgкpкyк┌ккк┌к┐к┘к─к┘к┐к└к┌к└к█к▀к┼к┤к└к┘к}к─к┐к└к│к~кк─к┐к└к┐к├к┘к└к└к┐ккк~к┐к~кyк~к|кк┌к┌к▌к┼к}к}к─кк{к~кwк┬кtкoк⌠к│к}к▀ккwк}кxкvкpкwк°к┘ккuк|кkкsкvкtкmкnкhкeкjкlкmкuкvк─к░кuк▄к┘кpкyкrк─к└кlкnкoк┼кyк|к─к~к└к┤к┴к▀к█к▌к┤к┴к┘к├к┌к┌к┘к┐к┘к├к└к┬к┼к├кgкgкgкkкnкpкsк}кк─к}кк┘к┬к└к┤к└к┼к█к█к┴к┘к├к└к┴к├к┌к┐к┘к┌к┐к┤к┬к├к├к┴к┤к┤к└к┐к└кк─кк─к┐к├к~к}кк~ккк|к|кzкvкvк{кwкmкlкsкpкcкrкgкjкoкmкpкvкwкuкuкuкrкoкrкtкlкlкiкiкgкoкrкrкvкpкuкwк{к|к|кwк{кzкxкyкzкuкwк▄кyк{кvкк▐к▌к▄к┬кtкjкqкsкnкoк▒к│к│к┐к}к~к|кxк└к┘к^кcкoкnкnкsкyкvкyк┌к~кк─к┤к┌к┌к─к┐к┌к└к┘к─к}кyкyк─к┌к┘к│ккк─к┐к┌к┬к┴к▐к┐к┐к│к}кzкzкyк~к─к┌к╥кЁк╞к·к╔к╠к╡к²к▐кЁк╝к╤к·к╝к╙к╤к╖кпк╤к╨кцкикфк╪к╨к╦к╝к╙кёк▓к█кк│к─к┐кvкoкsкrкnкmкnкtкxкuкrкzкzкzкzк├к┌кzк|кк│кк▀к┼к├к└к├к┴к▄к█к▒к▓к▐к▄к┴к▌к┤к┤к┐к┌к~к┘к┬к┐к┴к├кaкmкrкnкrкwк|к{к}к}кwкxкzк~кzкyкxкxкzкuкwкyк{кvкxкyкyкzк─к─к└к┌к└кк┤к└к├к└к┼к─к├к~к|к{кzк▄к■к√к█к█к▌к⌠к≤к≤к²к▓кyк²к┬кzк■кvк▄к▐к~к≤к⌠к▓к∙к▄к▓к▒к┴к▄к▒к┌к{кuкtкsкpкpкoкuкpкkкmкpк∙к┴к─к}к|к~к┐к~кrкxкsкtкsкyкnк┌кuкoкuкrкpкrкlкjкnк}кuк┌кxк~ккwкwк}кtкvкк┌к}к{кaкdкnкsк|кuкuкtкwкzкyк}кzк{кzк|кwкvкyкyкyк└к┌к─ккzк{к{к}к│кzк┌к{к{кyк─к─к┌к|к}к~ккк~к~к}к|к}кvкrкuкwкxкwкxкsкtкuкqкoкnкiкfкeкmкmкoкiкoкmкiкqкwкwкwк~к{к|к─к~к{кsкuкpкmкnкkкvк═к|кxкyкvкxкtкnкyк|кwкtкwк|к~кzкvкк│к|к|кxк{к~к└к~к┌к▀к█к▄к└к┌к└к~кzкxк~к─к└к┘кjкrкwкzкzк}к{кwк│к┌кк|к┘к}кzкyкwкsкwкvкzкzкvк{кк{к{кzкwкuкuкzкyкzк{к~к─к}кzк~кzкxк~к~к│к┤к│к├к┘к┘к┘к┬к┬к┘к┘к├к┐к┌к└к┌к─к┌к┘кк┌к│к┴к░к┴к┴к┐к├к│к{кsкuкnкqкsкuкsкnкiкsкqкrк|кsкdкhкgкjкjкpкtкsкqкwкqкtкvкvкoкvкtкsкwкtкtк{к~к┌ккк{к┤кzк|к{кuкyк|кxкyкzк┌к│к┐кxкzкtкк|кzк}к}к|к|к{кtкqкuкtкtкrкqкxкxк┐кyкzк}к}ккyк|к{кtкtкsкsкsкvкsк{к~к{к~к─к~кк┌к├к┘кк┐к─к└к│к├к┼к┐к┌к└кyкк└кк│к┌к─к│к└к┘к⌠к▐к░к┴к┴к┬к├к─кzкyкwкvкzкwкuкwкsкwкxк|кzкqкwкtкoкoкwкwкsкrк~к~к│к~кк|кxкpкwкyкvкsкpкrкpкrк└кrкuкuк~к~кxкsкvкvкzкwк~к─к{к|кkкkкiкnкuк~кuкtкjкtкxкuкwкuкsкlкiкnкjкmкlкmкrкzк}кsкrкpкuкoкpкtкrкoкpкoкqк~к┐к─к~к─к┌к└к▄к┤к└к└к┌к┘к┼к┤к└к│к┘к┤кк┴к├к┘к└к└к┤к{к}к}к|к~к┘к└кzккк─кzкwкwкvк{к|кuк|кwкzк┐к┐кк─кxкwкк│к}к┌к┌к~кzк└к├кккzкvкsкuкuкrкmкkкsкxкoкqкqкtкsкwк}к~к|к}кyкzк~к┬к▄к┤к┤кtЬ6р	▒!
+б╓≈ёЬ║$╒╘{j┐уLЕZA÷Ь─a(ык╘YЮ╩	d9	гSКЁ▒5Ш
+~d	╨O
+ц╙ 	²ЧL├P#Dz╩~≈;	Щ©ёыми
+u┐ й Аы/1SЪ~╛ЛY+РG ╢э╢бЩ{'▒ьOпЧ╤J╦┌о╝u!W═и╓╖	Инк╣≈ТCV═RLПГЧ■d≥╠.└0╟║ЭЁ	┘	в≥jH>	ш4°╢ Д≥ЙB╞*T┬ъV┴а{[	 ·О╧ЪС"█Р▓о╩╒║│Lt
+Ь+▐ЗФ7А
+÷e7e{Wе
+Y^>1!Уз:Ж╔┴	ъf2 V╥╜⌡(x~ ╧Сk╚+╨^l⌠╞LjR0k`√ЧS╠╨БУd╢{╢FЭ╢jh	ЪЕ┬ │╙aЪи8╘НеёрчgюR 	┴ъtVXQм╜√U	УЁ▐∙yhГ6"╛7╪ hYbъР4u╙
+Dпd┴hъ,≤&┘╜┌Рs{у╪nд┴▄uз▒²©Tl/[зъ┌╩goW,д╤
+╧╔	╗)У ╪;<
+у\Фёр&Шda	FmВ!"|е│]\3Ь :GpQ╙╜i╤PU,лчG0
+fV∙╘Eq	Sа 
+╘pВmЭ║
+сД9GЕ K
+3i Ё%r	┬²31
+у▓Ь╒У┐╞╒хЛXУf$
+`сvШ	W[█H╟ИЭВ⌡}жЁP√жч][Ч]	шАhьЖщд^
+ЩСd	мтжFIА)╟й┐1\∙N■d;	4Н°╙╦H┼И[Ф.eжd┐OЭkr@эH D	╩TU╠	 	aе╗	рUяG	,{CбГфi5*	выT╢Кд∙)@jk%RХd╜%╙D╫еТ3I≈
+цjъ┴iу$ЛЧе] )Пz█ ╨/;McоiVы╪9╩т%
+УNп	x╧Hк
+ШC(	ь╬▄б<╪DТ}]8ч├║╢ПС√кm╣WGnhв═х	Sнб=╬╟°ь
+∙еТ═^О²
+/,N|Ёj╥	▌Р©Т	╪Ё╚Л	W
+°р\░=tqЯ<	▄╦╒√^7ИУwt ┤_mбёыIн≤Q	╘xS[╚≤╥╩
+C	▒≤q	╟Y1S2k~.ч░Ёi╢уиОБдB
+┐ЛZМ)ч╨DW
+Ь╖▌;,	▓ббkш∙цр╗┼-OhЁ
+²л▀╠╓k{:l<С1
+puм≈tл╘=l*$■▒▐▀г┬a	т▄Ь	_я]}J/нl	цx├°/}Ч1)зъэЛn1e├Щ▒	т╥
+w
+оV╟╕	яTУсЮBC;▄>хш`Ж┬ ∙ДМIA║@└╓Эw╡▀j	х├о SPйmЩ≤K╤┤	Цшб [├%O КЮ╥╠?9|С╦eO©Ыу╬╜╟┬Х-╨И╟Х%÷VХ■Оa}дя2uI.М ╣жп░ ^@├жF╣b	2r"╚э	╠TC╧EКЩз	З} в~╬■S■╦Нyr├;	7Кe╢ЁE
+q#aмлq⌡фо\%b
+ФЮ┐ 	nф+ЯT■ з┼▐>SЩЮ:'УБ▌8>0#╔	⌡■3+Йс	╓DHI	─	А}Щ*z{▐'²n║(╗-╖╜!≈D{
+>╬┼≤▐┴etбkВ&н┴WO┐/A7xю┬	ЯV
+=╚у╓юLнк█_ВcFaFdТ	дC═ъ⌠д╣F179k╕Д┘
+rд>ymfQ╧+┬Оsгhe∙ф5o	$!]╠%эАm░
+цЙп8k╬SAкыЩQG
+6°9Cт╬+{╓P∙HУЯ4}▀&b$>ь)Mжh┘а8·%▒и©U <Л Ф	@╒2[O\КGx╜B║	b┼ie}╗▒∙╒╩C┐S©╫#Y─Ы╕QR─∙6^ ─ёд
+Ц└	╞U@r╧┘∙╓s▄▀Кг
+AБИФфщоё╨	+а цю!,нЁMR C╢>
++^╣n@t╕Fп├▀R╥цлwphЭiнSИN)юt╢
+HсO)b╗`²	t9n	tУgГC|sВ╙|²╔ДсЪЧ╦Г#dЗ▐57<=п	ж)Бz╧╡ й;5⌡ЖD▒cзUйъ
+гЭO4'ЦЩМ<█▀Ey└█] И╩	oСHТ&Vьwц╙b	М;иc	╕g1чй	ЭЭXьg╔┼
+Ь%╝│:	\!e╨"КK	ЛA,a┼╧╛[ёT9, ЦЩ└eНQ╢p#kU∙╬_╥тKжIvn╘∙╫╡w╕Kоуд.`я╝EМDШ├sPFzScW	10Уq+ё╞pю╖	║╩ЙфщbzVТ╝░у"Э├
+СeЦ╔pИ и═I<·K	Пъ╧ЫЕ2W(╗╡гU:╘[pЛ	y⌡vДkхtHа= █k]d ▄F╣╧	оЮ┼ъ[▓ы;m╒g@T
+	BVw@p}y)мбч>≈wБF-├╩╠s%░▓З╠Puк╢Се²Yq⌡	оршu	÷7╣L─
+╖д▀lDБФЪEQ┐╘А0≤Rя	╜q
+╢&=m╜o	чp	,ЗNЩ
+OiиЫq7ы<┬	ЫК
+┬╧Z -Z8(ъd	`©Ъвe{3В\А*²ЛЩc:■и≤=qеа8л%╩╟т(BЛ└шP▄еsш2Б]╓Т4=╬=	Зб!E
+Ч;БWE·hУXр·4╪[⌠╜4=в©.^	аЯъ╟[÷Нь╖[Z
+g\"у7
+{ У╓u│
+hЗ┐HтХ╗хE┐X	тv√.%ФрЧo╘ЖУ╞┘│▌jFD't╗]ё°V p▒NШBщ1!иi	Юo|:≥≈тяЦ÷╪▄'в4WП█6╛е	≤N▌Зo©▐z?УуP═╪8Ёрд1(рQK)ф│╞▀}w	╦	-┬	iЯёПФЗ⌡аю4/╨╩QryBыу·ш╟█iaWЧУаbl^╝M9╩╓┼!█°Gjю╜,▐rЗ╓nyш>╨≥><1⌠)ыРWx	С╢╥▒veA/│
+▒Ё╥A*╔°≈2Ф▒db9За;яxмIф^вГК |⌠yxRЭ≈э╙фh=WЭ│М%0вC┘3─п▄5╟0ClИ>э╖52╥╤NlC├ ╓▐рPЛ░Эfo▓²7яЫ═M·m╖КG	╢╤}ВЩЛ╤▐m┌Pя^мШEМn0NVN +УT&XФГ&╬╫Z/┌+≈╓┬5	≤цGЦ╛>б-O│Ё┴╩х^<^щЕКЛТШMIэxТ┬Жм╝сб~мj╦┴аZt !╟М░°гY(2]\ЦyтгЭ1╛щUЧ	хКK	%Еj^	XE_	бУw7!Ц"┤╦	
+╝p└}└-	║Ц▀I|╘©≤ёМРИ═▌
+W:╩√/F+W╖У>LMдО>]c]╗MKаё═├ ╝≥) *╠╝LdRWQфP	*Л╢р²W!ж0░Pп■[x	Э├юT╤ r(╬eьxaф	`3	╚K╦3ю╨⌠≈■i-MA
+╠╛$└╜8┬2Q ⌡$\ЫяБ{z╢Ё|jЦ╕>∙▐IVхВ²рU6©ЗУ▓ш░яz<Ющ%÷%	Г║`й2²jжАw╕Rк≥P3Н% Ъ≥⌡'RЧHoЁkЪlЯM
+╧Ж└╜FSН╩Ш!	Е ce,т╬┌x╟тs█╠Оя▌,╬г	╙:Ул2В┬.C┼║цШ1ьА╦V;⌠6	mЬS
+╗м╠ЕЁ─зЕ*Иq┤Б≥Yкw.я[╪GGF╢<Йp╪уY6реЁ╞иФ ?p²├%CIф4Н-Bj	Ъ┘ы3От█\/Н'Ж╚*+┌	СЫ'Й(;	йх1E:╓Л^	÷#{Fv░ляОР╤(yD²<╫╗÷щ╒╓Н÷у	M╝#╚≤м??6╫ч;#ЧDГ%cc72▄█=CБ▓А]┘ 
+8v% Ц"э╒╦OВБhEВ▒I$я+щр9╖ 	Ык Hчш
+╫kF@©.NJ╫ ъ╧
+─╩кк	l╙x╔█UVvЛК|Cп╩\"
+└о┼!П#S┼gТ≥┘eзA²э╖╚гr8═g≤═╢Ю°wmц$г≤т╒Ш⌡i?6■e╪цЩЭ	]sЛ)UЯa■
+Z)Б┐ь≤Г©;╞7оЬ Ы9╟у░
+&√G▓д8~ C└Щиr╬zЫV┐[4f▄я/Ьy	эиУСч·2gITб
+gи@YwhвЦ*	Т	Бl"$ЙYaЯ╒А~З	Д╓@#┼	╤╞Ь┬ы		&ь°
+ │Ю┤r░[tx╨ЫN╗	т─сjФч8/ё'ы─
+-▓╕ЮTТ╘Z╩Вю╦rh╠©┌*рr╬чh╕╨╠┬Fа ©щ ▀>	╖⌡О9|Mы╫I5ЕЯ;├чtФ║uЧ@╧╦W╕	ptТ|ПФхФlЦЖЭш 
+≈─ШЗЙ┘Vе;╢vЁН|г┘D1ipWПпi	U	╩)                                                                                                                                                                                                                                                                <s	K╪7TTc-еЬZОюРО└_б Дh >Уsо┬н╨Hч7Ы╕
+╘В"
+шf)oтsyВШ╨╣Й C'╓█/й)ЩР▓H*≈╡ЦO╢б=ЩГяY}цU=┐уmД>╟	╞ П╞\│ ╩╥┤ВзЪСй·	▄H|к
+v>I\╡8'uT5╓⌠▐-RXg╖≤vо╤╗ЬЭ
+Ц$М╚ФОн█N	 	5╦CЦ║аxюX▌мГD⌠Л0╠JAъ╟Ы4A╫WЪ	`Evдnfя╒i	pZ}u√$@╪╓3R╜Й²j░√╜	╪sO	_Иу╠O
+э 3kхjZ┐\│дпБ j]р		v'yкvфкЭйк]L[f╔tЙюы*u╗ иn.▀▓t╜┐]tT7┤H°∙Ю~б	p┘ш_ШлR╧ MЫ~(е{VО	╣uG^3 ╨
+÷Вз
+║Z▓Q ▒вP
+lьдo╫в╨9b╘╩■JG█*┬
+6z╔╬K
+лw╫Е█Э n	╪╘ч▌z╓J╒q_ыпё▀Р3U·tС╓Ъэ+B└kпЯЙPT©╩хsЮTЗЮ8╦═гОV┌ыDЕд#e;a;║Kн-8[CйЫ~╤┬NП\Fj╣|рH	©{░-Tlбв f&фЧР═чWQh\A┘╚Fчы	▒/°▒кЁИ.жZ*\[[бgт┘(╘╛я 	╢Ф∙WbfE∙oq║├gЦ├C}	AЦL⌡ъ▐╒■
+	!'шjфбяч╟▒■з╒─с╤#О░▄	(═_.┘б"FT0█[SЯ2╔PМpQк┤╖5P'|╙╢B≤▒rГ▀╦╦P╬╤рHЗ║И╘ф	Щ▓▒vт─	·w lTтyfё7hВК╤{kЁZp⌡u`	ф ~²ц╙Кy╣ zЙhmaр!Ь	вг4П▐g╙╔Тj4Bбуы	0w0╢yy├ZЪI©ч╩Ч⌠{шнЩхЦsХ╞Nкq@─В@'Ш(ю*6╡З	#Щ<⌡┘nuЮЭы ⌠E	E▀]С°⌠%
+·
+╖ь
+mA,д║ы|├┴⌠	ПЩ)°о▀O■╔	jvG8²м╠вj/┤CUИя≥╫`iHжЩe╝+≤Тьл┴):rхщ)oЫR	F═▀i└	╩a#
+Ъ·Ц┬э"Вd$	&вьв≤╖╞≤ВО╘\3Q	_7зх┤PJЕ@╕р│И^Ь
+q	Й7q	²8]Eg)╢с│╥Иc╙ыR╫ъW╞6ОЯтф╪t├У└дЙфp╟X0 v^ЫЛФмfШ:Ощ╣Ц rC▐R^HrщС┤+Мё╠U%╓X╢-6"tп{е╞Yи(я╫ Ц\╕╘wЁ░4П▄Cяpz┴М╛PЯOл·Ф	ВD┌Я┐-лh(Ч╝е{ъD≥}Д┤╫L┘	сж0'0Гиu(кфо ▀ж|9pбKM╖╒vюU÷▀░р╥╔яe┬xЯЬ╔FHЛ	
+ █╨yк⌠Ж╩≤O╠z ╡╜;вФшро?Т╣║о0шqц░в╦ЪЦ	VкА	√	^╖]≤ xЫ(ЁЭ╓~'}\ХГI!q┬> ⌠╔╩╫o└Y╧	Е²!
+2КЙ	┴Б■║ГGЧ⌡≥╕╤┼r╢~┐┬zbл∙ I²ъяОVm▄М1Д
+i┬<L╔╣╝о9mC╨чHщ┘├х╦Ц╠╪М╠KKцyЧM.3╖╢├_║я+≈lЮ─k╪┘P?╫Ч2й9·Щ{·М;▌#©я.2q
+4Se┼                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                R╣Ц_ \TфЗ∙	у_yюp	]aшэr╞pУ!OЧGе╤└
+тD3	═3ya⌡■kq;{)й│≈эхP;^╕Еz┌⌡0
+VV└?`©▄с_╙╨ню█ькЯПеЁ┼╚╩x'4∙	8╛*Y9@я⌡Iu^^B
+ЧУ└нкЬК÷≤╠√Ж╞д#и■ХQm2²meгHiА@bQ╞Y[uxqrу═Й╩]_	m÷aФ┬┐$VЩ*Ox:я▐3DюpS[╕*≤∙▀B~Л=Бщжьд└╓╞(,╣√╪├L%ьа╣м	╣y|╖┴m╜w*Н═8зX9=╧Хз;и┬Д+├\ж╕рs█≈╔mл)wБА≥⌡┤xBP▌кц²╥Pэ0╠!XMZ╒!∙
+WЕg\[щ╚и;	Ь╥>hyp╙╓х┬хйУ╦Щ╦=Хй_нЪT4VхАFМб/|├ ≤)3╕EвИ/~тЪ┤мДё+^└&х1┬ПD┴xP▌/в©h7Ээ╛\AJyу║5н!Oл▓▄╦ЗD≥Fз┘W│╡╪=ЕF	ц─Г7тЯР9&[╩д╙'b;EdпO╧kYu│}[│╡хш#я9в╗с!s	~оHЬoj^tНR▄e┼Чu≤Qom,	Юu°x∙╙┬'ИFГ
+ев╙осYi┐v╝┴7щk; И▓	x╤═6╦оо+VGПFЙAщ╜м+)Ьl ╨|▄1╒Ъ╠ су
+Ay÷⌠у<╙╚▌q▒<Е▀iy╣╡К4|╘О─	варA#RIО├╫÷fе&Fqaь
+J^фШ°iI?1╚ЗЖ▀п2Тз$ULnn▀фwЩ╬Якrщp
+ПX⌠ьвr*│\Ы╙0г°!BuЖDU)у6+N
+╬≥┐иТ<┘Уo░╓яsИ	j╘≥╙ВВ^3` УAс╔╘═ЫьY·©з╕ ЧhёНх╟А[⌡Z⌡' Х\╩┴Ю"@-╦╘У≤╞б│b≈зЪ┬╤Rи╣УиIa├╜_КъNЕк┼ь)Ы©$─╥ю5сl(╫ХYыvНyб√ZЖ└у9╬7	$МЁЪ[╣0╕╨у 	Щ≤▒ЙzЛ÷[	0_╗t)>"УЫ╟ЧАZ^И╖ы╠5╢∙╔ЛhuneЫ╠wIит╖e
+МПЗV u`eхO┬▌й"├Z└╥╘,!Слw╟Q[─Ьц▄7I>J6	о╪╞Ф├Мn+_├лЫ▌=м0ВTгC
+Цd
+j\c╛▓YХ╓7j	sБ│uОъоg≥Oпg87И:Ай╬┤Ц<W╪└яuЩ╡ИuХ⌡+,ЩО╨gtоСз`⌡╧п ╝┐╢wK_"╟FмЦ╘DоДКwOL}F	≥╬└F┌Wc?)(лщEЮ	▐╢D&АД>9█1└яl©⌡O	п╣ эЗСЧ-▄Bд_├ГыЪЗ
+ + AХF|(rBё╚Л┬7└DH	
+ш ╦zАG/СP<б\ШЖ-
+3÷:A9p╤┼Кv╬Ь┤L┐@\@&С╓Я╪ЦlK╘!уr╛,└\°зРв-┼и├*	sХ┘Нx+'р⌠?Зс╕,5\нЯZQr
+!vv╨┬	╝7qа-H!5*аУ	znШыыИ'ю` ╬╢ЕЩЭQлv╢EQV÷╖7╓©n╩╩n╓"дсП!ъ2ЪсC&╢√*	1WоБ,ГgC-щф<ЬЬE│╘┴═+╚1▓ж2oФ8A0tрл*~	╚ъйМ`╫Ъ	%UЧT╪K÷Mю╧
+ъlДk7д⌡ю'	B╜	1─ф╡кh?зСzJ÷utИ5НШ╟⌠┴$а ЖUЪ∙{NBеq─T=<,Mt═!б┘W■╚M│SM░1z	uM^Za═╬ЯЛ└fkаv=шЖПЯОК06V$,Ц2qh╤⌡h0П*╫RЪ~╕┐УЬё4Л	xP~─YЁ⌡·	▌;Д╝v┌л╦ЛqOBB▄	Ы╫U	▐пDёбД┬░x╙9
+оz╣qO▌┴eцЭ3IФ╡х°N√≈ю$Q^У■к▌/╪└░▒+Jgc▄оа╚pй╥nИ∙-гkвИ╥Ь╣zE╞╙≥*тO╞╕CЮ1э%
+┤$╩k[B/C-╡/Еы╬ЯA"Ё╓7gлg
+d╚f▌?pwZ ┐	х┼╓dO╘─ rg╞°`ё┤h╛aФрэrqФШс<?╖Qз▀OяУ0N	я<╦о<┌	╫,li╓D]Н╨i	Ь≈·p╪╢gф5w≈≥хЮ<]т,q│#A
+╡бck°Ет(ЦЧQс╟H+Mчm⌠L
+3<jКSPИл{й²╛vtD╢я┤▀T,├6}5q	ыm>°t=е╦	K┤б;i	}B÷╘M█	/Г$хМTПЭ╖Ж)┼X|Обд╞Цм(Пoe`▌N-v■░8'■█⌡∙∙Т\]GЩ>0ф╜	⌠zёp╪B0╟▀ЖЬ]яIж╔3j&зa<BuЭа▄@3,qГтб²я{hДыПd≤>Хvф╦-└mGDu	=OpЫgK/┴П#Еb╒ёlGГщ~щ7ж°Л$┤▀чW╬ЦТрj╛Ащh~"IЯ'▄3
+╝qQcЬwт°\╓╓	]звА┴╦+fS
+аTнKc{RсцЕ┐°∙#╩!Y лH:Ыr╨]Aь+jЫ▀ЙMФЪlС░
+l,i,d773<н┤хK
+Ё
+6ФI÷∙S▌О∙qьT│l└#╒З╨(╗+∙р*║H#█AюAa$▄∙dЦ0╫еUСd░ 2│yyM╠O
+╢╞┬YЯи∙c┬6-▓мkЛ√oпдгQ	x╚╠²L╝%╩4?ЙсЭ√-X╬m~жьЫ !ХE:5ЦH▓╔У╪╜Ч	т\]|~Ну▐aOq▐╡)&q╛╫меCR▀nE©#шk╚Rc5$)xёsT▓▐яLK╘h4≈Е╩
+B╨ 5▐▐<B
+м⌡©*²nэд 1╫ч╧ЪЖHт╝⌠
+}	ЫHmBA╜PAА▓М	Tа	█≥Q@╬е⌠m1|┬F╒ ≤т╥\├Т╓ы u
+YТу╦┼e$8┘▄╥"r<Лй┌.хb╓O^ДМ1J8Я▓┘╖ Vs┼rv┘╖L╛╥])╞x	.П$kЩywц╣Юm^B
+*╛вt▐┬ЙnlqbLс≤щP÷1в╛vэя	Ьс╗Ш┬╜Ы]╬XЙШ	gа·
+┤}mрh╨ЭфewёxfЭql┼2И├!∙Йnс█`P@OB⌡^╡║:БJlгЛ─╕er╥\≈бзjOxН╔▐мBи<╤УС┐Q╥+═xН·9╝╤,д∙)▓▀└╬└z°аm°r╬╟©>"b╞╙КldjIjRK@gн)─╬GьГ≥▒dШ4c╘У	ZG@B]T{≤u╟[р⌡╧з#v╜lj0+|ХДКj⌡К)"нЁ$╝"пXъЖ`Бpi▄qN?&÷K(s	1GKчм▄С[_V0≤!qEMцТЁ≤╗НS╢yVк÷yЯлRямЕ┌╜Т└+bК
+ц╓6Эхё┌╥89(
+b┐ЛьW/jтшV┼(ж╦u╝л/R╨SQК≈{▓LSTбЛzNО÷baKQПz⌡n┼Мб'fш╜zk7Б5 ч║┌≈Cgg╒8p─²ehi
+■╝
+лжrw╨╛%4╣п╩е╖⌡·XжZ╜╙Ьa╨\a▄увpiz┼╢C▄╞А+УВL6{`D╕	╣▄≥TqъGEy
+┘°) K^╓gLTJй<║x8ь@⌠vqФВT]t6Ш÷ИO-╖лZn'a]╡	╫│▄ЙП|╙LЦ╢Ъ(▄тf:
+у≥у`	Q	MXkЁdВns╟╛е3щ╢Л3u║9│m┌│%г░с²m
+p30┘D6X╘┬┌1AТ╙∙╘чB"─█■}ъm84ДЗъ?мS<М4м<j°@TH
+кщЭву -WчdЕ@Р~V╩,=ДП╝щ╞╤Z
+(Б О╔m▒▌m╣`=СP ╘"jGe`T╓tЭd≥ЧwЫ?D9пd⌠?WT╝	░_^÷7▐©ЬnmgqTН┌_zчеOИ║ЗжмZА┬╚и`"┘г╢┼╪╗U=≤╔╔\)р▀TЦЙ║Т┘ЧхP╣LXлyi2B·Ч°уг		Н
+unД╙ЫЯvУcEЫeя╡┴╥c ·м*\8┌ЬЪOmaущ{≥·Х╠у╪╖═▄
+)'╕|ш╤й-°=C├║│Ь5T⌠жTАР9Н╡D9лйцщфтЛ█	 M7ЧдUиЧ┤ХьAЩ0░ЫВG╨I	дл2╗Z
+3▄⌡╛JЛtuЬЁ┤dТ╩гкСp═|AН!░■%}╚┬V≥Ё⌡(s╘	╘=B	╓DА┘Е>²мБ≤L+ДO	ё≥╟г>╓6a▐▄╞4У▀dбЕO;ж[0'╥Оaв∙Bk-ЕёОxI╟э[▄≥U
+х≤{,!-	+RТ[ЙФ⌠rgЮ▐уЯЁшY!lж>4(L	╖f;╔гЫЯ╧кт╞[l	[╪n1и┤ъ4╔ш╓ъ@МП┘ЬмшЯьЕ%b
+г┴▐C{╣XlwУ$Чжкt	i├вA▒²<~╓zлajoЯ©lMAУ▄?lU╜ ╢═и;QmЪY╘"▒Gтy╖В╧chи⌠ ▒╫ O}:│+	▒gQГнск9╧	÷аp█└≤R╖Ц╙ЧDЬ╓╨╙"≥и╧V@r÷bj[PКh° ╡с©И6S>щG÷ч╢VmН	MIм└ОG≥Д<цL├iюАН╨-	?Йb▓▌ы╫9л\#╕²╕©ю┤⌡	щ÷3щ├┐й}ЩDxc1╘ъМZ╦6Ш┌П'D	$щ▄жLЧА└2йPэлm▀.
+	.╪йЩf╙  Ъ"1ZеJ═©r·■▌аяN╛Р*ВZи!ЮY╕Ъq!°г╥╦а&у▄Ы`w?хIъ╓п▒SД.╦лBDJ])@Щм^}┘╘Юкг▌F°р)ш┌w÷	╟ze■О[┌┤oЕО[gЩ≤Я░
+-ИрwЕ■бRТ╤оъW5aПв└ЧэМ(eh╚RЕ░4ю└y╕tЦв>EИ▌■⌡Лt|┬у3БЗ©юOHЦj[АYDКoY≈kv]▓/C╪hБ&ЮRЛИA√q╣╚÷TЙ║.	ж7+■e©┬ХЦ	ьсуП╦&.еГ÷╛2▐∙╧▓┼╞zu2ЪоА9	
+ЁЙ`	О
+≈SJп	Ж┘Иd;	·tЭЦ╛O!лу3?Пg;║3Щ-мц▒v:"vнБ╙1~Ou HzСWОP│╗aл⌠▌z4H▄▒0L#╢swА`CЁХ|dЙхЭдаВВЕf?зУ1г╣ж╣А[%Кt▓И┘╪XZвH{│'Ё▐1Пь
+weqEb▌∙q╔щ╜|[Ж°d'╩,М?▀х┬≥╧t8gBcЕ	?╘▀-÷)Я
+n]МЁЬ╜├т▐"╥Ё╟;ъУ
+(┼█т,сZ;ыОл╨T|Г:2юf{N:KOс∙Tь5Чч&`м╒jЧ^P=RИDjmu▐╡` O6&9'еН°^`─┐BVK╨F]mЦЙJ╕1Ён∙ ▒╗Rp╝▀╤нR,ыaO]КC┴ <^ 	П ~э╗╖├?▀┘dйПйQrNь<╬╝%	²█Ё;МCЁ┤5Х{┘╝┘═╓#╥Dр4MМwё╫{Щ╠╞≥цБр╛╬пШ┴╠Я7ш?Y▄тмч2Д3	э3C╡Д╪ЭрТ╫?w╣М∙kоUЪщ©Ы─*эAY⌡s▄:DM╠	iшB	²⌡4Г≈©Ш▐MО╖2∙;
+n@≈j*с≤GуБ^√HU b&К.ЁЗ#a5[иСk@Ы;║>УV√÷╡Hйх/ЖyF╣Ёеёь	R┼МкS	░р▀╘у÷╒]╔IщЮv
+⌠о[Пj║⌠─╧g| Bгё╦>╤ЕI/Э╞2╞c▄p╚├┼	н^вGEJ{├.йnQ@ёzЩъИЯf"hxм⌠м ~╤8[лЧн▄wvbк9█X3QKЮZХё	+к ▐
+╚ъ╘Юf║÷wVР╚%╚!hУ├гS	юьР=≤вЦъL╣╒╛╬└╠rT.М╡Я4╜
+6хЁVmP-ДЛ╟1уWy7ш(:M\╬мV3▒v[G╜ ╒Ёё░жBjt+x/%вiИ⌠g┤д╒ZAу²hё,eWTzРЦ"g╖∙uhрlцА	∙q
+к4vи=fЭ┌oвМ#@Lяo╢PY╙╦Uи}l)D
+^V<-Vс"╢9JбD}У[m&;*ТtПоНjОЦц╕.░)К│≥┘*╫ж ┼▄зjj▒Б╤{ц╟⌠ UyТДЕfт╗u	кM-мmг╪hC2е?;Е	YэГ╫sи┬[Тxф7уо|╘m█	1╤1⌠²ш╕Б
+█\лq╟1@ш┐╜O@зjt┼└мп)©╢╒AП|f┬Г╔┐.т)╧оR┐Р╙╝А╔Л
+╡╧UYПЭWг*2hо\ Х|kВbxW	╘Z5С╪}╘	с\Уь²rx|ХC╦о0│ыiЁщнo┴!~▒<Т[	HФ)^Ц`▌)┌вL<║╝чfь qЫХеЧф?,x}WosШ═е(шс╩)[
+hvDц1n■▀Q
+┤IzнК}е╤9Ч9┴┐мЬ┬╝OЭd▓
+]	≈\aш┼≈K~²mUжLxy	d {{
+k█ 
+УR╜ёk	С╪╦>⌠ШцЗп²фч║9н╧БNШ╟▄│©а E;ЩR
+└Xк╨█7■Huь║╔юxаW7	┌Т╥ъ─,▒Щ╓Rqx$jёлПAQz/Ю*▓1=ZЙ"r?ЗC fт\▀█D⌡╦_┼╥К░гЛGй5┌(xa|╙╡©uИ^d╒⌡╨ЕH┐OЙY╤^;ТнdnPw╧ЦeЕ'Ьqq	Б|@CноO5≈╕Щ▐bP╜г┐╓\чd▄>S╪╦уsJ╗ьЛ+A╖┤ЯЫVБ771╡├TВWК┐}~a1КЬ^└$┘╘╚<w	≥	w▄u@╬Nd╚╚	\[kлГ;▀║SfFщ╟о²Э7≥g╠┬√шMXП╟г	ж Н▓═[иш≤²eрy V ─hCЯ
+/6ёХщЖэ)╓tTH²ч∙wKЖ▒g╒nBл╬A э3(╦#o╚Э■╖2ч╥
+≥q0:uр└Ку`	│Ш]╡к?H
+в╓АooрcaЪ┌|═╒C╩н╚
+Яog37@÷УEhЪ11!╧6*б©`с	ь)Е zеo╗3I╢лк╜{!,\3;е%╔oFP	йmП#эЪj@-бD>└~Пг дьOш╞r$ЭоёУ≈Р,! g╖ ь,щ┬⌡Ч╤К└Xд#Y©[2HKЙ~м,	uSD4┤#Сд·te"╫ОGIGDo КZYEзя╞*╦З╚N3?√]┬о5╙e=Z╩n╠сdг	СPwF
+∙2▌Iк╣@°╨0ЯY[tz╣╞ша╛HJ┴ОI▄SYЪO43NК┤ЁИJЦ
+ж'f 	Н_|'S-юбм%║цF2g╜zLЛ╘iwМ}p л▌∙├v^╔≈x8f╗?злИ║┤l╟й/╠к╛з╢ч6зrсс_СjДHЭj
+╬≥2а│UВ©туЙ©же#jТc┘├:ЁU■fQ╒u?ЬP$B#mA
+ЫЮ$
+oщE╟╗
+ъ╛Ж╘╖)Ф kЛ,ю03^ЭЗ┘▐OФ*T╢MГБя<щЪx╫4█└⌠Ы┤H■<ud▄│}цPЫ8░\╞Ll.3К'Q%iюkД6║ьОС'zYб9QХ│┐7▓РЭ╦4ЮM·pЮЪП╓	г^┬МнРьо╠╜ж&V_ЬЭЩ°©≥|╟J═ТФaЗD▒ЛМТ┘Н5Yыпф∙м©д*ji,ЮrОнПИмъЙЮE5╗ЖниsZА╧▌^аИ╥г6h,ЬN\▐JIв─ Xl	РhИШ : ёф╤s╝.╨▀я\╨1дfйЗё╦7╜МрCJs┐^+м}╞jйvf╤f!╧▓|	Е	≥И∙"5=⌠nЁУB4eX:╝=ЕU┘ЕФ╥┘╖Gкq]а╪╖├0╞ЮZц∙f▌,╥+╠БI
+╢Б8┤╗Т<Mm╓pcД<фюб d▄фP#Н∙╔3▒с═hWL7b&╟A▄l<oЖq/ь╘Ьц"сигш9╗W+фщ╜	≤,Чо&-сrcFG$╜<O р░╗▐аг┼▓Z'9ёПя
+q═∙.■ ГaUe*ДzЦУ,─А╝pг-≈:hв┐:p╒ФWbT╟■ц∙╖Йt	ё├°≥y*©┼Ад╔*З
+©h┘jgнэ
+1Я ∙░т>я_%ЭKCD	║╣кZl╜?Д░ю8еЁ├rs╕6aeK▀╗ЕПT{╬2╕ГНЩ╖ъя├а╬
+gя&oP╗Ж1dМ 	В-╡л:"sZ╡д▐ЮM	L)ЗuIr┼Bй	~┴Эи?E╫йрД╧ю0фаDfЫo└ЁjPм8ч╘D÷3▓ць#я┐@A╬к=3дё!3]ЦПюI IIXУоG"<╘и╬М╩hРOSУ\Id≈_o≤i┬bl╚Фщю─AЦ=╘Kc Ш╒д┬╖■бgК┘УcБ(DСбГw+
+Ъй'┴cm!V+Ю╥╝=ф.ы[1ц╕З░АBP|gи)╖eп╠╞цЖУ╤;⌠ZЖНk)ХЙg< P ©шL▄MЖЩнаРЯЫe╫fЮ	G6o\KOyy≥Z©{Gт4╡╡&"+█sCЗ┴Qr░╜=E;N┬
+▒БhQ≤MФщO
+ТГ√▌▀к#RтQ{fХ{ ?а
+ёVьуl}K╦EгЪqY0c▒
+rаКэМlS~&!	├╛ЮбЩэP4to╨к╚
+▐█в	╠Нd═Жю╦╞k█╣b;oх@Ж┼иВ]oФBд>Ё⌡ЧСc?дg5Ь}▌ХГ╜к╘S╡Y├IQ╬ЕЪswС╞#ж	4╡╘√eфрё╛\ьT{╦р0┌л~╡≈Ъ'a╓M9яrД╪f*g╪3!W·│4л+ЧLАcPЬЦVO_d;	e ЩhРmQ■c≥I·ЖB╣╓]^d	s#<Г≥Ф╤∙ZLXкor_┴е	1м■?─КEЧ|&T	\▒VeJб[;Ъ©tF┴kЧ^%&iZ	█/i╙▌°uпЛ\²▀O╘■K╫n-9
+√Ц	∙&╩╞Dчй²╛ЖЁ╨qX┐\п39ЪТU▄яF├X┤s⌡╗[W6[e≥H]лЮYгАП·vd Оп╓J┤!⌡■	ю5b
+▒▒ы\l©Ф{'s╩Ё╡Q	ёHБ┘Г*ЁФЕ≥│s┤Rб7Чс\И°Щ!*k▒|╚v╣м⌠}Л 
+▐╩╙M	~Pфq0│
+|ЖЪ!3	ЪQ О ЬХ?L╚]└{уш╕	√xzиE├ЁмДs╗╕┐5чгf┬hЪуГyг║|─Е=7╙$ПИw<ёЙЧВ╛DОRе'Х╒zno╩ёNЪRЯХ7▐=ЫS,'9*M$▌┴$╠р_|Эt@)╛└З* ▄>ь╠┘.'fй╣Е$п█к÷√u>М╚q?└Х
+Ж©ОqЪ'/╙╚Ю
+	E█!┘$G└⌠├мцIПдe░DHЩ]\╤Бq	┘╟Чч2╔	Qб▓═d─8S	д╬h[!Щ_
+s╖p^[╡╫}d╛┬n╜w╬╧П-Д~Z╨l▓`K>╞mD├Б┌╒хь3.pш"е├QЖ4╬╢гШhэFP>yS*≤╩F√╫	o╣91Z╢╧Cu╤	©F,k·╩K9╫s┬т┬s⌡d╖#	АХ╜|╛k:┴ы┌ИА=╫╙⌠9X8ф3	oSy	З╕'8_\Я9╖#Цч║'┤Юtwб╨rС/	V6╢ШВ&
+M0╒:u9;МuQ▒	т╙Э щqХ?┐╓7о
+║└Зт╙q ;)╝═H╧ВЦS|Ж`хД=1чЭ`╖А%╟
+≤ygмП=nnf█rяС'B3жa3═шу@ZМ╝C≤3╡ 	Фът_ ╒@В╗╗╥≥бА╙p┴ШЬmЛъml:o≈o╣iZЧ
+⌠7ИУ▌╣
+#▄┤Ч_%8g╟БА╖ЖЛ?▒ч≈а╪%G	%н▐" Q╢m╫ЭPm?Ыe─╥Gr╖*9	ХЫ Я1e z▀│⌠Ф╫X┘1lЗЬy│я©▐╧\нУ┴uёШярю·░yхЪ©Z8═@≈⌠К╕t√PЧЬNИCЭ▐6. CQ╙-lЕ┘≈l╔	т-╢ф;б_лН╪
+<Oш■fдым╘	уgQ	x■┬!╠A▌Й╠6**spq Qэ[Xу┌z*CЖ┬"м╪7:aNi`м
+?wюГиLу o╬"╝∙	÷jbд▒тcO▐зг?p╢╔⌡Nё╪┘!f⌠3х*]▄й]Y▒[U
+q÷·$╨XЦ╙k╢лV╒НжZ╞
+╦w0Хц▐2+`╫°╔
+┼▌Х-∙╓	╝Ф8m╢Ф╠с┐V	^w(ж	Кзu45≥╔я╠/	н"╟ЧйWHмИ-°	≤ОYН╚И╗#Т,{зР▄ь┘jтRMkГС╧д^ЁIсзHCуC1QY^гe╙▀-╝Щш*█ ■
+[xЁM_$\╜и╨`╪*
+T÷М╕╜}d▀Z^мЕ╧Ж╦ЦTa гpRш╓╕\БТСДВe╫`═⌡Шгr╝@э≤╥Ci╣_э`│iЭН| 1с╫ycЮi\A╤sЪЕY"	х·┘<цНUЫсА╤│}А²≥%Q╛PS	=ё3>O╖рtq)2cовQОf░√У )А@L;	c╫Ш╣п X0nxz bp:╢pбКTнIдnWNY▄Ф┴О─;>("rxD╟E╪╩r╓Rp ▀ятЯhВФь≤Q]Мэ╓*л '@L7w╫2EьqьB╠═╒Y
+К4ПЁЕхR/ыg▓B©+%кqeя▐▌хСРЛм|╜5[qжЦ▒OК[-м║C
+U;цUZl58≈ч-Ж╗"╡Цо#Б|fR┐xU≤bМ┴&uZB╝Х─uъПh╒ Пюl╗з_ё.ЬB╧≥У≥g▌╖ч┤;╡╥л}
+)/	5С⌡vm
+X▄┴T<wOjЪ5 ≥╨к	╗u⌠"UE√▀цвс30▒ж ы6w	уЬЯ╖TeоJ╔dу▀ы╠K	П	╖) H╫4/ЫВ┌ж[└▌Oтv-÷╥╣╘5[ПlqгэFX{┬ПЦ╗O 	шр!iйwУk╘╒▓iщJЯ#g;ц)фdySр╘a├&У║ёТ	╛╪ш╦ю╥О	²Пg∙╗▀2	ЩO╝
+Э4jЛH\		кЁN┬ю╙cЮфхZ╛_еnKL_Y⌠YКUЙ┴9Yr-И,"я
+Q
+p╣≤S≤ЩА7д?Wи%╠	╪ш╛Ё`Б╕z^+╬3ЙLGЧ)ь°Ё8┘;═hП'хю⌠ХYг#<T2в▒5]e┬b┬]ш\яАШ╔■И'J┌2╕:R	*э┴У╡▀h─
+U*▐GТRЯ	аа3 0╝w@	"█B│Лxn╪vэ*$'Ф                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ┘	║Z#Х8 ab#╦≤hэ ы\╞Nоc$╬╪gУiд╟╔G	Ф3иц▓8┌eьЛ©П9u$3k║9▓Эжuз+s>;j█║Е@wAп	ln╡╚	)э-╡┬qТHи)·У╗КтkwЁ≤≥Ыqcr}'юц0E╥ВЧщO,/т-Р\A╣fК╪zMЖЁ	╩N▓\┴╝╪╨\лZЮ;$Ю2>▐бп0─`■╥аР8=!U!╜яг∙j═=К▄Еи█FыЦ╢:	Кy╜ч▄#²4├AVnH,ц^:√ВПвЙ╘П≥Tw E©qц≤Fб╖V┌Д║╢ё╨r╕дqоc■╥pф6Хю╚Mm╙УК√	е┴Ъ-s$╦║\k│S5sни═Д╧ФыIZ,n╫[=;$Eх
+ pSu+П(С_J÷щ-> ЭGТhВ╔'Л╣Bеy≤X²q█°YЭZы	xщ╔╞дб╜0║ux╨EX╪пёо^ъ╓]Zш█OFл`t`zyы▐л║▄У╗╖ъBк ┤B░ЫkFn╙║%Ьmн╙S"╖П░D0ХПСЖ√Н9$м╦╓нъЭ┴,Г
+2═	RВ)!:~Zv=П'П┘k┌≈╙┘Ы+Я÷2╠6uОЯ┬о;?─&c╘;≤щ≤
+mt>C╠3А~°Мk┤ 	▐ Ящ▒гj┌GЦщме≈╤ьш≈╥:©▒╠ь	oмзЪ[и
+ZО┐L╖с ╡рьи ж└xв╞Г╨█>М┬ч≥	╩м╧╜(Т╙сЯ╘⌡≤Sp&HТr
+i]Б|т$
+юъp≈7╠e·╦X`╠╙c▒
+═ОPТ╦kГ>G╚╛▌&╛░[Ш≤╠п5╠╫XiЦ┐█░гB©zЁ╢>╘кМ╕Р╠[e+^╢К"┬vvй╩ф▀Ве·k0╟Uо_IЪ_U╢UIс^┐МtЪTX╣ra'╘╛r
+х	·Nx╨!Ёjхd$p╓}h$╘┴w┐Ы┼Ь©3У!▒СG_∙Ф	hY■HRx'·T╚╫╝╞cА,-Уъ╨
+Цг╟ёЙo≥пкk╓o╖t║h┼VВЭ,с√╓rмCЮ┌g║Oк⌠╗эq⌡-
+Я╔bv	?VR	>ЪaТf▓&nЁ│÷a┬цg║ъKч+У╗эЭ}╡╩б +Дj═о,Ёцe?d╙гРх÷╝ёC4_⌡с7УV*ЕЮ√╗Й_СR╟р╕ВP	╟#oX═8ejM|3=mq·Ом≥
+?
+╖Б∙O╞EM≈7hNуs} 9,╚G@июЕyЪo#гЁщ qтQxД}≤;∙7─■kЫu	,■БvеK'╬
+ёRТE%≈}о╥$┐*≥Эъ7N╘ы│┼O≤Ё▒АQ╜Б╪ОЬ/{n²┘р▄Д<ЖЧцР)nБ"©Г$)⌡┴v1м╒c╤╧4┘h!≤ndWp╝╤ Дn/eCKА<=║	&П┴gxp`
+
+╤н9б≥йUЦ╗о╔┤=Фжа6╕[г╜gдкДО{Т█	┤Щ┌э?ЦoJ9d 
+А╚Y║fU!Qэm╚╚y#Qзщf╟(&1©╠В9Э┬_╢йH└▌╪9/A!^	├7м 6YЯВ	Ё╢Ek{m ²╧}т%Ш⌡m╖■
+CЦц▄_Ё╗A≈<0сgуw+╛Я╤╔У░JaF+╖_┬b≤2`Т⌡[\V°@╜─T║:юк6╬$фpRDqы╠╙5s&ы╬Ч░ХЯБзIy╩Ш,)ЛbДGYj▀Ъ O╗`*мры├≤Rк▄W{5╫?	ZRьРA>iх
+WКЫ┬w|║tV√^мwгq╖u$э9Ер╕	nб┴OФХ<Ж6≤╫m┬ЦhоEч⌠^r╧╣Ыт}иС|>8	R▓Dп≈█	⌠5÷О≥*╜Е■рn=│Ь╤≤║eкw÷Z4÷:_юя	°	d>VZb(Т
+#зСt⌠Z0{MwЯ╛	h╜╤\["║э╗жQ!Дro
+6	J&Е	ЩW	▐м;╩~ъ*ъ82╬≥/╬Э╥ТАЦ╢┘⌠g╞Ё
+}E]r╛U│\Фьk8╕фIЧ≤╩ы²С÷┌/пR4-≤R'"Ы╥YЭrЬут╩Щ═а8▓┴Ц=╣\U╚ M│°
+ш>ЫЮ|YqУm	├E╓Y"E(╚d╥8
+╨J╛я3ЮN9	Г╩Ъh	Ъ<Й╕8■у~У╓║Й©тK'ц>ЮI{·аю{mхпЭУ⌠\╒│╚FфT▒L╡AP	┤YDUP\▄┤┬╖9~═\C╪1WU	е|	╥Д#╜4}mкe┘╝©НИ;g╖%┤Фl}╩	f&k{NVnlа≤╥_уЫ÷∙┘%╨E7:щQе╦P╧╨4÷kw;/	%p.У█
+╔
+	m■ь╓.╡║╫пU▌┘╒╒Т⌡2Sг√╒╔⌠mS²oI█ ▓┐8Ы─Ы(╔щУI⌠п$L{|Ый
+ЭЧ╗НФГЗk╬Хйа╪v╩ч	тy°	Ю─PaLBх]gЖ_	оБU╙a+Ьs!╕DЯaМ▒аЪ?> ÷│Ъ=	зМ-╪Бч√▀├u▒╤kzдкР@oЩ▌)D│bdbkщрf!║·▐nСwж─ypФЯmC_:h├▐▒└ЮqoМD╚N8яЭ6÷┐~ъQ[г─▐;≥	Щ┘╞Ъ\&л(	o;{╚ьRк─▐╖%gpтшМ⌡╔÷■#0x|а▀^fэМ│Х н░Ч┘ЭБ	eh7(ч╘б0'} ИFч\aз╥┼ыn8 А╡╞С╩╘B╠*Бщ▀дs~└K`·
+нё1*Йщ⌠V	╟KFЛооc
+ ╕m╜≈
+╞═UШ
+Л
+Ю	sCаи)0Q▄╚╖юfЗ╙к]H╧кI°4)@и!жу:╬U═Y╠эЪB'Кz6СnM╫©n$L∙QSВ3ФБ≈ю▀%)U	yMаPУ`W┴Cx┐зF▌	╔Y]AПД÷]]koбД╝▐Ь╢ХSmk!ЭпyТ√╡∙IЕh;хд;;э≈█▀S щ√#Р]│0ГEPи┘hP╘ЫП{fk╕q▌С°╛zv▀┘╧DY1ч╘v┐Ф─8aНfmqсл·╒6n(;#КMQaЮБ╢:┤fd╥ёы═3╦3X╛
+5╓╞CЖ[NНФ╘├$C!щ─Н5╛┌╧АЬqh┼LПc╪╚Цp╓ЭВЯS"	г█┴╫┐┼п
+рё╜Ъ■Р╓Y"}вl╢°:;≈стГы7У╠╠сх	ЯXСЖEсчМ│╧╛Z
+ВЩОсSм╙C╖qЙю⌡д;|тюьи╩@к4В4ЙЪа	╩И ▀╖L%3█Н╚д╝у│╟М┤	03$L|:▐э·zP╥Н╘~│р~;ч²*t│м	_E▒б!#m1"dJU╥ю:├w≤ЭG╧DяЪНл▄║MЪcUКНыЙfк59	┼÷к²к■к к╓к╚к═к╞к╒к╝к╓к═к╔к╕к÷к≥к к·к∙к≤к▌к█к▐к└к┼к■к≈к▀кк┘к▀к▀к┤к▀к┌к┼к}к├к▓к≤к к~к├к▐к░к┴к╖к÷к█к╒к╟к╕к╣кёк╗кёк⌡к÷к╬к⌡к╒к╘к╛к╠к╪к╠к╜к╞к╗к╤к╘к╔к╧к╜к≥к╞кткюк√к╙к╚к╕к╚к╫к╘к╕к╢к╔к╖к╟к╖к╓к⌡к√к∙к≈к≥к╔к▓к║к≥к√к▐к²к·к╛к≤к≤к⌡к⌡к≈к≤к÷к⌡к≈к⌡к÷к°к²к к°к≥к°к╖к╒к═к╔к╘к≤к≈к⌡к╔к÷к═к·к╓к╘к╓к═к²к╗к╓к╒к╘к к═к⌡к╒к√к▓к∙к√к░к┤к┘к■к░к┌к├к░к├к┤к┐к┤к▒к┴к}к└к▀к▀кУк≥к█к┐к╤к╩к√к║к⌠к╖к к⌡к≥к к╛к╘к⌡к╔к╘к╩кцк╣к╢к╠к╪кюк╤к╝к╚к╤к╝к╜к╛к╢к╤к╧к╫кюкдк╧к╩к╥к╢к╢кмкЁк╘к╖к╔к╡к╗к╕к╛к╜к╓к▒к⌠к°к≈к∙к≤к≥к к⌡к·к≈к║к═к≥к÷кикЙк┬к⌠к■к▀к█к к≈к╙к▓к≈к√к⌡к≤к·к∙к∙к≤кёк√к√к≤к°к°к÷к²к≤к÷к║к≥к═к⌡к°к²к≥к÷к≈к■к▐к┼к░к│к~к┌к│к├к▓к█к≈к▓к√кЁк·к╙к╠к√к╒к╒к≥к к╒к╖к╖к║к╤к╛кёк╙к╚к╗к╗к═к╒к═к╕к╘к╖к·к к╝к╡к╟к÷к°к╚к╢к≈к╢к²к╓к╗к÷к╗к║кёк╡кЁк╚кфк╕к╫к╛к╕к╨к╓к╓к╖к╒к²к·к═к²к к²к≈к├к≥к∙к²к▐к≤к▒к┼к∙к╒к≥к√к├к╦к≥к≈к║к░к≈к▀к▓к■к┬к░к█к┐к▀к░к≥к²к╕к≥к к╛к╛к╠к╓к╓к╘к°к╓к╘к╠к╓к÷к║к°к√к≥к█к√к░кёк▄к┤к~кxк┘к└к∙к■к╗к╧кЁк╠к╡кцк╒к╕к═к╛к∙к к²к╒к÷к·кЁк╗кёк╘к╞к╢к╛к╛к╟к╚к╜к╟к╨кФк╟кфк╦к·кЁкйктк╚к╘к╟к╟к╗кёк╣к╨кЁк╧к&лгкьк╠к╢к╣к╩к╕к╕к╝к╓кёк²к╒к╔к⌡к·к╒к²к к²к≈к°к⌡к▌к╔к≤к√к√к≤к╓к┼к√к┤к√к≤к ккк═к╒к⌡к╛к÷к╕к╒к·к÷к╟к÷к╖к©к╘к═к║к⌡к╕к╓к╕к╘к╜к╔к╖к╘к║к╜к╖к╒кёк к≥к⌠к▀к╖к∙к▐к░к┬к─к~к┐к≈к║к⌡к╚к╬к╠к к╕к╖к║к╩к╘к╕к╖кёк║к⌡кёк║к╒к╔к╠кёк кёк╡к╕к╖к╖кгк╛к╘к╤к╘к╓к╖к╛к╒к╠к╞к╓к║к≤к╕к╘к╜к╠к║к╞к╗к╚к╡к╩к╝к╠к╠к╝к╛к╘к╛к╝к╘к╒к÷к÷к²к▒к≥к╓к▒к≤к²к≤к╣к▓к⌡кёк╝к°к°к▐к▌к⌠к⌡к⌡к≈к⌠к∙к■к√к▓к▓к░к√к▒к°кёк°к╒к╔к╕к²к╙к к·к═к╖к═к╙к╖к╓к╗к╔к╖к╔к≤к≈к╔к■к■к▒к╔к┴к┐к┤к┤к≈к┴к▒к▒к║к═к■к╛к∙к■к²к╔к╠к╩к╖к╗к÷к÷к²к╘к║к╠к╕к╘к╣кгк╔к═к²к╡к╙к╘к╜к⌡кТк╛к╛к²к╚к кщк╜к²к⌡к÷к²ккк╘к╓к╟к╜к╖к╟к╝к╞к╜к╜к╪к╙к╙к╓к╣к╕к╒к╔к╝кёк к÷кёк°к²к⌡к·к÷к╒к≤к≈к░к÷к╗к⌠к∙к▐к█к░к▀к÷к╘к▒к┤кюк╛к╤к≈к░к╚к⌠к═к²к°к⌠к÷к╘к÷к║к╚к║к╔к╜кёк╙к╘к·к╛к═к·к═к╗к═к²к⌠к⌠к⌠к⌠к┼к▓к└к├к╚к▓к≥к╗к╒к≥кёк÷к╔к≤к√кЁк╬к⌡к╜к╟к⌠к╒кёк╒к║к╝к╕к╧к╡к╤к╘к╗к╔к═к╙к╜к╥к╣к╝к÷к°к░к к║к╛к╞к╚к╥кЁк÷к╟к╝к╣кФк╨кек╛к╜к╗к╜к╚к╖к╖кёк²к╕к╛к╚к╙к╘к÷к÷к²к°к╙к═к═к╕к╙к∙к к≤к├к█к к≥к к√к≈к°к≤к■к┘к║к~к┤к┘к▄к▄к█к▒к√к≥к╒к╝к≈к═к÷к²к°к÷к╒к╖к║к╟к╖к÷к╗к╕к║к╟к╖к╒к√к⌡к°к√к▌к▀к∙к√к╡к┐к┴к°к╙к╡к═кёк╖к╔к≈кёк╕к╠к╝кёк╕к╧к═к╗кЁк╡кдк╞к╥к╧к╣к╪к║к╖к╒к÷к╒к⌠к⌠кдк╠к╜к╜к÷квк╞к═к╘к╦к╞к╛к╜к╓кяк╦к╙к╩к╗к╖кдкук╚к╚к╩к╗к╖к╣к╜к╓к╕кёк²к║к╚к·к⌡к⌡к╡к╗к╗к·к⌡к▓к÷к═к≥к╛к∙к∙к═к█к▀к©к╛к∙к к∙к к╟кёк√к²к═к╓к÷к╗к═к кёк÷к²к▓к°к°к╒к²к²к╙к╒к≤к╙к√к√к≈к■к▒к≈к⌠к▐к▒к▌к°к√к⌠к≈к╖к÷к╧к≈к■к²к⌡к∙к·к╝к╟к·кёк╛кдк·к╘к╦к╨к╘к╟к╙к╜к╞к╔к≥к■к╒к╠к╗к╓к∙кёк∙кёк╣к╡к╫кьк╨кук╠к╜к©к╟кЁкЁк╟к╝кёк╠к╠к╥к©к╧к╘к╝к╚к╙к╙к╖к╗к╙к╢к к╔кёк╕к╒к╘к╔к╓к╓к≤к≤к·к⌠к■к┴к┘к│к≥к┼кxкvк}кnкoк─к▒к÷к∙к▓к▀к░к╘к÷к═к╚к╒кёк╕к√к⌡к╜к⌡к÷к║к≥кёк╗к²к²к·к·к░к≈к·к■к≈к·к■к≈к█к▌к▌к┬к┤к├к┘к▀к─к|к├к┐к▌к│к к┌к┼к■к└к├к▄к└кк┤к▌к▄к▒к√к▒к├к▒к≈к≤к√к╛к╕к÷к к▓к╕к╡к╟к╨к╓к╚к╝кЁк╖к╔к╘к╠к╛к╞к╝к╜к╝к╟к╖к╠к╥к╨кёк╞к╛к╥кбк╦к╞к╩к╢к╨кЁк╨к╨к≈к═к║к к╙к╟к╗к°к╛к╙к╓к╓к≈к║к║к╛к╘к╠к╔к╒к╞к╚к╝к╗к╘к╕к╕к╖к²к╖к╒к°к║к╡к⌠к·к·к≤к к╔к°к°к≥к кёк╓к©кйк▐к╕к▐к■к≈к·к▐к≤к⌡к╕к÷к╞к÷к═к╗кек╞к©кнкак╘к╞к╟к╞к²к к÷к≈к·к╦к╙к╓к╕к╓к°к╕к║к╔к╦к═к╓к╘к÷к║к к╗к╜кгкхкЁк╧к·к╗к╩кфк╟к╓к╠к╣к╞к╢к╠к╛к╔к╠кЁк╤к╙к╝к╖к╘кЁк╞к╥к╦к╠к╓к╦кдк╗к╘к╖к╒к·к≤к к≈к⌡какёк╕к╖к÷к▌к≤к⌡к▐к╔к╟к╡к²к╔кёк·к к╕к╒к╔кёк╘к≥к≥к╓к к⌡к⌡к∙к к▒к√к·к²к■к≥к≥к≤к·к≈к≥к кёк≥к°к²к·к≥к≤к²к▓к░к≈к┌к─к┴к▌к┼к└к▄к┌к┴к█кк█кzк┌к┘к┴к┴к┴к█к░к▐к█к≥к к≈к к≥к▒к║к÷к°к║к╞к▒к╝к·к╘к╕к╚к╘к╝к╧к╨к╣к╪к©к╙к╓к╞к╨к╙к╜к╛к╜к╕к╔к╓кёк╗к╙к╚к╗к╙к╙к╓к╕к╖к⌡к к⌡к²к∙к≥к·к═к⌡к╕к к⌡к╓к∙к°к≥к╖к╙к╨к╞к╟к╛к╕к╓к⌡к═к·кёк╒к═к╔к╕к╞к≥к╒к⌡к╖к╝к╕к≈к·к≥к≈к÷к⌡к≈к═к═к к²к²к■к≤к∙к⌠к к┤к▄к▀к═к█к├к│к┤к└кфк┬к▌к┤к─к│к~к~к┬к└к┴к┘к├к┘к}к─к█к▓к▄к┐к▐к┴к√к к∙к▐к⌠к║клк╛к°к╙к≈к═к²к╙к╚к╜к╡к╡к╝к╕к╟к╔к╔к╙к╘к╘к╚к╧к╝к╡к╝к©к╛к╣к╟к╗к╛к╓к╚к÷к°к╒к╕к≥к к≈к²к≈к⌠к⌠к▓к▒к²к≤к∙к║к╕к╔к╠к║к╖к╕к╛к╦к╓к╔к╓к²к²к╕к÷к≥к≥к к≥к к▒к²к к≤к·к⌡к°к⌡к≤к≤к≥к≤к═к°к╒к║к≤к≈к∙к√к∙к≈к к∙к≥к√к÷к≤к⌡к═к÷к≥кек╜к║к╙к≤к²к к═к║к²к÷к≥к·к к°к■к█к▄к▌к┼к к┬к├к┼к≤к▐к≈к■к⌠кСк≥к≈к■к╖кёк╦к╪к╓кЁк╜к╝к╗к╗к╢к╘к╕к╜к╙к╖к╛к╡к╜к╚к╜к╛кЁк╢к╙к═к═к║к╕кЁк·к≤к²к÷к╙к≥к▐к░к⌡к∙к┬к▀к²к·к≤к═к÷к≥к⌡к╗к╜к╟к╕к║к╖к║к≥к√к к∙к╖к·к°к≥к°к≥к╗к°к╕к≤к∙к≥к÷к∙к≈к⌡к▒к■к⌡к═к■к⌠к≤к▒к▐к░к≈к≈к⌠кик║к┬к░к▓к═к╚к▒к▐к▄к▄к┼к▄к√к∙к▌к▀к┴к▄к▄к█к▒к░к▒к≤к■к▄к┴к▐к├к▒к■к█к┼к▌к╘к╓к═к к╕к÷к╡к╙к╒к╒к╚к╣к╢к╞к·к╒к║к╝к╤к╛к╞к╣кёкёк╔к╠к╟к╚к╕к║к²к╖к╝к╕к÷к╕к╖к≥к⌡к╔к°к к▒к┼к⌠к▐к▌к▒к√к║к°к≤к°к≤к·к⌡к╓к≤к√к╙к╚к·к≥к≤к√к√к⌡к═к·к°к≥к к╛к╖к√к÷к⌡к╒к≤к√к⌡к⌠к■к║к╚к░к▒к≥к⌠к≈к≤к√к░к┼к┬к┐к┘к▄к┤к░к▐к╒к▓к├к│к└к▒к▄к┬к┼к▀к▀к┼к▒к▒к√к·к█к┼к■к≤к╔к√к≈к█к░к≥к≤к÷к≥к║к к║к╒кёк╔к╕к╕к╙к╛к╛к╛к╞к╣к╘к╝к╓к╟к╝к╙к╗к╓к╞к╛к╙к╜к╡к╒к═к²к╖к╒к⌡к²к·к÷к²к к╒к÷к┼к к█к⌡к╙к╕к╜к╜к╕к╔к═к╟к╤к╜к╘к╔к÷к═к╗к═к║к²к╓к≤к≥к°к к≤к≥к²к∙к²к к⌡к⌡к≥к к■к²к÷к■к≤к■к·к⌡к░к≥к═к╒к к▒к█к▓к░к▒к▒к▄к√к≤к∙к⌡к▄к┬к┤к▌к░к░к█к█к∙к⌠к▐к▐к▓к⌠к⌠к█к⌠к■к▒к▒к░к┬к┬к▌к∙к к╦к≤к²к÷к≈к║к╒к╔к╔к╜к╢к╜к╟к╙к╜к╘к╗к╔к╗к╖к╗к²к╙к╛к╗к╘к╖к╜к╒к═к°к╔к╜к╖к═к║к═к÷к╔к╟к╗кёк÷к÷к⌡к√к⌡к√к∙к╚к°к÷к╕к╚к╣к╡кЁк√к⌠кёк≥к к≈к≥к к к≥к≤к═к√к║к∙к·к≤к к⌡к∙к▓к≈к≈к▐к√к∙к∙к▌к▌к▒к▌к╓к≈к∙к⌡к√к═к√к√к▄к∙к≤к⌡к■к▐к▒к▀к┬к≤к∙к■к▓к≈к█к∙к∙к≤к≤к╕к⌠к≈к▒к°к▒к▀к░к░к²к▓к⌠к▐к▌к■к·к⌠к√к≥к═к╛к╙к╜к╞к╣к╩к╝к╝к╙к╙к╕кёк╒к²к╔к║к╚к╕к╝к╒к╚к╘кёк╗к╓кьк╟к╜к╘к╔к╙к╕к║к√к░к╒к÷к≈к■к▒к∙к⌡к÷к≥к╓к║к╘к╞к╠к╜к⌡к∙к╔к÷к·к к≤к≥к к║к╒к⌡к·к≤к═к≥к≥к÷к√к⌡к⌡к╓к÷к·к⌡к к⌡к■к∙к█к▐к▓к■к≥к к╓к√к⌡к═к≥к▓к≥к▐к▓к⌡к·к√к≤к⌠к∙к⌠к к▄к▐к█к┬к┤к▐к■к▀к░к▄к≈к░к■к┼к├к┼к▐к∙к▒к∙к≥к≥к≤к к╒к·к╕к╗к╙к╢к╥к╚к╠к╓к╗к╛к╙к≥к╗к╤к╜к╖к╡к╙к║к╗к╚к╖к╞к╦к╠к╘к╠к╗к╖к║к╝к°к═к▓к≥к▐к■к▒к⌠к░к╗к÷к╔к÷к═к╓к╨к╘к╚к╟к≈к÷к╔к√к°к║к кёк≈к к°к⌡к²к÷к°к║к≥к≤к═к═к≈к√к√к≥к⌠к к√к к к⌠к═к к°к▌к▐к▒к▓к⌠к∙к к░к°к▀к▀к┤к┼к┘к┤к┴к┬к┤к█к▀к┬к▐к▄к┤к⌠к░к▐к▒к≤к≤к║к▀к┤к∙к┤к≈к█к▒к°к╔к⌠к■к⌠к╙к═к⌡к╥к╩к╚к╣кЁк╚к╘к╙к╡к╠к⌡к√к╘к╒кёк╚к╘к╗к╕к╕к╖к╤к╚к╞к╔к╞к╙к╓к╖к║к⌡к к к√к▄к┴к∙к▌к⌠к⌠к⌡к к╒к╞к╘к╗к╚к╛к╟к²к√к╕к╡к╕к║к≤к╖к║к к╘к╚к║кёк╚к⌡к■к≥к⌠к▓к█к⌠к≤к·к°к⌡к≤к▓к≈к⌡к⌠к▓к√к▒к÷к═к╞к║к°к⌡к╒к╒к²к≈к▒к╗к≤к⌡к∙к║к к▄к▒к⌡к▐к░к█к┴к┐к▄к▐к▄к╕к╜к⌠кСк├к├к┴к▒к╗к▌к≥к√к≤к÷кёк°к╔к╝к╡к╞к╡к╣к╝к╬к╟к·к╘к╚к╙к╔к╔к╜к╔к╚к╝к╕к╝к╣к╡кЁкЁк╞к╞к╜к╝к╖кёкёк·к║к≥к⌠к≈к▓к■к═к═к═к╗к╘к╒к╗к╬к╤к╖к╝к═к╕к÷к²к╒к²к≈к·к²к°к╓к╩к╚к²к■к■к≤к≤к√к≤к▐к■к■к▐к▐к≥к≤к▓к░к⌠к░к▌к▄к┴к▀к∙к▒к╡к■к·к∙к°к█к█к┼к÷к░к┴к▄к└к²к≈к▒к█к■к⌠к┼к▒к╒к┴к≤к█к┘к┌к▀к├к┘к∙к≥к▒к■к⌠к▐к²к╙к╘к═к÷кёк·к║кёк╕к╝к╤к╛к╖кёк╓кёкЁк╠к╕к╘кёк╓к╓к╣к╕к╙к╥к╙к╝к╣к╢кёк╩к╠к╘к═к╟к к▓к■к▓к■к√к°к°кёк╒к╛к╙к╚к╜к╙к╟к╖к°к║к╓к═к╓к╒к║к·к°к²к║к╝к╞к╖к·к²к≥к≈к∙к╔к╡к√к█к▐к■к∙к▒к∙к≈к·к√к∙к░к▐к├к▐к▓к▌к■к▄к░к╖к▓к┬ктк▒к≤к═к▀к└к▒к┼к│к┼к┬к│к к╒к▐к═к╖к▒к▐к╗к√к▀к▌к°к⌠к▌к√к├к≥к▓к═к╒к²к√к≤к▓к÷к²к╔к╓к═к═кёк╖кёкёк╚к╚к╓к╙к╚к╝к╗к╚к╡к╓к╚к╙к╡к╘к╜к╜к╡к╡к╚к╛к═к╔к°к≤к░к²к≤к÷к²к╖к║к╔к╒к╕к╛к╖к╞к╙к⌡к╓к·кёк║к÷к═к²к к⌡к⌡к╒к═к²к═к■к⌡к≈к√к к■к▒к■к▒к°к√к⌠к⌡к⌠к▒к┼к┤к▐к²к▓к⌠к░к≤к▒к∙к░к■к⌠к≥к·к÷к╙к▐к÷к⌡к┬к█к┼к⌠к▓к└к┴к∙к■к╣к║к≤к■к≥к√к▀к▌к≤к к▌к≈к⌠к╒к▓к▌к▓к⌠к░к■к░к°к к═к÷к╔к╕к÷к║к╗к╕к╒к╕к║к╓к╚к╘к╓к╟к╤к╢к╟к╠к╛к╜кЁк╠к╛к╗к╘к╡к╞к╒к°к╒кёк к≥к к═кёк╘к╙к╔кЁк╝к╢к╠к╝к═к·кёкёк╕к²к║к═к═к╒к╓к°к║к÷к≥к≤к≥к╔к░к■к╖к≥к▓к■к▒к■к≥к▒к▌к▄к▒к┼к√к■к⌠к▌к▐к к≈к∙к≈к▄к▐к┬к─к°к°к╒к╙к╟к∙к░к·к╜к≥к╚к╙к÷к÷к≥к⌡к·к≥к╗к⌠к▓к≈к≈к°к┴к▒к°к█к┴к┼к▐к²к⌠к▓к░к∙к≤к·к·к²кёк╗к╛к╠к╙к╙к╛к╕кёк╛к·к╖к╧к╚к╦к╞к╢к╚к╢к╣к╝к╓к╙к╗к╗к╔к╛к²к·к║к°к²к≈к°к╘к╗к╖к╢к╙к╝к╪к╥к╡к                                                                                                                                                                                                                                                                √к▄к≤к≤к²к≤к╒к°к÷к≤к÷к°к²к≥к·кёк▌к░к┼к▌к┴к█к┼к▌к▌к┬к┴к┤к█к▐к┤к┼к┘к└к┬к▐к⌠к÷к⌠к┴к▌к┼к┴к≥к░к▒к┤к▒к∙к█к■к≤к▓к░к┤к▓к┬к▄к┤к┤к┬к▄к▐к■к┼к│к█к░к┘к▀к┤к─к└к├к┴к├к~к┼к█к┤к┘к■к²к╒к═к°к╗к═к÷к²к≈к╒к╒к╔к╗к²к°к÷к÷к÷к╚к╕к╢к╗к╖к╕к╕к╔к╙к╔к╔к к║к·к■к╢к≈к═к╝к╜к╪к╗к╕к╜к╡к╤к╠к╛к⌠к■к⌠к■к∙к═к²к≥к к╞к╞к╛к╓к╔к═к⌠к█к┼к▓к▌к┤к┘к└к┼к┘к┼к█к├к▐к≈к÷к√к█к┼к▌к┼к▀к▐к┤к÷к▌к┤к▐к┼к▌к█к≥к≥к⌡к▒к≤к▓к▐к┘к┴к┴к┘к┘к┤к▄к░к└к█к├к┴к▓к┌к│к┬к▐к▄к┤к├к┬к┤к▄к▐к⌠к√к≈к▐к█к√кёк°к║к²к║к╗к╖к╕к╘к╒к╒к≥к≈кёк√к═к╚к╕к╕к╔к╗к╟к╗к╘к╜к╗к╕к║к⌡к⌡к к√к к╓к÷к═к║к║к╔к╓к╓к╘к╝к╙к╡к⌡к⌠к⌠к⌠к▓к≤к║к═к╓к╖к÷к≈к═к╒к·к к°к■к█к┼к░к▌к▒к▄к▄к┼к█к▀к⌡к■к▒к▄к▌к⌠к≈к≥к≥к■к≈к▒к▐к⌡к≤к▌к▌к▐к∙к²к к■к╒к⌠к▓к┴к█к▄к┐к┴к┤к▀к█к░к▒к░к█к┼к⌠к┼к┬к▒к▌к┌к├к├к┬к┐к┘к▄к▐к░к≈к≤к⌡к≈к⌠к▒крк≤кЦк╒к╪к╢к═к²к╕к к≤к≥к≈к≥к≥к║к╕к║к═к╔к·кёкЁк║к°к≤к≈к≤к╓к≥к≤к°к⌡к╒кйк╥к╗к╓кёк╘к╖к╕к⌠к√к▌к█к≤к≤к∙к к≈к╒к⌡к к≥к≥к⌡к⌠к▐к▐к┤к┼к┘к┴к▀к▒к┼к┤к▄к▌к▒к⌠к⌠к█к⌡к≤к▓к≤к≤к▒к≥к░к▐к≈к⌡к▓к▌к■к░к к∙к⌠к▐к┼к┤к┬к┘к┤к┼к┴к┐к├к┤к┤к├кк┌к~кyк└к─к▀к┐к┘к▐к┼к█к█к█к▐к┴к√к░к÷к░к▌к■к└к■к║к√к·кёкЗк∙к■к≤к⌠к▓к╢к╙к╬к■к≤к∙к≈к⌡к°к⌡к≥к√к к╠к√к≤к■к°к∙к╔к≥к╔к╕к╓к╜к╘к╒к╒к╔к╙к╜к╙к░к├к█к∙к▌к▓к⌡к═к⌡к▐к≈к≤к≥к■к▄к∙к▄к▐к▌к└к┴к▄к┴к█к└к┤к└к├к²к┬к√к▓к√к·к╒к·к╒к≥к█к▄к▌к▄к▒к▐к░к▀к▒к∙к▓к┴к┘к▄к°к└к▀к┘к┼к█к┴к▄к~к}к─к─к}к{кzк┐к|к└кzк~к~к┴к∙к▌к▒к▌к⌠к░к▒к░к■к⌠к▌к▒к▄к∙к█к≤к к∙к▒к≤к⌡к≈к⌠к⌡к⌡к к°к²к·к к╚к÷к⌡к÷к═к║к к÷к╔к■к≥к²к■к·к≤к╔к╝к╓к╕кёк╔кёк╖к∙к░к▐к┴к┐к┴к░к▐к═к к к■к∙к√к≤к░к▒к┼к▀к▄к▀к▐к┴к▌к■к█к┼к⌠к▀к┼к░к┼к░к к к║к╕к▓к▌к■к√к░к≥к⌡к▐к≈к°к⌠к∙к▌к┤к┼к▄к▄к┼к▐к┴к█к▐к├к─к┤к┘к┐к│кzкzк░к└к~к─кxккк┘к┐к└к─к└к▀к┼к░к▄к█к▒к┼к▄к▐к∙к▓к▀к√к⌡к╒к╧к²к═к²к∙к≤к▓к≤к═к√к²к╔к·к≥к²к≥кёк╔к≥к·к⌡к·к·к╔к║к╖к╡к≤к╚к⌡к÷к╒к╘к╛к²к░к▓к⌠к▌к░к⌠к┼к▌к═к≤к░к▒к⌠к░к█к⌠к█к▀к┬к▀к▌к√к▒к▐к▄к┴к┼к├к┤к┬к▄к░к■к█к▌к√к∙к к√к■к▓к░к≤к■к■к▓к▒к░к▄к∙к■к■к░к┬к▀к█к┐к┬к▄к┬к┐к▒к│к~к|к┘ккyк{к┤к┬к┤к}кк┤к┌к▀к█к┼к┴к▐к▒к▄к█к┴к┤к▄к▐к▐к∙к≤к≥кЛк°к═к÷к°к²к╘к║кёк╙к╝к╓кёк╔к÷к╗к⌡к²кёк≤к╓к²к╟к╛к╓к╢к╣кёк╒к÷к╓кёк═к╒к╞к к█к▀к⌡к┐к┴к▄к▒к▐к▒к▐к░к░к▐к▄к┬к┤к▀к▌к░к⌡к┼к▄к▄к▀к≈к⌠к▓к░к▄к■к■к⌠к⌠к√к°к■к┼к▐к▌к▓к┼к⌠к■к▄к∙к⌠к├к▌к█к░к∙к■к░к█к▐к█к┘к▄к┼к└к└к│к└к┐кvкxкyк~кvккtк┘кк│к▄к│к▌к▄к░к░к⌠к▓к▓к⌠к█к░к┼к⌠к▓к∙к⌡к≥к≤к к∙к√к╔к÷к═кёк╒к╒кёк╚к╗кёк╗к╒к÷к═к║к²к╓к²к к═к╓кёк╕к╕к╓к÷к╙к╜к╒к╚к╕к▄к≥к▀к■к┤кк│к▀к▌к▀к░к▌к⌠к∙к■к√к√к▓к▌к√к▓к▌к▒к░к░к▄к┴к∙к┘к┴к■к■к√к∙к°к∙к≥к▀к█к▄к░к∙к√к√к▀к▀к█к▓к█к┬к∙к≈к√к░к▓к▐к┼к┼к┐к┼к├к}к┌кzк|к┐к┤к─ккwкyкuкzк┌к|к└к┌к┼к▐к▒к▓к≈к░к▒к░к░к█к▓к▓к°к≈к≤к║к к╥к╒к╘к╒к╞к╗к╛к╙к╚к╕к╓к╕кЁк²к╕к╔к╒к║к╒к²к°к к╗к═к²к╒к·кяк÷к°к√к°к²к÷к▓к▌к┴к├к┴кzк└к▓к┴к┘к┼к∙к▄к┼к▒к░к█к▒к▌к░к·к≈к▓к┬к┴к├к└к▀к┤к■к√к▀к≈к▒к∙к■к■к∙к≥к⌡к к≤к▓к≤к╙к к√к≈к≤к╓к°к╘к║к═к║к⌡к÷к═к≤к▀к┼к▓к▄к┌к~кк{кzкyкzк~к}к├к└к к┴к┬к┐к┬к▐к°к⌡к▓к▐к√к√к⌠к√к√к≈к≤к⌡к║к╗к÷к÷к╓к·к⌡к°к╔к⌡к⌡кёк╒к÷к╜к≤к═к╔к═к·к·к╞к²к²к√к╥к÷к·к°к°к·кЁкёк°к═к·к                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ├к┐к│к┐к┴к┌к└к┘к▌к├к┤к┬к├к┬к┬к┴к┬к▌к▄к▀к▀к┬к⌠к└к┐к┐к│кyк─к├к⌡к═к≈к·к≤к■к░к≥к√к к√к░к©к█к▌к■к╒к░к■к÷к╝к║к╓к╚к╗к╕к╒к≈к√к▒к░к▄к┼к├к┼к┬к⌠к≈к┼к~к}к┐к▀к┼к▓к≈к°к░к░к≥к≥к·к∙к⌠к▄к█к░к▌к▌к∙к√к⌡к═к≤к≤к╒к╕к╜к╕к⌡к²к°к≥к к≤к▓к▓к⌠к к√к∙к∙к√к║к▓к▒к▓к⌠к▒к∙к≥к√к∙к░к▐к░к к≤к─к─к─кк┌к┘к┌к~кк~к|кк└к▄к┤к┌к┐к┘к▀к▌к~к┘к▐к┴к└к┘к┬к▐к┐к▐к∙к▐к░к▒к∙к≤к■к≥к░к▓к²к°к▓к▒к█к░к▒к·к·к²к·к÷к÷к═к═к║к≈к≤к■к█к■к┴к┴к▀к└к│к─к┌к┤к┤к┴к┬к├к⌠к▓к▄к▐к▄к▀к▒к▒к▌к░к▌к■к█к▐к▄к▌к∙к∙к▐к к■к⌠к≥к√к√к⌡к⌡к≥к⌡к≥к∙к√к▐к▐к▐к█к▌к■к█к┬к┼к▀к▄к┴к∙к≥к▒к⌠к█к▒к█к▐к░к▀к▐к┌к├к┼к├к┬к▄к█к┴к┐к└к─к~к┬к┼к┘к┼к┴к▀к▌к∙к⌡к⌠к▒к█к│к}к│к┬к▌к┴к┬к█к∙к⌡к≈к≤к║к╒к⌡к²к≈к√к▓к°к░к▐к▒к▌к⌠к≈к°к°к²к·к°к÷к⌡к≈к▓к▓к▌к▄к▄к▒к░к┤к┘к┌к─к─к┤к┤к┴к┼к▐к▀к┴к▐к⌠к⌠к≤к√к≥к≤к°к⌡к∙к■к≈к∙к к·к·к≥к к≈к≥к√к≥к к°к·к≥к√к■к▓к⌠к▐к≈к▓к█к▄к▌к▐к█к░к┬к┴к▌к▐к▄к█к▌к░к▐к▌к▌к█кxк~к└к┬к┼кёк▒к└к└к└к┌кк┌к│к┌к├к▒к≤к÷к⌠к≥к≥к²к┬к{к┌к─к┘к┤к┼к▄к┼к▄к┴к┼к▐к√к²к▐к⌡к≤к≈к╕к√к▌к■к▄к┴к┤к┼к▄к▐к■к═к■к⌡к∙к√к▐к√к▄к▄к▌к▀к▓к▒к▄к▌к┤к│к┴к├к┼к┬к┴к┼к█к┼к┴к░к░к■к·к÷к⌡к÷к÷к≈к≥к≤к▒к≥к÷к╒к║к÷к═к°к⌡к к⌡к²к≤к▓к≈к√к░к▐к■к▌к≤к∙к▓к┴к░к▌к▐к⌠к∙к■к▓к²к∙к√к к к≥к≥к│к└к─к┐к┌к│к┐к▄к┤к└к┌к|кк▐к─к┌к┌к└к┼к▌к²к┬к▀к▄к┼к┴к└к▐к░к▓к√к▓к▐к√к╔к■к≥к к⌡к≈к⌡к÷к▒к▓к▓к▐к√к▌к▒к▓к≤к≤к⌡к²к≈к⌡к≤к≈к√к∙к▒к┼к┌к└к┘к├к█к▄к▐к▓к■к┴к█к▌к▓к▒к▄к▒к▓к▒к▒к∙к≤к≈к≤к²к°к■к∙к∙к■к≤к≥к≥к°к·к÷к║к²к°к╒к═к═к÷к≥к■к■к⌠к█к█к▄к█к▐к┼к├к┴к▌к┼к█к▒к⌠к█к░к≥к⌡к≥к■к≤к▌к▓к■к√к■к┴к█к┼к▐к▌к█к┼к─к┌к~к┬к┐к┘к┬к┐к┼к┴к░к▒к÷к▄к▄к┼к⌠к▒к▌к▀к▀к▐к⌠к▒к▓к▓к≈к²к·к▐к⌠к°к░к░к▀к▀к├к┤к█к■к≥к≈к⌡к≤к≤к≤к÷к÷к⌡к⌡к≤к▓к▌к▄к к≤к■к к⌠к∙к≤к▓к┬к▀к┬к┼к▀к■к≥к÷к⌡к╗к╒к╔к║к·к≈к≤к∙к≥к⌡к≥к·к═к²к²кёк÷к÷к°к≤к÷к≥к⌠к⌠к█к▌к█к█к▐к┼к┤к┤к▒к▌к▐к▌к▐к▄к┼к▄к▌к▄к⌠к⌠к░к}к┌к├к├кк├к┼к├кzк─к┐к}кzк│к┘к├к┼к┴к█к┬к┼к▄к▄к┴к┤к├к}к┌к┌к┬к▄к┤к┘к┤к┬к▀к▓к▓к▓к■к▒к░к▐к▓к█к▌к└к┐к├к┘к┤к┤к≥к∙к≤к⌠к²к░к∙к▒к▓к▄к▓к▄к≈к┬к▀к▒к▌к═к▒к∙к░к⌠к▌к▌к▐к▀к┼к█к⌠к⌠к≤к∙к≥к≥к⌡к≤к∙к к к≥к≈к≥к°к²к°к·к°к°к⌡к к⌡к⌡к≤к к∙к∙к░к┼к┼к└к┴к┼к┼к┬к▄к▀к▀к▀к├к▄к┼к░к█к▄к█к▀к▒к▒к▐к▒к▀к▐к▐к░к┼к▀к▐к│к~к~к│к┬к┴к┴к┼к▄к▌к░к▀к▄к▌к█к┤к┤к┴к▀к┴к┤к┘к┤к┼к▒к░к▒к▒к≈к≤к≥к≥к■к▌к┌к┐к┘к┬к░к▐к▓к▐к▐к▐к┬к░к√к▌к▀к▀к▀к▀к▓к▒к█к░к▐к▌к▓к⌠к▐к▀к∙к▀к└к┴к▌к▐к⌠к÷к°к·к═к²к╒к╒к║к⌡к к·к╟к²к═к╒к·к╔к╘к╒к÷к╔к╕к╓к╓кёк÷к°к╕к÷к≥к∙к▒к∙к┬к▄к▐к┼к┬к▀к▒к▀к█к▌к▄к░к░к█к▐кzк┐к┤к┼к▌к▀к┼к┤к▄к└к┐к▌к}к─к│к└к┴к┌к┴к┤к█к├к┴к▀к┬к┴к┬к┘к┤к├к┬к└к│к─к┤к▀к┌к▐к▌к∙к■к▄к┴к░к┼к└кк┤к├к└к┘к▓к⌠к▐к²к┴к⌠к█к▀к┴к▐к■к∙к▓к░к▓к√к▓к⌠к░к░к█к▀к┘к~к├к┴к┘к┼к▓к▓к√к≤к°к°к╒к·к÷к°к²к≥к≈к═к÷к║кёк═к╔к╗к║к⌡к╒к²к·к╔к╖к°к⌡к≤к⌠к▓к┬к┬к┬к▀к┬к┘к├к▌к┴к▄к▌к▄к┬к└к┴к┐к}к┼к~к┘к─к┘к┐к┬к█к─к▌к┤к┐к┘к▓к└к┐к┐к┤к▀к█к├к▒к┼к┬к┤к├к├к┐к┌к┤к├к┌кк|к└к└к─к├к▌к┴к┴к┬к▄к┤к┐к┌к─к└к┬к├к⌠к²к²к≥к■к┼к┼к└к√к┐к│к┬к▄к⌠к▌к░к⌠к≤к█к░к⌠к▀к┬к▐к┴к┴к▀к▀к░к∙к⌠к≈к≤к⌡к°к≤к⌡к╓к║кёк≈к²к≥к²к÷к╒кёк÷к═к╕к╒к╓к≥к·к╕к╒к·к÷к⌡к▓к▌к∙к∙к▐к▌к┬к▌к▐к┬к┴к┬к▐к▓к▌к┬к┴к▐к▄к┌к▐к└к└к▀к┤к┘к├к∙к░к█к┼к┘к└к└к┤к┴к│к┬к┴к▐к▀к┬к█к▌к▄к┴к▀к▀к└к┤к│к}к}к─к┼к▀к┬к▀к▀к┐к┤к├к└к}к}к│к│к┤к▐к≈к·к÷к≈к█к┤к┤к√к┤к┬к┐к┌к─к┤к└к┘к░к▒к▌к░к░к▒к▌к░к▀к┴к█к┼к⌠к≤к≥к²к⌡к≥к к к⌡к≥к≥к⌡к╒к║к╒к╕к╔кёк╗к╙к╚к╙к╘к╗к╜к╥к╞к╕к╕к⌡к²к⌡к╔к≈к≤к∙к≈к▓к∙к≥к≈к▒к■к≈к█к▒к▌к▄к┴к▀к┌кzкyк│к│к│к│к▓к⌠к▓к▀к█к┬к└кк├к┘к┘кк┌к┘к▀к▀к├к┤к┤к┬к┬к∙к┬к┤к|к{к{к{к|кzк│к┌кzк|к{к}кyк─к├к─к{к│к┬к├к█к÷к░к├к▄к°к░к┼к┼к├к└к{к├кк│к█к⌠к┼к▄к∙к▐к▒к▀к▄к▌к▓к▒к≥к√к≤к≥к⌡к≈к·к⌡к═к⌡к²к·к°к²к÷кёк╓кёк╘к╛к╛к╖к╘к╗к╖к╗к╔к╔к╒к╔к║к╖к≥к°к⌡к≤к■к√к√к≈к∙к≈к°к⌡к≈к≥к√к▄к▐к░к─к}к}к┐к┬к▒к▒к°к╚к²к║к⌡к▌к█к┼к≥к╓к╛к╓к╗к²к°к▐к⌠к▌к√к√к²к█к▄к─кк│кк┐к├к┘к▄к└к└к─к┐к┼к▌к┌к┬к┼к⌠к■к╖к╗к⌡к∙к∙к░к▒к▒к⌠к к╚к╩к╒к─к┌к└к▀к╓к┴к▓к▀к▐к┼к▄к┼к┼к█к┴к░к▒к■к∙к кёк═к╔к╒кёк═кёк╓к═к·кёк╓к╛к╗к╙к╘к╙к╠к╚к╘к╞к╞к╝к╘к╙к╖к╖кёк║к÷к·к·к╖к╓к╖к╝к╖к╒к·к°к к≤к√к√к▄к┬кк├к█к┤к┌к┬к├к┼к▀к▌к≈к▄к└к┼к▄к┘к┴к┘к┘к└к┬к┴к┘к┘к▄к▀к▄к▄к┬к┐к┬к┤к{кuкsкsкxкzк}к─к├к▀кwк│к┘к└к└к└кyкyк┌к┴к┼к┴к≈к┤к▀к┤к░к┼к▌к}к{к~к√к▀к▒к к▀к▒к░к▌к■к▌к░к≤к√к╖к═к║к╕к╠к╝к╞к╦к╤к╨к╠к╖к╔к═к╒к╓кёк╖к╠к╝к╞к╟к╜к╚к╠к╟кЁк╢к╝к╟к╛к╗к╖к╖к╔к╗к╕кёк║к╓кёк╓к╙к╗к╖к╠к╕к╔к╛к╔к≈к│кxк─к┌к┴к┌к├к┘к┐к┴к├к┤к├к┬к┬к▄к├к┴к├к┤к├к▀к┴к┴к┼к▌к▄к└к┬к│к~к}кyк}к}кwк{к~к▄к▌к▌к┤к▄к┬к┬к┘к┘к┤к┬к┬к█к┴к█к▀к┤к┬к┼к▐к┴к▐к┤к▀к┤к┼к÷к▓к≤к┴к▐к к⌠к∙к▌к▓к▀к▒к≤к≤к≥к·к·к╒к╖к╘к╛к╚к╚к╕к╔к╔к╓к═к═к╔к║к╔к╕к╙к╞к╙к╙к╚к╛к╚к╝к╝к╞к╚к╜к╘к╔кёк═кёк╒к·к╓к╒к╓к╓к╖к╖к°к≤к≈к°к║к╒к┘к┤к▀к▄к├к┘к░к├к┐к┤к┌к┌к┴к┐к├к├к█к┴к▒к⌠к┤к┴к┬к▄к┼к▄к┼к█к┤к├к┐к~к┐к┼к┘к~к█к└к┤к█к▓к╚к▄к▌к▌к▐к┼к└к─к─к─к┐к┴к⌡к■к▓к▐к┬к┼к┤к└к└к│к|к│к░к▀к┬к┴к█к┴к┘к└к▀к▒к√к■к≥к⌡к²кёк╔к╔к╙к╞к╞к╞к╟к╙к╕к╓кёк╓к╒кёк╖к╖к╙к╛к╝к╡к╞к╠кЁк╚к╟к╞к╘к╗к╘к╙к╚к╔к╔к╙к╗к╓к╓к╓к╓к╗к║к·к≤к⌠к≈к■к⌠к}к└к┬к┤к┴к┼к▓к■к▄к├к█к█к▄к▀к▄к▌к┤к┬к░к≈к▌к▓к⌠к■к░к▒к■к┴к┌к┐к┌к┌к┴к┴к├к┤к┼к┌к┼к┤к▀к┬к┤к┬к┬к┴к┤к│к|к~к}к─к}к┐к├к┬к┤к└к└к├к┐к├к┘к┘к┌к├к┴к└к┴к▀к▀к┘к┼к■к░к░к■к к╗к╔к╔к╙к╠к╥к╩к©к╬к╬к╩к╣к╜к╙к╚к╗к╖к╗к╗к╠к╝к╟к╡к╟к╟к╝к╠к╡кЁкЁк╡к╚к╗к╙к╗к╘к╚к╚к╙к╗к╙к╘к╚к╞к╛к╗к╡к╠к╛к╗к┐к└к▀к█к▀к▌к■к▌к├к┤к┘к├к┴к▄к┘к└к┴к▐к┬к┤к┤к├к█к█к▀к▄к┤к└к█к┌к┌к└к├к┴к┤к▄к▐к┬к┬к├к├к┬к┴к█к┤к█к┬к┬к┐к│к│к│к}кк└к┌к┘к├к└к┌к├к└к┴к┐к┴к┘к┤к└к└к┴кёк∙к▓к²к╒к∙к°к÷к╒к╒к╕к╕к╕к╞к╟к╬кюкюк╪к╡к╞к╗к╗к╚к╕к╙к╝к╢к╚к╜к╗к╙к╖к╙к╙к╖к╘к╘к╚к╝к╛к╜к╚к╙к╙к╙к╙к╟к╡к╝к╜к╚к╖к╚к╛к≤к■к∙к┘к█к┬к≈к▄к┴к░к░к┴к┬к┴к▀к▐к┤к┴к┐к┤к┼к▄к▒к▓к▄к┴к┬к┬к├к│кк└к│к~к|кк┬к┌к│к└к└кк~к│к│к├к└к}кк┌к─к┌кzк┤к}кxк{к┼к└к┌к┬к┼к┴к┤к┴к┴к█к┐к▄к┼к┤к┬к┴к▄к⌠к■к≤к°к к≤к к²к÷к║к╘к╕к╚к╘к╜к╚к╟к╚к╝к╟к╝к╘к╗к╚к╛к╛к╚к╜к╛к╚к╜к╘к╙к╖к╙к╙к╘к╛к╛к╗к╚к╞к╘к╙к╗к╜к╙к╙к╘к╙к╝к╘к║к÷к к≤к≤к▌к┼к┤к▀к░к▌к≤к■к▄к┼к│к~к┼к└к┐к█к▌к┬к┴к┤к┴к┤к┼к▀к█к▌к┴к┘к│к┐к┐к└к┘к┬к┘к┬к┤к├к┤к┴к┘к┴к█к▀к┼к▄к▀к├к┌к}к│кк│к│к│к│к│к┐к┘к┤к┤к┌к┘к┴к▓к░к┴к▄к▐к┼к█к▄к▄к▌к▓к▒к°к╕к╕к║к╒к═к╔к╓к╗к╛к╗к╜к╞к╝к╝к╜к╜к╠к╘к╛к╢к╜к╡к╞к╜к╝к╝к╖к╘к╗к╚к╙к╖к╗к╓к╝к╘к╙к╕к╙к╘к╛к╘к╛к╗к╕к╟к╗к╖к²к≤к√к▓к█к┼к┼к▀к▄к█к▓к∙к▌к█к∙к√к┤к┌к─к{кzкк┘к└к▄к├к┘к└к─к~к{кxкyкxк~к~кyк}к}к|кк┘к{к}к┌к┐к┌к}к└к┌к}к┌к┌к─к┌к~к┌к┤к┘к┤к┘к┘к┬к┐к┐к┤к█к▐к┬к▌к▌к▒к■к▄к▒к▌к█к≤к╙к≤к║к≥к≤к°к²к·к·к═кёк╔к╚к╛к╡к╟к╥к╞к╞к╟к╞к╞к╢к╥к╧к╢к╝к╟к╞к╡к╜к╙к╗к╗к╙к╘к╚к╕кёк╗к╢к╟к╧к╧к╚к╜к╙кёкёк°к≈к≈к┘к▄к┼к▐к░к■к┬к█к▓к┬к░к⌠к∙к▒к≤к▐к√к▓к∙к█к▌к▌к┬к┼к┼к┼к│к┐к─к|кzкxкrкyкwк{к│к┐к├к┬к└к├к├к┐кyкк}к─к{кzк~к│кxкzк┐к┬к┐к┘к┼к┘к┘к┘к┴к▌к≥к═кяк∙к⌡к√к▒к■к▓к≤к╒к╗кёк╖к╛к╗к╙кЁк╚к╛к╜к╓к╔к╘к╕к╖к╖к╚к╝к╘к╙к╜к╛к╠к╣к╢кЁк╣к╤к╧кЁк╡к╡к╙к╗к╙к╚к╟к╙к╗к╗к╙к╛к╚к╟к╡к╜к╜к╜к╕к╕к═кёк⌠к■к≈к≤к▐к■к█к▐к▄к∙к⌠к▒к≥к≥к╒к≥к≤к к▒к∙к≥к÷к∙к▌к▒к┼к┴к▀к▀к▐к┘к┬к┬к┌к|к~кк┤к├к┬к▐к▐к▄к⌠к░к▄к█к┤к└к│к─к┐к|к|к─к─к┘к┘к├к▌к░к┤к┼к▓к░к▒к≈к≈к к≥к·к║к≤к▒к▒к▓к√к≈к≥к°к°к°к·к°к²к°к÷к║к╔к╒к÷к╔к╖к╖к╓к╘к╙к╚к╛к╣к╟к╣к╞к╟к╞к╞к╞к╜к╡к╜к╝к╙к╙к╙к╝к╡к╠к╡к╡к╞к╝к╝к╝к╚к╗к╖к╔к═к⌡к²к≥к■к▐к▐к■к┴к█к█к┴к√к⌠к▓к∙к▒к▓к╒к▒к░к░к▌к▀к▌к▄к┴к┼к▓к┤к┤к┤к┘к├к┼к▀к┤к┬к┤к┬к┬к┘к┴к┴к▀к░к▐к▀к▄к┴к█к▌к▒к┘к┬к┤к┘к▌к≥к▄к┤к█к░к▄к█к░к▓к≤к≈к≤к²к≥к⌡к°к°к⌡к⌡к║кёкёк╗к╕к╓к═к÷к°к²к к к÷к°к·к╔к═к║к╔к╗к╜к╟к╡к╝кЁкЁк╢к╥к╡к╢к╚к╛к╛к╗к╙к╔кёк╕к╒к╖к╗к╚к╚к╚к╙к╚к╗к╘к╖к╕к╓к²к÷к°к≥к≤к≥к÷к°к≈к▌к▀к┼к▀к▒к■к■к■к▓к░к▄к┼к┤к┴к┴к┼к└к▌к╜к├к└к┤к┬к▀к▄к≈к⌠к▌к▀к┴к▄к▄к▒к▒к▓к┴к▄к┤к√к░к≈к▒к■к║к║к▄к┴к▀к┬к▀к┴к▐к∙к⌠к⌠к▐к▐к░к∙к■к√к≥к√к≤к≤к≥к≤к²к║кёк╚к╛к╢к╢к╞к╚к╒к╔к╕к║к═к╒к╘к╒к═к╔к╔к╗к╛к╟к╟к╟к╡кЁк╥к╢к╡кЁкЁк╣к╞к╟к╘к╘к╟к╞к╘кёк╗к╙к╙к╝к╛к╞к╔кёк║к═к╗к║к⌡к═к■к≥к·к╖к°к░к√к░к┴к█к└к┬к┴к▌к█к▌к▒к┴к┴к┼к┬к√к┤к┬к┼к├к└к┘к└к─к┬к█к∙к▄к▄к▓к┼к▐к█к⌠к▓к▌к█к▄к┤к┤к▄к┼к▌к▌к²к█к■к≈к∙к≤к∙к⌠к▓к■к к÷к╫к√к°к≤к⌡к к·к°к·к°к²к║к║к╕к╓к╜к╞к╙к╗кёк╞к╘кёк²к═к╕к╓к·к÷к╕к╗к╗к╖к╙к╛к╜к╣к╦к╡к╚к╞к╥кбк╨к╡к╙к╙к═к÷к╒к║к╕к╖к╙к╘к╘к╓к╔к═к═к═к║к÷к÷к≤к⌠к к к▓к▄к√к▐к■к▄к█к▀к▀к┐к└к▄к┬к┤к┼к▐к▒к▀к▐к≤к°к≥к√к⌠к▄к┼к┴к▀к▌к▄к█к▌к∙к█к█к┴к┼к┴к▀к·к▌к┴к▓к▌к░к▓к▓к√к▒к╘к═к÷к⌡к≈к≈к≥к⌡к·к²к■к∙к°кёк√к≥к≈к²к²к═к╛к╒к╓к╘к╘к╝к╞к╚к╚к╝к╚к╘к╘к╕к╕к÷к·к═к═кёк═к═к╓к╜к╟к╢к╣к╧к╤к╚к╡к╟к╜к╘к╖к╛к╛к╔к╓к╔к╓к╒к╒к╔к╔к╔кёк╓к╘к╔к╓к║к╒к╓к═к═к÷к▓к≈к╖к·к°к┬к▀к┘к┤к├к┬к┼к█к░к┴к▄к┼к▄к⌠к▓к▓к▓к■к▄к▓к▀к┴к▀к≈к░к▄к▄к┬к²к╘к╧к╥к╞к⌡к≈к▓к√к≈к▄к▓к▐к▀к▀к┼к▀к▄к█к░к■к⌡к≈к√к≤к⌡к▐к≤к²к²к÷к═к═к·к═к°к═к║к╓к╗к╕к╗к╕к╖к╠к╜к╗к╓кёкёк╘кёк║к║к║к⌡к²к·к═к╔к╕к╕к╖к╗к╞к╜к╘к╘к╘к╚к╝к╛к╗к╓к╓к╓к⌡к║к·к≥к·кёк╓к╓к╓к╘к╕к║к·к÷к╘к÷кёк╖к║к∙к÷к▌к░к┘к┐к┬к▀к▄к┘к┘к├к┤к├к▒к▀к▌к▐к▐к░к√к■к▀к∙к∙к▄к⌠к■к▌к▀к▓к█к█к░к·к█к▌к≈к÷к°к∙к▓к■к▒к▌к▀к┘к▒к▄к▓к▒к■к▓к∙к к≈к°к÷к²к√к▓к≥к▒к■к▓к∙к к≤к■к°к≥к·к║к╓к╕к╔к╔к╒к╕к╛к╙к╖к╒к╙к╓к╓к╓к к⌡к√к⌡к·к═к╔к╔к╕к╘к╓к╖к╘к╤к╕к╞к╖к╚к╒к╕к÷к°к²к≤к║кёк÷к°к║к║к╔к╕к╒кёк°к║к·к к к═к⌡к▒к∙к▌к▒к▀к│к├к┘к│к┌кк─к┘к▌к├к├к┤к└к░к┴к┴к▒к▒к≈к∙к▓к√к▄к┼к┬к▄к▄к▒к⌠кёк≥к≥к■к∙к≤к■к▐к▄к▌к▌к▓к┬к├к▀к┼к░к■к⌡к²к°к∙к≤к²к·к≈к≥к≈к°к²к²к²к°к÷к к═к═к╔к╙к╗кёк╕к╓к╗к╘к╜к╖к╕к╖к╞к╚к╖к║кёк⌡к═к÷к╓к╒кёк╔к╘к╓к║к║к╓к╜к╜к╞к╟к╝к╚к╠к╟к╒к╒к╕к╔к╠кек╢к╞к╟к╙к╠к╕к╞к╖к╖к╛к╕к║к■к≤к∙к≥к▌к▒к▀к┬к├к┐к~к─к┐к┤к≥к∙к∙к≈к⌠к|к┌к▐к─к▀к▀к┬к║кюк≤к⌠к∙к▓к▒к√к▐к■к■к▌к▌к░к▌к▐к█к├к┴к┤к▐к░к█к⌠к┴к▐к√к⌡кёк÷к║к╜к·к÷к·к⌡к≥к≈к·к╒к═к÷к²к╔к╔к╒к╓к╖кёк╘к╚к╘к╝к╝к╙к╛к╚к╖к╔к╖к═к²к²к≈к■к⌠к∙к≥к√к к║к╒кёк╔к╔к╘к╗к╗к╗к╒к║к╔к═к·к∙к■к⌠к√к≥к≈к≥к°кёк·к≤к⌡к≥к√к≤к≈к⌡к°к∙к∙к░к▓к▐к▌к┴к█к┴к┤к┌к┬к─к┼к√к√к┴к┘к░к▓к┼к█к⌠к▄к├к┐к└к▄к┴к▄к┼к▀к▐к▓к≈к▀к▀к▄к┴к┴к┤к▄к█к▄к█к▄к▌к▌к█к√к▌к▀к⌠к≤к╝ктк═к╕к╔к╙к╖к╛к÷к²к·к║к╙к╓кёк÷кёк╒к╒к╔к╗к╖к╓к╕к╖к╘к╝к╜к╚к╝к╡к╕кёк²к≥к≤к√к≥к°к²к╔к╓к╒к╒к╖к÷к╔к╓к╗к╖к╔к═к║кёк²к°к к√к■к≥к≤к÷к∙к≥кёк÷кёк║к═к╒к÷к к√к≤к≈к≈к▀к▒к⌠к├к█к█к┼кyк┐к─к─к┘к┬к┴к┬к┤к┴к▌к┴к█к▄к└к┴к┤к░к█к≤к■к√к▓к█к▒к┼к█к⌠к┼к┼к█к┬к┴к┴к▌к┼к└к└к┤к┬к▀к▐к≈к·кёк╡какакюк╦к╤к╝к╚к÷к°кёкёк╘к╕к╓к║к═к╕к╘к╗к╜к╝к╚к╙к╙к╗к╖к╔к╗к╗к╘к╕к÷к⌡к■к▒к■к░к∙к⌡к⌡к╒к═к╓к⌡к║к║к÷к÷к⌡к⌡к⌡к°к≥к°к■к■к█к█к█к░к√к√к≈к√к√к√к≥к≥к°к≤к▒к∙к≤к∙к▓к┼к▄к┬к▀к┴к└к~к~к{к─к┼к┐к┬к▄к▒к■к≈к░к▀к▌к▀к▀к▀к┬к┼к┴к┬к├к┼к┴к▌к█к▌к⌠к▓к▀к▄к▌к■к▓к┤к┌к┼к▌к┴к⌠к┤к▀к▐к⌠к≈к°к²к╛к╖к╜к╥кюк╖к╒к╕к╓к╙к╝к╛к╗к║к÷к÷к⌡к к╔к╗к╓к╔к╖к╖к╔кёк╓к╗к╖к╙к╙к╓к≤к■к√к√к═к≤к⌡к≥к≤к≈к к≥к·к╒к╔к╖к╜к╖к═к÷к²к·к√к■к▒к▒к к к√к⌡к∙к√к²к к⌡к∙к²к°к≥к⌡к≥к≤к√к√к■к▌к█к└к└к┌кtк│к┐к┌к├к┴к▄к┬к┬к█к▐к∙к▀к▌к┼к▄к▄к▓к√к▓к░к▄к▐к░к┬к┴к┼к▄к█к┴к└к┬к┤к┤к─к┤к▒к▐к▓к■к▓к▒к≤к⌠к°к÷к÷к к÷к║кёк╔к╓к═к╒к═к═к╙к╔к║к·к╓к╗к╘к╖к╖к╘к╙к╗к╗к║к╔к╒к╕к╙к╗к╓к÷к╒к║к²к⌠к■к⌡к≈к√к≥к≤к∙к к°к°к·к°к÷к≥к к·к²к≈к▓к▐к░к▌к┴к█к▌к▓к▒к⌡к≤к√к∙к≥к√к√к⌡к≤к▒к■к█к▀к┤к┬к≈к⌠к▌к─к─к~к┘кк~к─к┐к}к┐к└к┐к┼к▀к┴к┤к┬к█к░к⌠к▌к▐к▀к┴к┼к▄к┼к▐к┼к┬к┴к├к├к┘к┼к├к┬к█к├к┼к▐к⌠к▐к░к√к к²к²к╓к═к║к╞к╚к╖к╖к╘к╖к╛кёк╓к╔кёк║к╓к╓к╓к╖к╔к╘к╚к╝к╕к╚к╖к╘к╙к╖кёкёк╒к╓к√к⌠к▐к▀к▄к▓к▓к к▒к⌡к∙к≤к°к≥к°к≥к°к°к к≤к⌡к▌к▌к░к═к к°к к≈к▓к■к≤к≈к≥к■к∙к∙к∙к▄к⌠к■к┌к│кyк{к─к┐к┬к├к├к┐к┬к┌к┤к┼к┘к┴к┤к┘к┼к▄к░к░к√к√к≥к■к▓к▐к█к⌠к∙к≈к≈к к²к═к≥к▓к√к⌠к▒к▐к┼к∙к√к■к≤к⌡к²к°к к║к╓к╗к╛к╖к╖к╙к╗к╛к╙к╙к╔к╘к╖к╔к╖к╕к╠к·кёк╖кёк╔к╓к╓к╔к╕к╖к║к═к║к╒к·к°к²к║к≤к▐к┘к┘к┤к≈к■к≈к⌠к≤к√к≤к■к∙к⌡к√к к·к≤к к√к■к▌к⌠к┴к▐к⌠к▓к▓к■к▓к■к≈к▓к√к∙к∙к∙к■к▓к░к┐к▄к┤к▄к▌к∙к⌠к═к≈к┐к├к┘к┤к▀к≥к▒к≤к√к к■к═к╒к═к°к≤к к÷к·к²к⌡к⌡кёк═к≤к·к═к║к∙к·к╒к≈к▌к▐к▒к▒к░к▓к■к∙к⌡к°к к╕к╘к╗к╖к╘к╒к╔к╠к╕к╒к║к÷к╕к╕к╕кёк⌡к║к·к·к÷к·к║к║кёк╕к╔к╓к╒к╒к╔к═к╕к║к╒к к■к▒к┘к┘к▄к┐к▐к▀к²к░к▌к⌠к≈к■к÷к√к▐к░к▓к≈к░к∙к▒к⌠к⌠к▌к▌к√к∙к▓к▐к░к▒к■к▒к▒к▓к√к⌠к⌠к┌к┘к┬к┌к└к┘кк┤к┼к▐к▒к▐к▀к∙к▌к⌠к⌠к░к▒к√к░к⌠к⌡к■к√к°к■к▌к░к▒к▓к░к▀к▐к▀к■к█к┴к┴к┤к┴к┼к┼к▀к┼к┬к▀к┴к■к▓к≤к∙к≈к═к≥к═к·кёк║к╗к║к╓к╡к╘к═к║к╒к╗к═к║к≥к°к°к÷к²к·к╓кёк╕к═кёкёк²к²к²к≥к≤к∙к■к┬к▄к┬к▄к─к│к▒к┤к▀к√к▒к■к▐к■к▒к▓к⌠к█к▀к▌к█к≈к≈к²к⌡к√к≈к∙к⌠к⌠к⌠к∙к▓к≥к∙к≈к·к≈к■к├к┤к└к┬к┼к└к█к░к▓к∙к⌡к÷к╚к╙к╙к╔к═к╔к║к∙к≈к≥к≈к⌠к■к⌡к÷к≈к∙к▓к⌠к∙к∙к▓к▓к▒к▌к▒к░к▌к▌к█к┬к▌к┼к▀к█к⌠к∙к⌡к√к≤к°к²к²к к²к═к║к²к⌡к°к²к⌡к к≥к к√к√к≤к°к⌡к≈к≈к⌡к╔к°к к═к═к╒к к⌡к≤к≥к≈к∙к▓к⌠к░к░к┼к┌к▀к╜к⌠к°к▐к▀к▌к▒к▓к⌠к√к≈к√к≈к▒к√к≤к═к╓к╒к╒к╖к╞к╚к╕к╒к°к≥к⌡к·к═к≈к≈к⌡к═к└к┘к┘к┼к└к┴к┴к┌к┘к░к▓к⌡к²к╘к═к═кёк⌡к≥к√к≈к≈к к≤к²к÷к╒к╙к╓к∙к║к√к∙к⌠к⌠к▄к▄к┼к░к⌡к·к≥к∙к░к·к■к⌠к▌к▐к▓к░к≥к°к²к⌡к÷к╓к═к═к╒к║к║кёк╕к╔к²к°к■к■к⌡к⌡к к≥к≤к к·к≥к²к°к═к²к·к÷к·к к≈к░к∙к▄к█к├к├к┬к└к┤к█к▒к·к║к╒к⌡к²к·к²к°к°к к∙к·к°к≈к²к╒к╖к╔к╛к╔к╕к≈к²к·к╒к▓к≈к≥к°к²к²кzкк┌к└к└к┴к░к⌠к≤к▓к▄к░к⌠к∙к≤к≥к░к∙к∙к⌠к⌠к■к░к■к≈к■к к≥к∙к√к▓к∙к░к█к▌к▐к▌к░к▐к▐к▓к█к┴к├к┴к▌к▄к▄к▐к▌к▒к≤к∙к к°к°к≤к╔к к≥к⌡к⌡к≥к∙к⌠к■к∙к▓к■к▐к▓к▒к▌к░к░к░к⌠к⌠к⌠к▒к⌠к⌠к⌠к▓к■к█к░к▐к▄к┼к┴к├к┌к┤к┐к└к┘к┬к▐к▐к√к·к·к≥к≈к≈к°к к²к⌡к≥к°к·к·к·к·к÷к к к≤к⌠к≥к≥к²к≤к≤к≈к≈к│к┌к┐к├к├к█к▒к▐к▒к▒к√к√к≥к╕к╘к╞к╙к╓к к°к⌡к═к к⌡к²к·к°к²к⌡к⌡к≥к█к█к┼к▀к▀к▄к▄к▌к▄к▒к█к▀к├к┼к▄к▀к▀к┴к▒к≥к≤к⌡к к■к к≈к°к≤к≤к⌠к■к▒к▓к▐к▀к░к▐к░к░к▌к▀к┬к⌠к√к▒к⌠к√к▒к⌠к░к░к▓к▌к▐к▓к√к∙к█к┤к└к┤к┼к▄к▄к▓к▐к▌к■к⌠к≈к кёк°к⌡к≥к≈к≤к≥к≈к∙к∙к·к к≤к√к√к≤к√к≈к≤к≤к√к≤к≥к к≥к≥кuк|к│к┐к┘к█к┴к▌к⌠к≈к∙к≈к²к≤к≥к═к к≤к к∙к√к÷к⌡к·к°к²к к⌡к⌡к⌠к≥к▒к┼к┼к┬к▀к▀к▀к░к█к┴к┤к├к┐к┌к├к┬к┬к┬к█к░к≈к▓к⌠к▐к■к≈к√к⌠к к╓к°к⌡к≥к■к■к█к▌к┤к┴к┬к├к▀к▌к┴к▌к▓к⌠к░к▐к░к⌠к▒к▌к▓к░к█к█к┼к▀к┴к▄к∙к▒к▒к▄к▒к▓к≥к к∙к÷к·к²к²к÷к⌡к²к°к≥к к≤к к√к√к∙к≈к▒к√к≤к≈к■к∙к▓к²к°к≥к≥к─к┐к│к┼к┴к▐к░к▓к⌠к⌠к≈к°к╓к╓к╗кёкёк╓к≥к²к≈к≤к к║к≥к°к°к≥к≈к⌠к▓к√к⌠к░к├к┐к┤к┴к├к├к└к┘к┬к┴к┘к│к├к┐к─к┤к▄к┼к▌к∙к■к▌к┼к░к▒к▐к▒к≥к≈к≈к░к▌к▀к⌠к▒к▐к▄к░к█к▐к█к▀к▀к⌠к▄к▀к▐к▒к▒к▄к▒к⌠к┴к▒к┼к█к░к┼к▀к░к⌠к√к▒к∙к°к═к к к к≤к к²к╒к═к╓к÷к²к╓к÷к⌡к≈к≈к⌡к≥к к⌠к■к√к≤к≥к≥к·к≈к≈к}к├к■к▓к≥к к≈к≤к√к√к≈к║к╗к╛к╤к╞к╓к⌡к к╕к═к╓к╕кёк╓к╒к╓к²к⌡к≥к■к▌к▄к┘к┬к┤к┘к┐к├к└к┼к┴к┤к├к┤к▌к┼к─к┐к├к├к▀к▄к▀к▀к┼к░к█к▓к⌠к√к▒к⌠к▐к┼к▄к▐к∙к░к▒к▓к▌к▒к▌к▒к▐к▒к⌠к▒к┼к█к█к▄к▀к├к┤к├к┤к┴к▄к▓к▒к■к∙к■к√к■к⌡к═к╓к╒к к°к к²к═к²к к═к²к═к°к⌡к≈к⌡к√к∙к■к к√к√к к═к к²к²к÷к°к┤к█к≥к°к÷к к≥к∙к⌡к⌡к²к⌡к╒к╙к╣к╠к║к╒к≥к≥к°к°к║к╒к╒к╕к╙к═к²к°к⌠к≈к█к┬к┬к┴к├кк─к┐к└к└к└к─к─к│к│к┐к┌к┌к┘к░к▐к▄к▌к▄к┬к┼к▐к┤к┬к█к┬к┘к┘к┌к┌к└к┤к▄к█к▐к▒к√к■к░к⌠к▀к┼к┴к▌к▒к░к⌠к▓к░к▄к█к▌к█к▌к▌к░к░к⌠к∙к∙к≥к²к═к╕к╗кёк·к║к╓к╒к║к╒к÷к═к═к°к⌡к²к°к≈к∙к≤к≥к≈к°к÷к═к╔к²к÷к÷к─к├к░к∙к≤к√к▓к■к╘к≤к к≥к к°к⌡к≈к≈к∙к⌠к√к≤к·к²к²к к≥к≈к≈к≤к√к▒к█к┴к┬к┤к┘кк├к┤к⌠к∙к┤к┬к┬к┤к┤к┤к┘к├к├к▌к█к▌к▀к▐к▐к▐к⌠к■к к≤к²к≤к▐к┴к┼к░к░к■к■к∙к■к▓к▓к⌠к∙к⌡к√к√к≥к⌠к█к▓к▌к▄к▌к┬к▌к⌡к≤к∙к∙к■к▓к∙к²к≥к⌠к▄к▄к▀к┬к∙к┬к█к█к▓к⌠к∙к²к к⌠к⌠к▓к√к≤к≥к≤к²к⌡к²кёк╒к╓кёк·к÷к═к│к└к┴к▓к░к▄к▓к░к▓к≈к≤к·к═к∙к≈к≈к▒к■к√к√к∙к÷к≥к к≥к²к к═к■к⌠к▀к┼к┴к│к├к└к┴кwк{к┐к├к▒к┘к┌к┌к│к├к┐к┼к▄к▄к█к░к▄к⌠к≤к÷к к≤к к к≥к■к≥к≈к╔к║к≥к░к▒к░к▒к▐к▄к█к┬к▄к▓к∙к≈к▓к▒к▓к▐к▓к▄к┼к░к▓к▐к░к■к⌠к■к∙к▒к▓к▒к▓к▓к▐к▄к▀к█к┬к▐к▒к▐к▓к░к█к┤к▌к░к■к█к▓к■к∙к²к╓к╓к╖к╓к╕к·к═к÷к|к█к┴к·к⌠к⌡к■к∙к∙к²к≥к■к▒к⌠к∙к∙к▄к├к┴к⌠к▌к▒к∙к∙к√к²к≤к√к∙к∙к≥к▄к├к┌к┌к─кyкyк|к├к│кк─к└к┘к┘к┤к▄к▒к▓к⌠к∙к░к∙к▒к⌠к▓к░к■к▒к▌к⌠к▓к▌к√к√к■к⌠к∙к√к▓к▌к▀к▄к▀к▌к▌к⌠к√к≥к∙к∙к▀к■к■к≥к⌠к▒к▓к■к▓к▒к▓к≈к≈к∙к∙к⌠к к≥к≥к⌠к▌к▐к■к▓к█к█к┼к█к▄к┬к▄к┼к▀к▓к░к▐к┼к▀к■к к к·к≤к≤к≈к║к┴к▄к░к▓к┼к▄к⌠к к■к÷к≥к▓к▓к▐к▒к▓к▐к▀к▌к┤к┴к▀к▌к⌡к⌠к░к▒к■к∙к░к┬к┤к│к├к┘к└к┌к┌к}к┌к┐к┤к░к°к▒к█к▐к▀к▐к√к≤к≈к≈к к≥к⌡к║к к≥к²к к²к·к²к к к²к⌡к²к к÷к═к≈к⌠к²к█к≥к к╒к⌡к≈к к∙к≈к к∙к≈к■к▓к≈к≈к∙к≥к≈к к⌡к²к■к∙к■к■к▒к█к▄к▐к█к▌к▐к▄к┴к┬к▀к┴к▄к▌к▌к┘к▐к≈к▌к√к█к▒к■к⌠к▒к█к▄к┐к├к▒к▓к⌡к▒к░к░к▓к≤к≥к▐к░к▒к▓к▐к▄к▒к┴к┼к▄к■к░к░к▒к▒к░к▒к┬к┤к┼к▄к┘к│к│к─к┐к┤к┘к┴к┘к┬к▀к█к▌к■к▒к°к≤к к╜кёк²к╒к·к·к²к к╒к≤к к≤к≤к²к▒к▐к░к▒к▐к∙к⌡к·к÷к÷к÷к═к°к к⌡к к°к°к⌠к▒к■к═к▓к√к≥к■к≈к⌠к к к⌡к к■к∙к≈к°к·к к к≈к░к▐к▐к┼к└к├к┴к┬к├к┤к▀к┼к▄к█к▀к▐к√к▒к√к▓к≤к≤к∙к▐к─к┤к├к┴к┐к▄к┴к▌к√к⌡к∙к▒к║к┼к▌к▐к▀к┴к├к─к├к┤к┼к┼к√к▌к█к▄к┤к┤к├к≤к┤к┼к├к┌к└к┤к└к├к┼к▄к▌к░к■к░к▐к⌠к∙к■к≈к к≈к≥к■к═к╒к⌡к⌡к∙к▒к▐к⌠к▐к▄к⌠к▐к⌠к■к▄к▒к█к┴к▄к┬к░к⌠к∙к·к к∙к■к■к≥к≈к√к≤к≤к°к∙к≥к∙к²к∙к∙к√к≥к°к≥к⌡к⌡к≤к╒к⌡к╒к∙к∙к°к╪к┬к┼к┼к▄к┼к┬к├к┼к▄к▓к⌠к⌠к∙к▒к▓к▌к≤к∙к▓к{к~ккк─к┬к▀к┼к┴к┴к┼к▒к▐к■к■к▌к█к▌к▄к▒к▌к█к▄к▀к█к█к┴к▌к▄к┼к▀к┤к┤к▀к┌к├к┐к┌к└кк│к─к┬к┤к┬к▌к░к┼к▄к█к░к∙к■к√к°к∙к≥к≈к∙к≤к▒к▐к▀к█к█к▄к░к▌к▓к▌к░к┼к▌к√к▌к▐к▓к√к√к■к■к█к▒к▓к▒к≤к к≥к·к к∙к к═к к²к·к²к≤к к к▓к∙к░к⌠к к▒к▌к▓к█к⌠к┴к├к~к┌к┴к┬к┤к├к┴к┼к▀к█к▓к≈к√к▐к┼к▄к┘к─к┤к}к┐к┌к└к┴к┼к▄к▄к▄к▀к▒к▓к⌠к▓к▀к┼к█к┼к┼к█к▌к▌к░к░к▐к░к┬к▀к┬к┘к┬к┬к┬к▒к▐к▀к▄к▌к■к■к▒к√к▌к■к▓к⌠к≤к≥к·к°к к к≥к÷к╖к╗к╔к≈к▓к■к⌠к√к▐к▌к┬к┬к█к█к▀к┬к▌к▓к⌠к√к∙к к°к к⌡к≈к≤к∙к≤к▓к√к к к°к≥к÷к∙к≥к·к к°к·к⌡к²к║к·к√к▒к∙к≈к▐к⌠к░к²к·к▐к┐к│к└к─к│к┴к┼к▀к┴к┼к┘к▄к▐к░к▒к}к┘кк┘к┘к┤к┘к─к▀к┴к▀к▀к▄к▒к▒к■к≈к▄к▌к▄к▀к┴к┤к▀к┤к┼к▀к▄к┤к┬к┬к┘к├к┘к█к▐к▀к┴к▀к▀к▒к▌к░к⌠к⌠к▓к░к к∙к∙к≤к≥к≥к⌡к к═к║к═к·к°к²к°к≈к≈к≥к⌠к░к▄к▀к┴к┴к▌к▌к▐к▌к▐к≈к²к⌡к°к²к к╓к≤к≈к к√к■к⌡к≈к≤к°к²к°к⌡к к╕к∙к≤к≤к≤к═к≤к≥к≤к≈к∙к▄к┼к┤к┬к▀к┴к┐к┘к┘к└к├к┘к┴к▄к■к▀к▀к┬к█к┘к┬к|к┤к├к─к┘к┐к└к┤к▄к█к▐к▀к⌠к▌к▐к░к▌к█к░к▐к░к█к█к▐к▀к┼к▀к┴к┤к┘к┼к├к└к┬к▀к├к▀к█к▀к┼к▒к▓к√к√к²к°к к к≤к≥к°к°к²к÷к═к·к к к°к═к·к⌡к≤к≥к⌠к▌к▓к┼к┤к├к┤к└к│к┴к┼к▌к▓к≤к√к≥к≤к к√к■к▓к∙к≈к∙к≥к≤к к▓к к≈к≈к≤к═к╒к║к к≈к═к·к к к⌡к■к∙к≈к▌к┐к┐к└к┤к┌к┴к▀к├к┤к░к⌠к√к░к┼к┴к▄к▓к▒кwк|к┐к┐к┼к▀к┼к▄к┴к┬к┤к▐к≤к≈к√к√к▓к▒к⌠к к▓к░к≤к▓к▄к■к■к┼к├к┤к┘к┤к┼к┴к┤к┤к▄к▌к▐к▒к⌠к≈к√к к≈к⌡к≤к⌡к∙к·к⌡к²к╒к╓к÷к═к⌡к°к²к÷к·к║к²к≤к■к⌠к≤к█к█к┬к▄к┼к▓к▀к┼к┼к█к▒к√к∙к÷к⌡к к∙к≈к√к∙к√к∙к∙к≈к⌠к∙к≥к·к к≥к к°к²к²к÷к═к°к≈к√к■к■к∙к░к▄к▀к█к├к┴к┤к░к▌к┐к▐к▌к█к▌к▓к▓к░к▐к▄кtкxкzк{к─кк~к{к─к└к├к┌к▄к▐к▀к┬к┬к┴к┴к┬к┴к▀к▄к▓к▄к▌к▒к█к┬к┼к▌к▄к▀к┤к┬к⌠к░к▌к▓к▐к√к■к²к≈к≈к≥к═к═к⌡к к к⌡к²к⌡к к·к²к²к╓к╙кЁк╪кюк≥к≤к√к⌠к▒к∙к┤к┤к┤к┴к▒к┴к▓к⌠к═к²к≥к к√к═к≥к≥к⌠к▓к▓к√к⌠к к╔к╔к╕к÷к÷к═к²к═к≈к≤к⌡к⌡к▓к▒к≤к▓к░к┼к▀к┴к┤к▐к┐к┴к┴к└к├к▌к▌к┼к░к▓к▐к▄к▓к▓к▓кsкyк}к}к~ккzкк─к┐к├к┐к┤к█к┤к└к┌к└к┌к┴к▌к█к█к▄к░к▒к┼к░к▀к▌к▒к└к├к┬к▀к░к▌к▓к▄к▌к▀к█к⌠к⌠к∙к∙к∙к≤к⌡к≈к к√к⌡к·к╔к╓к║к═кёк÷к·к═к÷к═к·к к⌠к■к⌠к░к┬к┼к┤к▄к■к≥к≥к≥к∙к∙к≤к≈к▒кёк╒к≤к∙к▒к▓к≤к≈к≤к⌠к√к к к к к≥к▓к≈к к²к≥к к≈к√к█к┬к┴к┼к├к▐к┴к┤к┘к┼к█к▌к█к▐к▓к░к▒к≤к√к≥к≥кrк─кwк│к~к─к|к│к┐к┬к▒кк┌к├к┼к▀к┼к▀к░к┼к█к▄к▐к⌠к░к┴к┼к▌к▄к▐к┴к┼к∙к⌠к▌к√к⌠к░к⌠к∙к■к к⌡к⌡к≥к■к√к≈к≥к≥к║к÷к к≥к═к·к╒к÷к≈к≈к═к╔к╙к╓к╕к⌡к≥к▒к┼к█к░к┐к─к┤к▓к≥к≈к≥к∙к√к░к▒к▒к√к°к≈к≈к к≈к▓к∙к⌠к≥к∙к≥к√к²к╒к≈к√к⌠к⌠к■к≤к■к■к■к∙к∙к▓к▌к▀к┬к┴к┘к▀кк└к█к■к∙к⌡к∙к▐к░к⌠к▄к█к├к┤к⌠к▓к█к▌к▀к┴к▌к▀к█к▀к▒к░к■к⌠к⌠к√к▓к∙к■к√к⌠к√к■к≤к■к≈к■к≈к≈к■к▒к▒к⌠к■к▒к≈к≥к к⌡к к к²к²к°к·к к÷к°к÷к·к²к к²к≤к÷к⌡к·к÷к²к⌡к÷к·к к≤к∙к°к≈к░к▒к▒к┴к~к▀к▒к≈к⌡к■к▓к░к▌к░к■к■к■к▓к√к▒к▐к▌к┼к▓к▒к√к⌠к▀к▌к▓к⌡к√к■к■к▓к⌠к⌠к■к▒к░к▀к┼к┼к┤к░к├к▐к⌠к к⌠к▒к⌠к▐к▓к▒к⌠к▒к▌к█к~к┌к├к~к~к└к┘к┼к┬к√к■к▓к⌠к≈к⌠к∙к к∙к≈к²к≈к⌡к к≈к≈к■к≤к∙к°к⌡к к⌠к⌠к░к▌к▐к█к▌к▓к≤к√к√к≤к▒к≈к√к√к≤к∙к≥к√к≈к≈к к к≈к²к√к√к°к⌡к к÷к°к²к∙к к≥к▌к▀к┬к┼к┘к└к┤к┼к┼к┼к░к░к▒к▀к▄к▌к▐к░к√к▓к▒к▌к▄к²к■к≤к├к▄к░к╙кёк∙к▒к²к▒к▄к┤к▄к█к▀к█к┴к┼к┴к┴к┬к├к┬к├к┤к┴к▀к▌к█к≈к≥к⌠к∙к∙к░к┤к┘кzкк┴к▌к▒к▐к▄к▒к▐к┼к▐к к к≈к≤к≥к÷к⌡к²к²к÷к°к║к╕к∙к⌡к·к≤к▓к■к▒к▒к░к▓к≈к к═к═к⌡к°к к к к⌡к≥к≥к°к═к√к≤к≤к≥к°к÷к║к÷к·к═к═к·к·к°к°к≈к⌡к√к▌к├к┐к│кyк~к┘к│к┬к▐к▄к▒к√к∙к⌠к∙к▓к■к∙к√к≈к∙к⌠к█к▒к▒к▓к▓к·к≥к░к∙к·к■к⌡к²к╥к∙к⌡к÷к÷к╓к╙к╓кгк⌠к≤к⌡кёк к▒к≤к≈к≤к▓к▓к■к≥к■к√к~к├к┘к┘кк┴к▀к┴к▄к▄к█к▒к░к▓к⌠к√к≤к≤к⌡к≤к≤к к∙к к⌡к°к⌡к∙к∙к═к÷к√к▒к≤к▒к∙к√к≤к■к÷к≥к к√к▒к■к≈к≤к■к∙к∙к≈к░к▄к░к▐к·к√к≤к≥к╒к═к·к·к²к·к∙к∙к░к█к┼к┼к┐к┌к|к│к└к├к┴к▄к∙к▓к⌠к∙к⌠к▒к░к■к√к√к√к∙к√к к■к░к░к▒кёк▒к√кёк⌠к⌡к√к√к▌к┤к┬к└к▄к┼к┬к─к├к┼к▀к⌡к║к▒к▐к▒к▀к░к⌠к▓к▓к▐к▓к┘к┼к█к█к▌к░к▓к■к░к▌к█к▀к▄к▄к█к▐к▒к≥к⌠к√к√к≤к≈к≥к∙к⌠к≈к≈к≈к■к■к≈к░к≈к≥к≈к⌠к∙к⌠к≈к∙к■к к≤к√к⌡к≈к к√к∙к√к■к░к⌠к█к▄к█к░к⌠к≤к■к≤к к≤к÷к▓к▐к▌к┴к┘к├к─к}к{кк}к▌к░к≤к■к▒к┼к░к⌠к÷к²к∙к■к≈к√к к█к▀к▒кЁк┼к┴к┬к▄к°к÷к≤к║к÷к╙к▄к≤к к≈к▐к▄к▐к┘к┘к≤к┴к▌к▌к┤к▐к▌к▌к▐к░к▄к▓к≤к к┐к▓к⌠к⌠к▓к√к⌠к≈к√к≈к∙к■к⌠к∙к∙к≤к к к■к√к≥к·к≤к≥к≈к√к⌠к▓к⌠к⌠к▒к∙к■к▒к▓к∙к√к▒к⌠к⌠к≈к≈к≈к к к⌡к≈к∙к⌠к░к░к▄к▌к▀к▓к⌠к▐к■к²к⌡к≤к°к к⌠к≤к∙к■к▓к▐к┬к┤к{кwкvкrкrкvк{к└к┴к└к┘к┐к┘к├к░к╕к╓к╞к≈к⌡к√к к╚к÷к═к°к·к║к▓к╙кёк кёк⌡к▄к╘к├к▐к▄к▄к┬к┼к▄к└к┼к┬к▀к┬к┤к⌠к▀к▒к▀к░к▒к█к▓к                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                {кuк│к│к├к├к┐к┤к┴к▀к█к▄к▌к▄к▀к┴к┼к▄к┼к┼к█к■к▒к■к▒к░к■к▐к▒к∙к∙к∙к√к■к∙к≈к≤к■к░к▐к▐к▌к░к▌к▐к≈к⌠к⌠к∙к▌к▄к┤к┬к┌кк}кyк├к█к■к∙к▐к▓к▄к▄к█к▀к~к{к{кyкyк|кzкккtкwкwк~кvк|к├кyк|кк┌к┐к┌к│к┴к▄к▀к┬к┤к┴к▄к┼к┘к┐кzкyкrкrкsкtкpкwкsкtк}к│к├к┤к─к└к└к┴к█к▀к┴кк┘к▀к▄к┤к┼к▄кwк{к}кк█к⌠к░к┼к▐к█к░к┼к█к▓к▌к█к▐к▀к▀к▌к┼к▀к▄к░к▓к▐к▌к∙к░к▌к█к█к▒к░к█к▄к█к├к┤к┤к└кк┐к┌к┬к┬к┼к▄к▄к▐к┐кк{кwкwкsкwкvкyк|к│к│к─к~к│к└к┘к┘ккvкrкrкrкuкyк{к{кxкxк~к{к}к┌к|к}кzк|кxк┌к┤к└к▀к┬к┐к└к▀к▓к┴к┬к┘к┌кzкuк{кxкqкoкwк─к{кzкvкzкwкwкyк|к└к┘к┼к│к─к─к┌к┘к▄к▀к≥кmкoкsкuк|к┐к~к├к├к▌к▒к┼к┤к█к▌к▌к▄к┴к├к┴к┼к▐к┬к▌к┴к┴к┤к┬к┴к▌к▄к█к▄к▄к▄к▐к▌к┼к├к┐к─кк~к│к└к█к▐к▀к┬к┘к┘к~кzкzкxкqкpкuкvкwк─к~к~к─к└к└к┐ккwкwкvкvкsкrкsкzкyкxккvкyкxкyкwк}кyк~к└к│к│к│к├к┼к┴к└к└к}кк}кyкwкyкvкuкxкuкsкxкrкwкwкsкvкuкvк{к─к─к│кк~к▓к▒к▌к⌠к█к█к▀кoкoкpкtкqкyкк┐к┌к└к█к▐к▐к⌠к▒к▒к■к∙к■к≈к▐к▌к█к▀к▀к▀к▄к░к▐к▓к░к▐к▌к√к≈к к≤к└к▌к─к~к}к|к{к|к~к│к┐ккк│к}кyкwк}кyкtкlкpкxк}к{к~к─к┌к─к~к┌к┌к~кyк|кwкrкsкwкtкsкtкvкrкnкiкkкnкnкsкwк|к~к│к~к{к┌к├к┘к├к┐к┐ккwкvкxкsкtкwкvкtкsкuк{кyкvк|к{к─к}к└к▀к─к└к┐к┘к│к|к│к┌к└кeкeкtк{кuк{кк|к┼к▄к▐к▄к■к▐к▌к░к▒к⌠к⌠к■к▒к▄к▐к▄к▌к▄к▐к▓к▐к■к⌠к▓к⌠к⌠к≥к√к░к░к░к█к┤к{к|к|к|кк}кzкyкvкyкuкvкoкtкoкmкlкoкrкvкuкqкrкvкtкrкrк~к~кzкtкsкuкpкqкnкpкqкoкjкfкkкeкeкqкzкyк~к~к}кzк{к┌к▄к█к░к▌к▄к├к┤к┼к▐к░к▓к░к⌠к▌к█к▄к█к≥к√к√к≈к░к▒к⌠к▐к▐к▌к⌠к░к█к┼к┼к┼к┴к_кcкiкmкrкzкzк}к~к└к├к▒к█к▀к▐к▒к█к∙к▓к▐к┬к┴к┤к┤к█к▀к▀к▌к■к▒к░к▓к▓к░к▌к▒к▌к█к▌к┼к├к┘к┌к│к─кк~к}кк}кyкyк}кvкrкqкnкqк─кwк─кк└к─к│кpкrкpкoкtкqкpкwкwкxкwкzкsкxкuкtкkкkкfкgкpкuк{к─к|к{к~к~к┘к┤к└к▀к┼к█к├к┼к┬к┼к┴к▀к▄к┼к⌠к≤к⌠к⌠к▓к░к⌠к▒к≈к█к▌к▐к▌к░к▓к▐к▓к▌к▀к┬к┼кXкWкZкaкgкgкgкjкpкvкzк}к~к│к┤к┴к┴к▌к▄к▀к▀к┴к┼к▀к┴к┤к┬к┬к█к█к▄к┼к┤к┤к┴к┼к▌к▀к▀к┤к┘к┬к└к░к┤к┐к┌к▀к┤к└к|кzкxкtкsкtкlкsк─к|кuк{к~кnкpк}к│кvкoкkкiкmкpкuкyк}к~кqкrкoкxкdкjкaкfкpкzкrкsк|к─к┼к┴к▓к░к▀к▀к▐к░к▒к▓к▓к▌к█к▌к█к▓к▌к▓к⌠к∙к к√к√к≥к≈к√к≤к≥к²к√к≈к°к▐к▒к┤к└к┘кOкYк]кfкiкwкyкrкwк│кк┌к┌к└к┤к┤к┤к┤к▀к▀к▀к┼к┤к└к└к┘к┬к├к┴к┤к█к▌к┴к▄к▒к▌к▀к┴к▄к┤к│к~к}кк}к|к└к|кyк|к▌к▓к┐кxкrкtкwк кmкmкhкnк─к║кnк▄к▄к∙к╜кtк│к≤кeкgкnкkкkкkкmкoкjкgкmкeкZкeкfкlкgкsкpкoкrкoкsкvкtк┐к▀к┤к▀к┴к▄к█к█к├к├к▀к┬к≈к▄к└к└к├к│к┐к▐к┘к─кк}к┌к}к~к|кк─к~кTк\к]кaкeкmкvкк┌к}к}к─к┐к┤к┬к┼к▓к▌к█к▐к┼к┼к┬к┴к┤к┴к├к┤к▄к▄к░к▒к▄к▐к▄к┼к┬к┤к├к├к┘к─кк─к}к|к|кк}к|кzкzкuк─кtкrкmкrкhкhкkкsкiкmкvкnкyкnкkкlкgкfкmкkкlкkкoкtкkкnкkкgк]к_к`кmкqк|к|к└кzк└к├к▀к▄к░к┤к|к┘к┬к┬к▒к░кrкpкzк┌кxк~к{к▐к▒к⌠к▐к░к▄к█к├кyкuк~к┌к~кwкvк|кxкxкbк[кeкsкjкpкpкyкpкsк|к┐к┘к┴к█к⌠к┼к█к┼к▀к┬к┴к▄к┬к┼к└к┐к┘к├к┴к┬к┼к┬к├к┌к┌к└к┐к└к├к└кк~к┌к┌к{к}к~к└к}кyкtкrкpкoкiкpк┘кtкjкtкpк▀кdкwк│кxкsкtкtкtкwкxкqкtкyкuкpкnкnкjкiкpк{кyкtкwк}ккyкк┤к┴к┬к█к⌠к▌к█к┴к┴к└к┐к├к┘к└к┘к┌к┌кк┘к⌠к▌к▒кuкzкк┴к┤к┘к┤к├к└к│кккк{кyкaкgкsкoкrкsкqкrк{кyк}к|к─к┬к┬к┘к┐к─к~к└к┘к┘к┌к─к┘к▐к█к▓к█к▄к┼к┼к┤к┘к│к─к|ккк|кzк|к{к~к~к┌к}к{кzк─к╕кyк┴к╔к╗к╞кёк╚к╢к╢к╗к╛к╝к·кёк╙к─кlкnкtкoкiкpкrкlкnкvкqк|кlкeкjкmкoкmкpкyкyкxк}к~к└к┤к┌к├к▀к▌к▀к┴к█к▐к▌к┤кzкxк|к┐к}к│к┐к├к┼к▀к┬к┴к┌к┌к─к┐к│ккwк│кxкк├к}к|кZк]кbкnкtкyк}кк─к┼к├к▄к▄к▀к▀к├к┼к├к┬к└к┌к┌к}кк│к├к┘к└к┬к┼к┘к┘к└к├к┐к┐к┌к┌к┐к┌к┌кк{кyк┐к▐к■к▓кxк┘к≈к░к┼к┌кtк{к▒к≤к≥к█к∙к╔к≈к┼кrкzк┼к≥к┼к╗к─к═к┌к┌кsк|кxкoкjкjкhкjкnкqкsкrкsкvкvкwкzкzккzкtкoкsкtкtкqкlкxк┌к┼к■к▌к▌к▄к█к}кtкwкpкyкwкuк|к█к}к}к|к|кyкwк}к|к|к|кaк`кhкhкkкsкyк~к|к│к┘к─к~к|к|кyкyк~кzкк|кк~к┌к│к┐к│к─к┌к└к┌к├к└к┘к┐к│к┌к┐к~к}кvкuкyкzк┬к┘к{к┬к}к{кxк|к▓к▌кuкyкkкwк┤к▐к┬к░к■к°к░к к≈к{к}к▒к█к∙к█к|кsкuкlкlкqкkкnкhкlкpкxкwкuкvкsкuк|кrкqкqкuк|к|кpкnкpкoкtк~к┴к┤к┬к┼к░к⌠к░к▌к█к▌к┴к▀к┐к├кк─кк└к└к└к┤к┤к┬к┬к┐кjкiкqкtк{кwкwкк─к|к{к}к│к│к─к─к├кк}к~кxк{к┘к│к┌к┌к┐к┘к▀к┴к┬к░к▄к┼к└к┤к└к└к│к}к}кк┘к│к~к┘к│к█к╔к╝к═к╪кк─к к╔к╓кЁкдкцк╝к╤к╧к╦к╬к╞к·к╙к╥к╫к╛к╠к═кsкoкqкjкnкoкoкqкmкnкmкnкhкlкmкrк{кvкzкwкxкsкvкvкlкrкwкuкrкrкyкzк└к┴к▓к▒кwк┼к▐к▀к▄к┬к├к~к┤к│к~кyкк}к┌к├к└к┘к┬кaкdкfкhкmкoкrкqкuкrкvк─к┐к|к▀к├к┴к┘к~кк{кxкvкuкtкtкsкzк}к{к│к┐к│к┤к┌к│к│к}к~кyк|к▌к▌к▀к{кк─к~к~кyк~к█к▀к▌к└кzкyк√к√к·к╔к÷к·к∙к≥кtкzк}кzкrк─кjкkкsк|к─кnкnкtкjкmкiкjкiкmкrкtкqкqкuкrкnкlкqкjкoкgкqкvкyкsкtкxкzкlкzкvкzкк┐к┴к┤к▄к┴к┘к┴к┤к┐ккк┤к┤к└к│ккк┘к▄кfкiкcкfкlкtкrкqкqкtкwкvкuкtкtкvк{кzкxкwкzкyкvк{кuкuкsкtкwкwк}к│к─к┌к│к|кyкyкyкtкxк~к{кvкwкvкvкyкyк~к|к|к{кxкyк│к}кvкrкxкyк─кcкwкhкiкkкgкlкjкgкlкqкoкkкrкrкtкuкpкpкlкpкkкgкrк│к{к|кxк|к┐кк|к┌кuкxкxк{кqкwкwкsкnкsкsкpкjкeкhкoкoкwк|к│кvкzкzкvк{кtкvкxкzкzкzк~к└кwк{кxккxкuкxк|к{кк─кvк{кvк|кrкoкvкsкtкwкyкpкqкpкqкuкsкtкxкpкwкwкzкxкwкvкwкvк{кwкyк|кк│к│кvкsкtкwкwкxкxкyкrкvкsкqкxкmкoкmк{к┐к▀кtкjкjкuкpкnкjкfкfкnкoкwкuкpкzк├кyкyк▀кyкyк├кxк├кк~кpкmкrкuкsкtкuкsкlкjкsкsкqкkкnкyк{кк│кtк┘к┼к┐к│к~к─к~кzкwкuкyк{к{к~к│кк┐кwк|к┌к┘к│к~к}к|кwк|к{кwкwкrкtкnкmкrкyкyкк}кwкuкyкxкrкlкnкoкrкsкpкtкxкyкzкwкxк{кyк|к}к└к┘к┴к├к┤к┼к┴к┼к┬к┬к┴к└к│кк~к┐к┬к⌠к┤к┘к┴к┘к▀к┬к┴к└к┴к│к|к|кvкrк{кnкsкwк|кrкqкqкrкpк│кuкoкqкoкmкsкrкwк│кqкrкoкtкvк{кtкpкsкqкnкqкvкpкsкsкvкxкyк|к└к~кxкxккzк~к│кyкxкyк│к┐кjкlкiкrк{к┤кxкuкyкwкrкpкoкlкmкnкnкuкvкlкtкsкvкyкsкjкoкoкrкrкwкpкrкsкyкuкzкyкzк|кxк{к│к~к│к┌к┐к┘к┤к┼к┼к▀к┼к┴к┌к┐к▌к├к┼к┬к┴к┤к┴к░к▌к█к│к┘к┘к└к─к~кrкqкrк|кyкwкyк{кvкwк┘к│кtкtк{к└кtкsк}к█к┬ккtкpкqкuкvкuкuкoкpкqкlкmкuкtкzкк▄к█кwкyкqкuкqкqкvкsкwк{к┐кyкzкzкк─к┤кrк┘кsкpкpкlкkкnкpкlкmкhкiкeкeкeкcкjкpкsкyкxкyкqкpкqкqкmкlкsкlкwк|кxкmкqкwкzкxк{к┌к▄к▓к▌к▌к░к▐к■кёк▒к▌к┐к┐к┤к│к|кzк─к─к~к|к}к~к{кxк{к~к┐к─к│кyкtкuкuк~кzкuкwкyк~к┌к┼к┌к}к~к}к─кк|кzкwкuкrкtкnкrкwкsкtкtкuкwкrкsкyкyкtкvкqкuкsкvк{к~к|кwкtкqкtкqкuкyк~к┤к├к┼к┘к
